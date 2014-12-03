@@ -1,0 +1,1085 @@
+2014-03-24 22:45:40,049 [14] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/Biz/BizInfo.aspx?id=10834
+Raw Url : /cp/Biz/BizInfo.aspx?id=10834
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_biz_bizinfo_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bizinfo.aspx.e99c087f.4nvpcjqk.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Update failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Row: GenericOID@7d4237fd BusinessEntity business_entity_id=10834
+UPDATE [Biz].[BusinessEntity] SET [fax]=?, [modified_by]=?, [modified_date]=?, [phone1]=?, [phone2]=? WHERE [business_entity_id] = ? AND [fax]=? AND [modified_by]=? AND [modified_date]=? AND [phone1]=? AND [phone2]=?
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Biz.BEController.UpdateBE(Int32 BEID, String PrimaryName, String SecondaryName, Int32 CatId, Guid modified_by, String address, String city, String state, String zipcode, String videoURL, String password, String shortDesc, String Description, String phone1, String phone2, String fax, String emailaddress, Boolean adowner) in d:\EPM\ePressMedia 3_5\EPM.Business.Model\Biz\BEController.cs:line 84
+   at Cp_Biz_BizInfo.saveChanges() in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 199
+   at Cp_Biz_BizInfo.SaveButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 149
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+
+ 2014-03-24 23:00:12,743 [47] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/CP/Biz/BizInfo.aspx?id=10829
+Raw Url : /CP/Biz/BizInfo.aspx?id=10829
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_biz_bizinfo_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bizinfo.aspx.e99c087f.mfilpvit.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Update failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Row: GenericOID@75867e7e BusinessEntity business_entity_id=10829
+UPDATE [Biz].[BusinessEntity] SET [modified_by]=?, [modified_date]=?, [phone1]=? WHERE [business_entity_id] = ? AND [modified_by]=? AND [modified_date]=? AND [phone1]=?
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Biz.BEController.UpdateBE(Int32 BEID, String PrimaryName, String SecondaryName, Int32 CatId, Guid modified_by, String address, String city, String state, String zipcode, String videoURL, String password, String shortDesc, String Description, String phone1, String phone2, String fax, String emailaddress, Boolean adowner) in d:\EPM\ePressMedia 3_5\EPM.Business.Model\Biz\BEController.cs:line 84
+   at Cp_Biz_BizInfo.saveChanges() in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 199
+   at Cp_Biz_BizInfo.SaveButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 149
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+
+ 2014-03-24 23:01:44,160 [39] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/CP/Biz/BizInfo.aspx?id=10829
+Raw Url : /CP/Biz/BizInfo.aspx?id=10829
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_biz_bizinfo_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bizinfo.aspx.e99c087f.mfilpvit.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Update failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Row: GenericOID@75867e7e BusinessEntity business_entity_id=10829
+UPDATE [Biz].[BusinessEntity] SET [modified_by]=?, [modified_date]=?, [phone1]=? WHERE [business_entity_id] = ? AND [modified_by]=? AND [modified_date]=? AND [phone1]=?
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Biz.BEController.UpdateBE(Int32 BEID, String PrimaryName, String SecondaryName, Int32 CatId, Guid modified_by, String address, String city, String state, String zipcode, String videoURL, String password, String shortDesc, String Description, String phone1, String phone2, String fax, String emailaddress, Boolean adowner) in d:\EPM\ePressMedia 3_5\EPM.Business.Model\Biz\BEController.cs:line 84
+   at Cp_Biz_BizInfo.saveChanges() in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 199
+   at Cp_Biz_BizInfo.SaveButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 149
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+
+ 2014-03-24 23:04:17,256 [54] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/CP/Biz/BizInfo.aspx?id=10829
+Raw Url : /CP/Biz/BizInfo.aspx?id=10829
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_biz_bizinfo_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bizinfo.aspx.e99c087f.lyvdpihk.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Row not found: GenericOID@75867e7e BusinessEntity business_entity_id=10829
+UPDATE [Biz].[BusinessEntity] SET [modified_by]=?, [phone1]=? WHERE [business_entity_id] = ? AND [modified_by]=? AND [phone1]=?
+(set event logging to all to see parameter values)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Biz.BEController.UpdateBE(Int32 BEID, String PrimaryName, String SecondaryName, Int32 CatId, Guid modified_by, String address, String city, String state, String zipcode, String videoURL, String password, String shortDesc, String Description, String phone1, String phone2, String fax, String emailaddress, Boolean adowner) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Biz\BEController.cs:line 84
+   at Cp_Biz_BizInfo.saveChanges() in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 199
+   at Cp_Biz_BizInfo.SaveButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 149
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+
+ 2014-03-24 23:05:18,758 [32] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/CP/Biz/BizInfo.aspx?id=10829
+Raw Url : /CP/Biz/BizInfo.aspx?id=10829
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_biz_bizinfo_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bizinfo.aspx.e99c087f.lyvdpihk.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Row not found: GenericOID@75867e7e BusinessEntity business_entity_id=10829
+UPDATE [Biz].[BusinessEntity] SET [modified_by]=?, [phone1]=? WHERE [business_entity_id] = ? AND [modified_by]=? AND [phone1]=?
+(set event logging to all to see parameter values)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Biz.BEController.UpdateBE(Int32 BEID, String PrimaryName, String SecondaryName, Int32 CatId, Guid modified_by, String address, String city, String state, String zipcode, String videoURL, String password, String shortDesc, String Description, String phone1, String phone2, String fax, String emailaddress, Boolean adowner) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Biz\BEController.cs:line 84
+   at Cp_Biz_BizInfo.saveChanges() in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 199
+   at Cp_Biz_BizInfo.SaveButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 149
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+
+ 2014-03-24 23:08:15,996 [45] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/CP/Biz/BizInfo.aspx?id=10829
+Raw Url : /CP/Biz/BizInfo.aspx?id=10829
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_biz_bizinfo_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bizinfo.aspx.e99c087f.9zih8g5h.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Row not found: GenericOID@75867e7e BusinessEntity business_entity_id=10829
+UPDATE [Biz].[BusinessEntity] SET [modified_by]=?, [phone1]=? WHERE [business_entity_id] = ? AND [modified_by]=? AND [phone1]=?
+(set event logging to all to see parameter values)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Biz.BEController.UpdateBE(Int32 BEID, String PrimaryName, String SecondaryName, Int32 CatId, Guid modified_by, String address, String city, String state, String zipcode, String videoURL, String password, String shortDesc, String Description, String phone1, String phone2, String fax, String emailaddress, Boolean adowner) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Biz\BEController.cs:line 84
+   at Cp_Biz_BizInfo.saveChanges() in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 199
+   at Cp_Biz_BizInfo.SaveButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 149
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+
+ 2014-03-24 23:11:02,543 [41] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/CP/Biz/BizInfo.aspx?id=10829
+Raw Url : /CP/Biz/BizInfo.aspx?id=10829
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_biz_bizinfo_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bizinfo.aspx.e99c087f.9zih8g5h.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Row not found: GenericOID@75867e7e BusinessEntity business_entity_id=10829
+UPDATE [Biz].[BusinessEntity] SET [modified_by]=?, [phone1]=? WHERE [business_entity_id] = ? AND [modified_by]=? AND [phone1]=?
+(set event logging to all to see parameter values)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Biz.BEController.UpdateBE(Int32 BEID, String PrimaryName, String SecondaryName, Int32 CatId, Guid modified_by, String address, String city, String state, String zipcode, String videoURL, String password, String shortDesc, String Description, String phone1, String phone2, String fax, String emailaddress, Boolean adowner) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Biz\BEController.cs:line 84
+   at Cp_Biz_BizInfo.saveChanges() in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 199
+   at Cp_Biz_BizInfo.SaveButtonEvent() in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 72
+   at Cp_Biz_BizInfo.toolbox1_ToolBarClicked(Object sender, RadToolBarEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 55
+   at ePressMedia.Cp.Controls.Toolbox.RadToolBar1_ButtonClick(Object sender, RadToolBarEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\Toolbox.ascx.cs:line 31
+   at Telerik.Web.UI.RadToolBar.RaiseEvent(Object eventKey, RadToolBarEventArgs e)
+   at Telerik.Web.UI.RadToolBar.OnButtonClick(RadToolBarEventArgs e)
+   at Telerik.Web.UI.RadToolBar.RaisePostBackEvent(String eventArgument)
+   at Telerik.Web.UI.RadToolBar.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+
+ 2014-03-26 18:08:43,959 [23] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:116 [(null)] - Url : http://localhost:9935/Cp/Ad/Banner.aspx
+Raw Url : /Cp/Ad/Banner.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_ad_banner_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_banner.aspx.14ad05d6.j-zqmjp0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Ad.Banner.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Ad\Banner.aspx.cs:line 24
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+
+ 2014-03-26 18:09:36,636 [6] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:116 [(null)] - Url : http://localhost:9935/Cp/Ad/Banner.aspx
+Raw Url : /Cp/Ad/Banner.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_ad_banner_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_banner.aspx.14ad05d6.j-zqmjp0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Ad.Banner.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Ad\Banner.aspx.cs:line 24
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+
+ 2014-03-26 18:28:43,393 [19] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/Ad/Banner.aspx
+Raw Url : /Cp/Ad/Banner.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_ad_banner_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_banner.aspx.14ad05d6.rum_lmwa.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Delete failed: Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Row: GenericOID@643fdfbc AdBanner banner_id=22
+DELETE FROM [Ad].[Banners] WHERE [banner_id] = ?
+(set event logging to all to see parameter values) Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Ad.BannerContoller.DeleteBanner(Int32 BannerID) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Ad\BannerContoller.cs:line 108
+   at ePressMedia.Cp.Ad.Banner.toolbox1_ToolBarClicked(Object sender, RadToolBarEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Ad\Banner.aspx.cs:line 44
+   at ePressMedia.Cp.Controls.Toolbox.RadToolBar1_ButtonClick(Object sender, RadToolBarEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\Toolbox.ascx.cs:line 31
+   at Telerik.Web.UI.RadToolBar.RaiseEvent(Object eventKey, RadToolBarEventArgs e)
+   at Telerik.Web.UI.RadToolBar.OnButtonClick(RadToolBarEventArgs e)
+   at Telerik.Web.UI.RadToolBar.RaisePostBackEvent(String eventArgument)
+   at Telerik.Web.UI.RadToolBar.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-03-26 18:29:32,511 [6] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/Ad/Banner.aspx
+Raw Url : /Cp/Ad/Banner.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_ad_banner_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_banner.aspx.14ad05d6.rum_lmwa.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Delete failed: Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Row: GenericOID@643fdfbc AdBanner banner_id=22
+DELETE FROM [Ad].[Banners] WHERE [banner_id] = ?
+(set event logging to all to see parameter values) Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Ad.BannerContoller.DeleteBanner(Int32 BannerID) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Ad\BannerContoller.cs:line 108
+   at ePressMedia.Cp.Ad.Banner.toolbox1_ToolBarClicked(Object sender, RadToolBarEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Ad\Banner.aspx.cs:line 44
+   at ePressMedia.Cp.Controls.Toolbox.RadToolBar1_ButtonClick(Object sender, RadToolBarEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\Toolbox.ascx.cs:line 31
+   at Telerik.Web.UI.RadToolBar.RaiseEvent(Object eventKey, RadToolBarEventArgs e)
+   at Telerik.Web.UI.RadToolBar.OnButtonClick(RadToolBarEventArgs e)
+   at Telerik.Web.UI.RadToolBar.RaisePostBackEvent(String eventArgument)
+   at Telerik.Web.UI.RadToolBar.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-03-26 18:31:00,323 [32] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/Ad/Banner.aspx
+Raw Url : /Cp/Ad/Banner.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_ad_banner_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_banner.aspx.14ad05d6.rum_lmwa.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Delete failed: Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Row: GenericOID@643fdfbc AdBanner banner_id=22
+DELETE FROM [Ad].[Banners] WHERE [banner_id] = ?
+(set event logging to all to see parameter values) Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Ad.BannerContoller.DeleteBanner(Int32 BannerID) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Ad\BannerContoller.cs:line 108
+   at ePressMedia.Cp.Ad.Banner.toolbox1_ToolBarClicked(Object sender, RadToolBarEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Ad\Banner.aspx.cs:line 44
+   at ePressMedia.Cp.Controls.Toolbox.RadToolBar1_ButtonClick(Object sender, RadToolBarEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\Toolbox.ascx.cs:line 31
+   at Telerik.Web.UI.RadToolBar.RaiseEvent(Object eventKey, RadToolBarEventArgs e)
+   at Telerik.Web.UI.RadToolBar.OnButtonClick(RadToolBarEventArgs e)
+   at Telerik.Web.UI.RadToolBar.RaisePostBackEvent(String eventArgument)
+   at Telerik.Web.UI.RadToolBar.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_ZoneMembers_Banners". The conflict occurred in database "ikoreatimes_3_5", table "Ad.ZoneMembers", column 'banner_id'.
+The statement has been terminated.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-03-26 18:35:14,602 [28] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Biz/PostBiz.aspx
+Raw Url : /Biz/PostBiz.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.biz_postbiz_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_postbiz.aspx.6a971e4e.egxucw1_.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : 'D:/EPM/ePressMedia 3_5/ePressMedia/Pics/Biz/Thumb/' is a physical path, but a virtual path was expected.
+Source : System.Web
+StackTrace :    at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at EPM.Core.Biz.BizThumbnailProcessor.ProcessThumbnail(Int32 BEID, String imgURL, String ThumbnailType, Boolean PrimaryFg) in D:\EPM\ePressMedia 3_5\KNN.Core\Biz\BizThumbnailProcessor.cs:line 51
+   at EPM.Core.Biz.BizThumbnailProcessor.GenerateThumbnails(Int32 BEID, String imgURL, Boolean PrimaryFg) in D:\EPM\ePressMedia 3_5\KNN.Core\Biz\BizThumbnailProcessor.cs:line 20
+   at EPM.Core.Biz.BizThumbnailProcessor.UploadImages(Int32 id, UploadedFile[] uploadFiles) in D:\EPM\ePressMedia 3_5\KNN.Core\Biz\BizThumbnailProcessor.cs:line 37
+   at Biz_PostBiz.PostButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Biz\PostBiz.aspx.cs:line 106
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void CheckValidVirtualPath(System.String)
+
+ 2014-03-26 18:36:38,575 [20] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Biz/PostBiz.aspx
+Raw Url : /Biz/PostBiz.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.biz_postbiz_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_postbiz.aspx.6a971e4e.wrqckgkr.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Admin.PageConfig.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Admin\PageConfig.ascx.cs:line 21
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+
+ 2014-03-26 18:36:44,570 [40] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Biz/PostBiz.aspx
+Raw Url : /Biz/PostBiz.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.biz_postbiz_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_postbiz.aspx.6a971e4e.wrqckgkr.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Admin.PageConfig.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Admin\PageConfig.ascx.cs:line 21
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+
+ 2014-03-26 18:36:49,932 [27] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Biz/PostBiz.aspx
+Raw Url : /Biz/PostBiz.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.biz_postbiz_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_postbiz.aspx.6a971e4e.wrqckgkr.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Admin.PageConfig.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Admin\PageConfig.ascx.cs:line 21
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+
+ 2014-04-02 17:27:56,420 [7] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Biz/default.aspx
+Raw Url : /Biz/default.aspx?
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.biz_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.6a971e4e.nlpb8lmx.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Controls.Biz.ListView.BizList.BizRepeater_ItemDataBound(Object sender, RepeaterItemEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Biz\ListView\BizList.ascx.cs:line 205
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Controls.Biz.ListView.BizList.bindRecentBiz() in D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Biz\ListView\BizList.ascx.cs:line 77
+   at ePressMedia.Controls.Biz.ListView.BizList.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Biz\ListView\BizList.ascx.cs:line 34
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void BizRepeater_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-04-28 22:43:52,810 [8] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataType.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataType.DataTypeName" UniqueName="UDFDataType.DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" FilterControlWidth="300px">  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataType.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataType.DataTypeName" UniqueName="UDFDataType.DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" FilterControlWidth="300px">  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataType.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataType.DataTypeName" UniqueName="UDFDataType.DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" FilterControlWidth="300px">  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:44:32,075 [7] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\default.aspx(19): error CS1061: 'ASP.cp_udf_default_aspx' does not contain a definition for 'RadGrid1_ItemCommand' and no extension method 'RadGrid1_ItemCommand' accepting a first argument of type 'ASP.cp_udf_default_aspx' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+
+ 2014-04-28 22:47:10,591 [21] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\default.aspx(19): error CS1061: 'ASP.cp_udf_default_aspx' does not contain a definition for 'RadGrid1_UpdateCommand' and no extension method 'RadGrid1_UpdateCommand' accepting a first argument of type 'ASP.cp_udf_default_aspx' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+
+ 2014-04-28 22:48:11,288 [14] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.639b05d6.jmptsix_.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Could not find a property called 'UDFInfo' on the domain context type 'EPMEntityModel' of OpenAccessLinqDataSource 'OpenAccessLinqDataSource1'.
+Source : Telerik.OpenAccess.Web.40
+StackTrace :    at Telerik.OpenAccess.Web.OpenAccessLinqDataSourceView.CreateContextAndTable(DataSourceOperation operation)
+   at Telerik.OpenAccess.Web.OpenAccessLinqDataSourceView.CreateContextAndTableForSelect()
+   at Telerik.OpenAccess.Web.OpenAccessLinqDataSourceView.CreateContext(DataSourceOperation operation)
+   at System.Web.UI.WebControls.ContextDataSourceView.GetSource(QueryContext context)
+   at Telerik.OpenAccess.Web.OpenAccessLinqDataSourceView.GetSource(QueryContext context)
+   at Telerik.OpenAccess.Web.OpenAccessLinqDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.RadGrid.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Web.UI.WebControls.ContextDataSourceContextData CreateContextAndTable(System.Web.UI.DataSourceOperation)
+
+ 2014-04-28 22:54:02,396 [20] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.639b05d6.xvijkqfk.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'FilterTextBox_UDFDescription' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at Telerik.Web.UI.GridColumn.PrepareCell(TableCell cell, GridItem item)
+   at Telerik.Web.UI.GridItemDecorator.DecorateItem(GridTableView owner, GridColumn[] columnArray)
+   at Telerik.Web.UI.GridFilterItemDecorator.DecorateItem(GridTableView owner, GridColumn[] columnArray)
+   at Telerik.Web.UI.GridItem.PrepareItemStyle()
+   at Telerik.Web.UI.GridMultiRowItem.PrepareItemStyle()
+   at Telerik.Web.UI.RadGrid.PrepareRows(GridTableView view)
+   at Telerik.Web.UI.RadGrid.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at Telerik.Web.UI.RadAjaxPanel.RenderChildren(HtmlTextWriter writer)
+   at Telerik.Web.UI.RadAjaxPanel.RenderContents(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at Telerik.Web.UI.RadAjaxPanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at Telerik.Web.UI.ControlRenderer.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at Telerik.Web.UI.OurUpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at Telerik.Web.UI.PreControlToAjaxify.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at Telerik.Web.UI.RadAjaxControl.RenderPageInAjaxMode(HtmlTextWriter writer, Control page)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 

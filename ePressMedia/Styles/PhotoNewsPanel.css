@@ -1,0 +1,141 @@
+﻿.PhotoNewsPanel_Main{width:100%; }
+#PhotoNewsPanel_newsTabs {text-align: right; background-color:#eff0f4;}
+#PhotoNewsPanel_newsTabs a
+{
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #dbdbdb #dbdbdb #000064 #dbdbdb;
+	display: inline-block;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 0px;
+	width: 100px;
+	text-align: center;
+	color: #333;
+	z-index:1;
+	
+}
+#PhotoNewsPanel_newsTabs .PhotoNewsPanel_empty_news
+{
+	border-color: #000064;
+	border-width: 0px 0px 2px 0px;
+	display: inline-block;
+	padding: 4px;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: -2px;
+	text-align: center;
+	color: #333;
+	z-index: -1000;
+	border-bottom-style: solid;
+	text-align: left;
+	font-size:14px;
+	font-weight:bold;
+}
+#PhotoNewsPanel_newsTabs a.sel
+{
+	border-bottom: 2px solid #FFFFFF;
+	border-top-color: #000064;
+	border-right-color: #000064;
+	border-left-color: #000064;
+	border-width: 2px 2px 2px 2px;
+	border-style: solid;
+	background-color:#FFFFFF;
+	z-index:10;
+	
+}
+#PhotoNewsPanel_tabPnl
+{
+	border-right: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	border-left: 1px solid #dbdbdb;
+	padding: 8px 12px 8px 12px;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+
+.PhotoNewsPanel_ImgContainer
+{
+	float: left;
+	width: 200px;
+	margin-right: 10px
+}
+
+.PhotoNewsPanel_ImgContainer img
+{
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	z-index:1;
+	width:200px;
+	height:160px;
+}
+/*
+#PhotoNewsPanel_ImgDetailCont
+{
+	overflow: hidden;
+	margin-left: 2px;
+	-webkit-padding-start: 0px;
+	
+	list-style-type: none;
+}
+*/
+.PhotoNewsPanel_ImgItem
+{
+	float: left;
+	margin: 0 0px 5px 27px;
+	width: 120px;
+
+}
+.PhotoNewsPanel_ImgItem a:hover
+{
+		text-decoration:underline;
+	color:#000064;
+}
+
+.PhotoNewsPanel_ImgItemLink
+{
+	text-decoration:none;
+}
+
+.PhotoNewsPanel_ImgItemSrc
+{
+	display: block;
+width: 120px;
+height: 90px;
+}
+
+.PhotoNewsPanel_ImgItem  span
+{
+	display: block;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+
+.PhotoNewsPanel_MainTitle
+{
+	margin: 10px 0 10px 0;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	font-weight:bold;
+	text-align:center;
+}
+
+.PhotoNewsPanel_Abstract
+{
+	text-align:center;
+}
+
+.PhotoNewsPanel_ImgContainer a:hover
+{
+		color:#000064;
+		text-decoration: underline;
+}

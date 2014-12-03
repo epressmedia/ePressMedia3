@@ -1,0 +1,215 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using Knn;
+using Knn.Data;
+
+namespace Knn.Common
+{
+    public enum CommentType
+    {
+        AritlceComment = 0,
+        ForumComment,
+        ClassifiedComment
+    }
+
+    public class UserComment
+    {
+        static string[] tableNames = { "ArticleComments", "ForumComments", "ClassifiedComments" };
+        #region props
+
+        int id;
+        public int Id
+        {
+            get { return id; }
+        }
+
+        int sourceId;
+        public int SourceId
+        {
+            get { return sourceId; }
+        }
+
+        string subject;
+        public string Subject
+        {
+            get { return subject; }
+        }
+
+        string comment;
+        public string Comment
+        {
+            //get { return System.Web.HttpUtility.HtmlEncode(comment).Replace(Environment.NewLine, "<br />"); }
+            get { return comment; }
+        }
+
+        string postBy;
+        public string PostBy
+        {
+            get { return postBy; }
+        }
+
+        DateTime postDate;
+        public DateTime PostDate
+        {
+            get { return postDate; }
+        }
+
+        string iPAddr;
+        public string IPAddr
+        {
+            get { return iPAddr; }
+        }
+
+        bool removed;
+        public bool Removed
+        {
+            get { return removed; }
+        }
+
+        bool blocked;
+        public bool Blocked
+        {
+            get { return blocked; }
+        }
+
+        #endregion
+
+        #region queries
+
+        static string selectCountQueryFormat =
+            @"SELECT COUNT(*) FROM {0} WHERE SrcId={1} AND Blocked=0";
+
+        static string selectQueryFormat =
+            @"SELECT * FROM {0} WHERE SrcId={1} ORDER BY PostDate DESC";
+
+        static string selectPageQueryFormat =
+            @"SELECT * FROM
+        (SELECT *,   
+        ROW_NUMBER() OVER (ORDER BY PostDate DESC) AS RowNum FROM
+        {0} WHERE SrcId={1} AND Blocked=0) Tbl 
+        WHERE RowNum BETWEEN {2} AND {3}";
+
+        static string insertCommand =
+            @"INSERT INTO {0} 
+        (SrcId, Subject, Comment, Password, PostBy, IPAddr, UserName) 
+        VALUES 
+        (@SrcId, @Subject, @Comment, @Password, @PostBy, @IPAddr, @UserName)";
+
+        static string updateCommand =
+            @"UPDATE {0} SET 
+        Subject=@Subject, Comment=@Comment, PostBy=@PostBy
+        WHERE Id=@Id";
+
+        static string setRemovedCommand =
+            @"UPDATE {0} SET Removed=@Removed WHERE Id=@Id AND Password=@Password";
+
+        static string blockCommand = "UPDATE {0} SET Blocked=1 WHERE Id={1}";
+        static string blockCommandWithPassword =
+            "UPDATE {0} SET Blocked=1 WHERE Id={1} AND Password=N'{2}'";
+        
+        #endregion
+
+        #region pubmethods
+
+        public static int GetCommentCount(CommentType type, int srcId)
+        {
+            return DataAccess.ExecuteScalar(string.Format(selectCountQueryFormat, 
+                                tableNames[(int)type], srcId));
+        }
+
+        public static List<UserComment> SelectComments(CommentType type, int srcId)
+        {
+            return DataAccess.SelectCollection<UserComment>(
+                string.Format(selectQueryFormat, tableNames[(int)type], srcId), 
+                                                getUserCommentFromReader);
+        }
+
+        public static List<UserComment> SelectComments(CommentType type, int srcId,
+                                int pageNum, int rowsPerPage)
+        {
+            int startRowIndex = (pageNum - 1) * rowsPerPage + 1;
+
+            return DataAccess.SelectCollection<UserComment>(
+                string.Format(selectPageQueryFormat, tableNames[(int)type], srcId,
+                       startRowIndex, startRowIndex + rowsPerPage - 1), getUserCommentFromReader);
+        }
+
+        public static bool InsertComment(CommentType type, int srcId, string subject, 
+                            string comment, string password, string postBy, string iPAddr, string userName)
+        {
+            SqlCommand cmd = new SqlCommand(string.Format(insertCommand, tableNames[(int)type]));
+
+            cmd.Parameters.Add(new SqlParameter("@SrcId", srcId));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Subject", subject));
+            cmd.Parameters.Add(DataAccess.GetNTextParam("@Comment", comment));
+            cmd.Parameters.Add(DataAccess.GetNCharParam("@Password", password));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@PostBy", postBy));
+            cmd.Parameters.Add(DataAccess.GetNCharParam("@IPAddr", iPAddr));
+            cmd.Parameters.Add(DataAccess.GetNCharParam("@UserName", userName));
+
+            return (1 == DataAccess.ExecuteCommand(cmd));
+        }
+
+        public static bool UpdateComment(CommentType type, int id, 
+                string subject, string comment, string postBy)
+        {
+            SqlCommand cmd = new SqlCommand(string.Format(updateCommand, tableNames[(int)type]));
+
+            cmd.Parameters.Add(new SqlParameter("@Id", id));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Subject", subject));
+            cmd.Parameters.Add(DataAccess.GetNTextParam("@Comment", comment));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@PostBy", postBy));
+
+            return (1 == DataAccess.ExecuteCommand(cmd));
+        }
+
+        public static bool SetRemoved(CommentType type, int id, string password, bool removed)
+        {
+            SqlCommand cmd = new SqlCommand(string.Format(setRemovedCommand, 
+                        tableNames[(int)type]));
+            cmd.Parameters.Add(new SqlParameter("@Id", id));
+            cmd.Parameters.Add(new SqlParameter("@Removed", removed));
+            cmd.Parameters.Add(DataAccess.GetNCharParam("@Password", password));
+
+            return (1 == DataAccess.ExecuteCommand(cmd));
+        }
+
+        public static bool BlockComment(CommentType type, int id)
+        {
+            return (1 == DataAccess.ExecuteCommand(string.Format(blockCommand, 
+                        tableNames[(int)type], id)));
+        }
+
+        public static bool BlockComment(CommentType type, int id, string password)
+        {
+            return (1 == DataAccess.ExecuteCommand(string.Format(blockCommandWithPassword,
+                        tableNames[(int)type], id, password)));
+        }
+
+        #endregion
+
+        #region prvmethods
+
+        static UserComment getUserCommentFromReader(SqlDataReader reader)
+        {
+            UserComment c = new UserComment();
+
+            c.id = (int)reader["Id"];
+            c.sourceId = (int)reader["SrcId"];
+            c.subject = reader["Subject"].ToString();
+            c.comment = reader["Comment"].ToString();
+            c.postBy = reader["PostBy"].ToString();
+            c.postDate = (DateTime)reader["PostDate"];
+            c.iPAddr = reader["IPAddr"].ToString();
+            c.removed = (bool)reader["Removed"];
+            c.blocked = (bool)reader["Blocked"];
+
+            return c;
+        }
+
+        #endregion
+    }
+}

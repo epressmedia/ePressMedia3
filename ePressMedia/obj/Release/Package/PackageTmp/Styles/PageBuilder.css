@@ -1,0 +1,60 @@
+﻿    .ControlEditor_Body
+    {
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 14px;
+    }
+    .select_fields
+    {
+        float: left;
+        margin-right: 20px;
+    }
+    .editor_title
+    {
+        font-family: arial;
+font-size: 22px;
+margin-bottom: 10px;
+display: block;
+font-weight: bold;
+color: #25A0DB;
+    }
+    .image_control_editor,.html_control_editor,.ascx_control_editor,.adzone_control_editor
+    {
+        width: 800px; 
+    }
+    .image_control_editor_field input, .ascx_control_editor_field input, .html_control_editor_field input, .adzone_control_editor_field input
+    {
+        width:100%;
+    }
+    .image_control_editor_field span, .ascx_control_editor_field span, .html_control_editor_field span, .adzone_control_editor_field span
+    {
+        display:block;
+        font-family: sans-serif
+    }
+    
+               .typeSelection
+        {
+           background: #BEBEBE;
+color: #DFDFDF;
+border: 1px solid #FFF;
+width: 140px;
+height: 120px;
+text-align: left;
+font-size: 26px;
+font-weight: bold;
+line-height: 200px;
+border-radius: 8px;
+font-family: Verdana;
+letter-spacing: -2px;}
+           .moduleSelection
+        {
+           background: #BEBEBE;
+color: #DFDFDF;
+border: 1px solid #FFF;
+text-align: left;
+font-size: 26px;
+font-weight: bold;
+border-radius: 8px;
+font-family: Verdana;
+letter-spacing: -2px;}
+
+

@@ -1,0 +1,169 @@
+10
+
+dir
+85
+svn://10.1.1.20/Knn/Knn
+svn://10.1.1.20
+
+
+
+2011-01-25T18:51:20.948350Z
+85
+jay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c2515db9-54ba-a244-95d9-f047c0db0af1
+
+Article
+dir
+
+Knn.csproj
+file
+
+
+
+
+2011-01-25T18:53:12.232266Z
+1e53218e471d87dec6fc82f9d5e91a3a
+2011-01-25T18:50:18.135850Z
+84
+jay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4442
+
+Forum
+dir
+
+Common
+dir
+
+BizAd
+dir
+
+Properties
+dir
+
+ClassDiagram1.cd
+file
+
+
+
+
+2011-01-25T18:53:12.232266Z
+7215ee9c7d9dc229d2921a40e899ec5f
+2011-01-25T18:50:18.135850Z
+84
+jay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+Website
+dir
+
+Search
+dir
+
+Classified
+dir
+
+Security
+dir
+
+Utility.cs
+file
+91
+
+
+
+2011-01-25T19:20:04.244709Z
+daa8b8fa58b5d7dfa33f1b9cfcb32bb7
+2011-01-25T19:20:03.526475Z
+91
+jay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8638
+
+bin
+dir
+
+Data
+dir
+
+Calendar
+dir
+
+obj
+dir
+

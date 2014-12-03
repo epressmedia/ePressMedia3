@@ -1,0 +1,260 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="ePressMedia.Cp.Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="/Scripts/jquery-latest.js" type="text/javascript"></script>
+    <script src="/cp/Scripts/Common.js" type="text/javascript"></script>
+    <script src="/cp/Scripts/custom_jquery.js" type="text/javascript"></script>
+    <link href="Style/Cp.css" rel="stylesheet" type="text/css" />
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin: 0;padding: 0;">
+    <form id="form1" runat="server">
+      <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+  </telerik:RadScriptManager>
+  
+
+    <div id="page-top-outer">    
+
+<!-- Start: page-top -->
+<div id="page-top">
+
+	<!-- start logo -->
+	<div id="logo">
+	    <asp:HyperLink ID="hl_home" runat="server" ImageUrl="/cp/img/logo/epm_logo_s.png"  NavigateUrl="/cp"></asp:HyperLink>
+	</div>
+	<!-- end logo -->
+    <div class="cp_login">
+    <div>Welcome, 
+        <asp:Literal ID="txt_username" runat="server"></asp:Literal></div>
+        <asp:LinkButton ID="btn_logout" runat="server" onclick="btn_logout_Click">Logout</asp:LinkButton>
+    </div>
+
+</div>
+<!-- End: page-top -->
+
+</div>
+<!-- End: page-top-outer -->
+	
+<div class="clear">&nbsp;</div>
+<div class="nav-outer-repeat" >
+<div class="nav-outer">
+ <telerik:RadMenu ID="menu" runat="server" style="top: 0px; left: 0px; z-index:2900;" >
+     <Items>
+         <telerik:RadMenuItem runat="server" Text="Site Settings" >
+             <Items>
+                 <telerik:RadMenuItem runat="server" Text="Main Menu" NavigateUrl="~/Cp/Site/SiteMenu.aspx" >
+                 </telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server" Text="Site Files" NavigateUrl="~/Cp/Site/FileManager.aspx">
+                 </telerik:RadMenuItem>
+
+                 <telerik:RadMenuItem runat="server" Text="Controls" NavigateUrl="~/Cp/Widget">
+                 </telerik:RadMenuItem>
+                               <telerik:RadMenuItem runat="server" Text="Comment Management" NavigateUrl="~/Cp/Comment">
+                 </telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server"  Visible="false"
+                     NavigateUrl="~/Cp/Site/GoogleAnalytics.aspx" Text="Google Analytics">
+                 </telerik:RadMenuItem>
+                                  <telerik:RadMenuItem runat="server" 
+                     NavigateUrl="~/Cp/Site/Areas.aspx" Text="Site Area">
+                 </telerik:RadMenuItem>
+                                   <telerik:RadMenuItem runat="server" NavigateUrl="~/Cp/Site/Thumbnails.aspx" 
+                     Text="Thumbnails">
+                 </telerik:RadMenuItem>
+                  <telerik:RadMenuItem runat="server" NavigateUrl="~/Cp/Site/StyleSheets.aspx" 
+                     Text="Style Sheets">
+                 </telerik:RadMenuItem>
+                                   <telerik:RadMenuItem runat="server" NavigateUrl="~/Cp/Site/EmailTemplates.aspx" 
+                     Text="Emails">
+                 </telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server" NavigateUrl="~/Cp/Site/SiteSettings.aspx" 
+                     Text="Site Settings">
+                 </telerik:RadMenuItem>
+             </Items>
+         </telerik:RadMenuItem>
+         <telerik:RadMenuItem runat="server" Text="Pages" >
+         <Items>
+                  <telerik:RadMenuItem runat="server" Text="Page Templates" 
+                     NavigateUrl="~/Cp/PageTemplate/">
+                 </telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server" Text="Master Pages" 
+                     NavigateUrl="~/Cp/MasterPage/">
+                 </telerik:RadMenuItem>
+                                  <telerik:RadMenuItem runat="server" Text="Custom Pages" 
+                     NavigateUrl="~/Cp/CustomPage">
+                 </telerik:RadMenuItem>
+                 </Items>
+         </telerik:RadMenuItem>
+         <telerik:RadMenuItem runat="server" Text="Article" NavigateUrl="~/Cp/Article/">
+         <Items>
+                           <telerik:RadMenuItem runat="server" Text="Categories" 
+                     NavigateUrl="~/Cp/Article/">
+                 </telerik:RadMenuItem>
+                 
+                           <telerik:RadMenuItem runat="server" Text="Properties" 
+                     NavigateUrl="~/Cp/Article/Properties.aspx">
+                 </telerik:RadMenuItem>
+                 </Items>
+         </telerik:RadMenuItem>
+         <telerik:RadMenuItem runat="server" Text="Forum" NavigateUrl="~/CP/Forum/">
+                <Items>
+                           <telerik:RadMenuItem runat="server" Text="Categories" 
+                     NavigateUrl="~/Cp/Forum/">
+                 </telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server" Text="Properties" 
+                     NavigateUrl="~/Cp/Forum/Properties.aspx">
+                 </telerik:RadMenuItem>
+                 
+                 </Items>
+         </telerik:RadMenuItem>
+         <telerik:RadMenuItem runat="server" Text="Classified"  NavigateUrl="~/Cp/Classified/">
+                <Items>
+                           <telerik:RadMenuItem runat="server" Text="Categories" 
+                     NavigateUrl="~/Cp/Classified/">
+                 </telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server" Text="Properties" 
+                     NavigateUrl="~/Cp/Classified/Properties.aspx">
+                 </telerik:RadMenuItem>
+                 
+                 </Items>
+         </telerik:RadMenuItem>
+         <telerik:RadMenuItem runat="server" Text="Calendar" NavigateUrl="~/Cp/Calendar/">
+                <Items>
+                           <telerik:RadMenuItem runat="server" Text="Categories" 
+                     NavigateUrl="~/Cp/Calendar/">
+                 </telerik:RadMenuItem>
+                 
+                </Items>
+         </telerik:RadMenuItem>
+                  <telerik:RadMenuItem runat="server" Text="Form" NavigateUrl="~/Cp/Form/">
+                <Items>
+                           <telerik:RadMenuItem runat="server" Text="Form" 
+                     NavigateUrl="~/Cp/Form/">
+                 </telerik:RadMenuItem>
+                 
+                </Items>
+         </telerik:RadMenuItem>
+                  <telerik:RadMenuItem runat="server" Text="UDF" NavigateUrl="~/Cp/UDF/">
+                <Items>
+                           <telerik:RadMenuItem runat="server" Text="User Defined Fields" 
+                     NavigateUrl="~/Cp/UDF/">
+                 </telerik:RadMenuItem>
+                                          <telerik:RadMenuItem runat="server" Text="UDF Group" 
+                     NavigateUrl="~/Cp/UDF/UDFGroup.aspx">
+                 </telerik:RadMenuItem>
+                       <telerik:RadMenuItem runat="server" Text="UDF Attachment" 
+                     NavigateUrl="~/Cp/UDF/UDFAttachment.aspx">
+                 </telerik:RadMenuItem>
+                 
+                </Items>
+         </telerik:RadMenuItem>
+         <telerik:RadMenuItem runat="server" Text="Users">
+             <Items>
+                 <telerik:RadMenuItem runat="server" NavigateUrl="~/Cp/User/UserRoles.aspx" 
+                     Text="User Roles">
+                 </telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server" NavigateUrl="~/Cp/User/default.aspx" 
+                     Text="User List">
+                 </telerik:RadMenuItem>
+             </Items>
+         </telerik:RadMenuItem>
+                  <telerik:RadMenuItem runat="server" Text="Business Directory">
+             <Items>
+                 <telerik:RadMenuItem runat="server" NavigateUrl="~/Cp/Biz/default.aspx" Text="Business Entity"></telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server" NavigateUrl="~/Cp/Biz/BizCategories.aspx" Text="Business Category"></telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server" NavigateUrl="~/Cp/Biz/BizConfig.aspx" Text="Page Configuration"></telerik:RadMenuItem>
+             </Items>
+         </telerik:RadMenuItem>
+                           <telerik:RadMenuItem runat="server" Text="Advertisement">
+             <Items>
+             <telerik:RadMenuItem runat="server" NavigateUrl="/Cp/Ad/Banner.aspx" Text="Banner"></telerik:RadMenuItem>
+             <telerik:RadMenuItem runat="server" NavigateUrl="/Cp/Ad/Zone.aspx" Text="Zone"></telerik:RadMenuItem>
+                 <telerik:RadMenuItem runat="server" NavigateUrl="/Cp/Ad/Popups.aspx" Text="Popup Ad"></telerik:RadMenuItem>
+             </Items>
+         </telerik:RadMenuItem>
+     </Items>
+      </telerik:RadMenu>
+      </div>
+      </div>
+      <div class="clear">&nbsp;</div>
+
+
+  <div class="clear"></div>
+  <div id="content-outer">
+    <div id ="content">
+    	<!--  start page-heading -->
+	<div id="page-heading">
+		<h1></h1>
+	</div>
+	<!-- end page-heading -->
+
+	<table border="0" width="100%" cellpadding="0" cellspacing="0" id="content-table">
+	<tr>
+		<th rowspan="3" class="sized"><img src="/cp/img/shared/side_shadowleft.jpg" width="20" height="300" alt="" /></th>
+		<th class="topleft"></th>
+		<td id="tbl-border-top">&nbsp;</td>
+		<th class="topright"></th>
+		<th rowspan="3" class="sized"><img src="/cp/img/shared/side_shadowright.jpg" width="20" height="300" alt="" /></th>
+	</tr>
+	<tr>
+		<td id="tbl-border-left"></td>
+		<td>
+		<!--  start content-table-inner ...................................................................... START -->
+		<div id="content-table-inner">
+
+
+		<div id="table-content">
+			<!--  start table-content  -->
+        <asp:ContentPlaceHolder ID="Content" runat="server">
+        
+        </asp:ContentPlaceHolder>
+			<!--  end table-content  -->
+	</div>
+			<div class="clear"></div>
+		 
+		</div>
+		<!--  end content-table-inner ............................................END  -->
+		</td>
+		<td id="tbl-border-right"></td>
+	</tr>
+	<tr>
+		<th class="sized bottomleft"></th>
+		<td id="tbl-border-bottom">&nbsp;</td>
+		<th class="sized bottomright"></th>
+	</tr>
+	</table>
+	<div class="clear">&nbsp;</div>
+    
+    </div>
+    </div>
+
+
+        <div class="clear">&nbsp;</div>
+
+    <div id="footer-adjusted">
+     Powered By <a href="http://www.epressmedia.com">ePressMedia</a>
+    </div>
+    
+    
+<%--    <!-- start footer -->      
+
+<div id="footer">
+
+ <div id="footer-pad">&nbsp;</div> 
+	<!--  start footer-left -->
+	<div id="footer-left">
+	<a href="www.future-it.ca">www.future-it.ca</a>. All rights reserved.</div>
+	<!--  end footer-left -->
+	<div class="clear">&nbsp;</div>
+</div>
+<!-- end footer -->--%>
+
+    </form>
+</body>
+</html>

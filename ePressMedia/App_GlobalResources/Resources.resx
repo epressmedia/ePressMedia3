@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Login.ChkRememberMe" xml:space="preserve">
+    <value>Remember Me</value>
+  </data>
+  <data name="Login.lbl_LostPassword" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="Login.lbl_LostUserName" xml:space="preserve">
+    <value>Forgot Username</value>
+  </data>
+  <data name="Login.lbl_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Login.lbl_UserName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Login.lbl_signup" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="Login.FailMassage" xml:space="preserve">
+    <value>Wrong Username or Password </value>
+  </data>
+  <data name="Login.btn_login" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="Gen.lbl_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Gen.lbl_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Gen.lbl_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Gen.lbl_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Gen.lbl_List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Gen.lbl_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Gen.lbl_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Gen.lbl_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Gen.lbl_Previous" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="Gen.lbl_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Login.lbl_login" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="Login.lbl_logout" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="Account.btn_RegSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Account.lbl_Address1" xml:space="preserve">
+    <value>Address1</value>
+  </data>
+  <data name="Account.lbl_Address2" xml:space="preserve">
+    <value>Address2</value>
+  </data>
+  <data name="Account.lbl_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Account.lbl_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Account.lbl_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Account.lbl_EmailConfirmFail" xml:space="preserve">
+    <value>Email address does not exist</value>
+  </data>
+  <data name="Account.lbl_EmailConfirmSuccess" xml:space="preserve">
+    <value>An email with your username has been successfully sent to you. </value>
+  </data>
+  <data name="Account.lbl_EmailMe" xml:space="preserve">
+    <value>Email Me</value>
+  </data>
+  <data name="Account.lbl_EnterEmailAddress" xml:space="preserve">
+    <value>Please enter your email address</value>
+  </data>
+  <data name="Account.lbl_EnterEmailAgain" xml:space="preserve">
+    <value>Please enter your email address again.</value>
+  </data>
+  <data name="Account.lbl_EnterPasswordAgain" xml:space="preserve">
+    <value>PLease enter password again.</value>
+  </data>
+  <data name="Account.lbl_FaxNumber" xml:space="preserve">
+    <value>Fax Number</value>
+  </data>
+  <data name="Account.lbl_FindPassword" xml:space="preserve">
+    <value>Forgot Your Password?</value>
+  </data>
+  <data name="Account.lbl_FindUserName" xml:space="preserve">
+    <value>Forgot Your Username?</value>
+  </data>
+  <data name="Account.lbl_FindUserNameDescr" xml:space="preserve">
+    <value>Give us the email address you singed up with. We will email you with your username.</value>
+  </data>
+  <data name="Account.lbl_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Account.lbl_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Account.lbl_OptionalInfo" xml:space="preserve">
+    <value>Optional User Profile</value>
+  </data>
+  <data name="Account.lbl_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Account.lbl_RequiredField" xml:space="preserve">
+    <value>*Required Fields</value>
+  </data>
+  <data name="Account.lbl_RequiredInfo" xml:space="preserve">
+    <value>Required User Profile</value>
+  </data>
+  <data name="Account.lbl_State" xml:space="preserve">
+    <value>State / Province</value>
+  </data>
+  <data name="Account.lbl_UserReg" xml:space="preserve">
+    <value>User Registration</value>
+  </data>
+  <data name="Account.lbl_WrongEmailFormat" xml:space="preserve">
+    <value>Wrong email format. Please enter your email address again.</value>
+  </data>
+  <data name="Account.lbl_ZipCode" xml:space="preserve">
+    <value>Zip / Postal Code</value>
+  </data>
+  <data name="Account.msg_Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="Account.msg_EmailMatch" xml:space="preserve">
+    <value>Email addresses do not match</value>
+  </data>
+  <data name="Account.msg_EmailReq" xml:space="preserve">
+    <value>Please enter email address</value>
+  </data>
+  <data name="Account.msg_EmailValidation" xml:space="preserve">
+    <value>Wrong email format. Please enter your email again.</value>
+  </data>
+  <data name="Account.msg_FirstNameReq" xml:space="preserve">
+    <value>Please enter first name</value>
+  </data>
+  <data name="Account.msg_LastNameReq" xml:space="preserve">
+    <value>Please enter last name</value>
+  </data>
+  <data name="Account.msg_NotAvailable" xml:space="preserve">
+    <value>Already In Use</value>
+  </data>
+  <data name="Account.msg_PasswordMatch" xml:space="preserve">
+    <value>Passwords do not match.</value>
+  </data>
+  <data name="Account.msg_PasswordReq" xml:space="preserve">
+    <value>Please enter password</value>
+  </data>
+  <data name="Account.msg_PasswordValidation" xml:space="preserve">
+    <value>Password must be more than 6 characters.</value>
+  </data>
+  <data name="Account.msg_UserNameReq" xml:space="preserve">
+    <value>Please enter UserName</value>
+  </data>
+  <data name="Account.msg_UserNameValidation" xml:space="preserve">
+    <value>Must be 4-16 alphabetic characters or numbers</value>
+  </data>
+  <data name="Acount.lbl_UserNameAvail" xml:space="preserve">
+    <value>Check Availability</value>
+  </data>
+  <data name="Gen.lbl_Example" xml:space="preserve">
+    <value>e.g.</value>
+  </data>
+  <data name="Account.email_PasswordReset" xml:space="preserve">
+    <value>Your password has been reset.</value>
+  </data>
+  <data name="Account.lbl_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Account.lbl_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Account.lbl_FindPasswordDescr" xml:space="preserve">
+    <value>Please enter your user name and email address you singed up with. We will email you with the instruction to reset your password.</value>
+  </data>
+  <data name="Account.lbl_FinishRegistration" xml:space="preserve">
+    <value>Finish User Registration</value>
+  </data>
+  <data name="Account.lbl_GoToLoginPage" xml:space="preserve">
+    <value>Go to Login Page</value>
+  </data>
+  <data name="Account.lbl_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Account.lbl_ResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="Account.lbl_UpdatePassword" xml:space="preserve">
+    <value>Update Password</value>
+  </data>
+  <data name="Account.lbl_UpdateProfile" xml:space="preserve">
+    <value>Update My Profile</value>
+  </data>
+  <data name="Account.msg_AccountRegEmailSubject" xml:space="preserve">
+    <value>You account has been created. Activate your account now!!</value>
+  </data>
+  <data name="Account.msg_AccountRegSuccess" xml:space="preserve">
+    <value>You account has been successfully created. \n The instruction to activate your account has been sent to your email. Please check your email and follow the instruction.</value>
+  </data>
+  <data name="Account.msg_AccountVerifyFail1" xml:space="preserve">
+    <value>Sorry! We are not able to activate your account.</value>
+  </data>
+  <data name="Account.msg_AccountVerifyFail2" xml:space="preserve">
+    <value>Please check the email account you singed up with. &lt;br/&gt;In order to finish user registration, you need to follow the instruction in the email sent out to your email account when you signed up.</value>
+  </data>
+  <data name="Account.msg_AccountVerifySuccess1" xml:space="preserve">
+    <value>Thank you for creating a user account. </value>
+  </data>
+  <data name="Account.msg_AccountVerifySuccess2" xml:space="preserve">
+    <value>Your account has been successfully activated.</value>
+  </data>
+  <data name="Account.msg_EmailExists" xml:space="preserve">
+    <value>Email address is already registered</value>
+  </data>
+  <data name="Account.msg_UserNameNotAllowed" xml:space="preserve">
+    <value>Username is not allowed</value>
+  </data>
+  <data name="Account.msg_VarifyPassword" xml:space="preserve">
+    <value>To protect your information, please enter your password again.</value>
+  </data>
+  <data name="Account.msg_WrongPassword" xml:space="preserve">
+    <value>Wrong password</value>
+  </data>
+  <data name="Login.lbl_MyProfile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="Login.lbl_UserNamePostfix" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Login.lbl_UserNamePrefix" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Login.lbl_Welcome" xml:space="preserve">
+    <value>Welcome,</value>
+  </data>
+  <data name="Account.lbl_FindUserNamePassword" xml:space="preserve">
+    <value>Find Username / Password</value>
+  </data>
+  <data name="Admin.lbl_UpdatePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Account.email_AccountRegEmailSubject" xml:space="preserve">
+    <value>Activate Your Account</value>
+  </data>
+  <data name="Login.ChkKeepMeSignIn" xml:space="preserve">
+    <value>Keep Me Signin</value>
+  </data>
+  <data name="Account.msg_PasswordSent" xml:space="preserve">
+    <value>Your new password has been sent to your email address.</value>
+  </data>
+  <data name="Account.msg_ProblemOccured" xml:space="preserve">
+    <value>Sorry. we are not able to email you the requested information due to unexpected error. Please contact the website administrator.</value>
+  </data>
+  <data name="Account.msg_UserNotRegistered" xml:space="preserve">
+    <value>Sorry, We are not able to find your username and email address.</value>
+  </data>
+  <data name="Gen.lbl_count" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Captcha.ErrorMassage" xml:space="preserve">
+    <value>The code you entered is not valid.</value>
+  </data>
+  <data name="Captcha.TypeCode" xml:space="preserve">
+    <value>Type the code from the image</value>
+  </data>
+  <data name="Gen.lbl_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Forum.btn_Attachments" xml:space="preserve">
+    <value>Browse File(s)...</value>
+  </data>
+  <data name="Forum.lbl_Announcement" xml:space="preserve">
+    <value>Announcement</value>
+  </data>
+  <data name="Forum.lbl_AnnouncementCheck" xml:space="preserve">
+    <value>Check if it is an annoucement post</value>
+  </data>
+  <data name="Forum.lbl_AttachmentDelete" xml:space="preserve">
+    <value>Check if you would like to delete the existing attachment(s)</value>
+  </data>
+  <data name="Forum.lbl_Attachments" xml:space="preserve">
+    <value>Attachment(s)</value>
+  </data>
+  <data name="Forum.lbl_Captcha" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Forum.lbl_CaptchaMsg" xml:space="preserve">
+    <value>Please enter 4 digits displayed on the right.</value>
+  </data>
+  <data name="Forum.lbl_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Forum.lbl_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Forum.lbl_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Forum.lbl_NewThread" xml:space="preserve">
+    <value>New Thread</value>
+  </data>
+  <data name="Forum.lbl_Number" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Forum.lbl_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Forum.lbl_PasswordEnter" xml:space="preserve">
+    <value>The thread password is required to open this private thread.</value>
+  </data>
+  <data name="Forum.lbl_PasswordMsg" xml:space="preserve">
+    <value>Required for editing and deleting the thread. Maxumum 8 characters.</value>
+  </data>
+  <data name="Forum.lbl_Private" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="Forum.lbl_PrivateCheck" xml:space="preserve">
+    <value>Check if it is a private post. (The post will be locked by the password entered below.)</value>
+  </data>
+  <data name="Forum.lbl_RequiredField" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Forum.lbl_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Forum.lbl_Views" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="Forum.msg_Attachments" xml:space="preserve">
+    <value>Not valid attachment(s)</value>
+  </data>
+  <data name="Forum.msg_PasswordEnter" xml:space="preserve">
+    <value>Please enter the thread password.</value>
+  </data>
+  <data name="Article.lbl_Post" xml:space="preserve">
+    <value>Post Article</value>
+  </data>
+  <data name="Gen.lbl_Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="Article.lbl_Views" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="Gen.lbl_Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="Search.lbl_SearchResult" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="Classified.lbl_AdNumber" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="Classified.lbl_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Classified.lbl_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Classified.lbl_Notice" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="Classified.lbl_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Classified.lbl_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Classified.lbl_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Article.lbl_SelectVirCat" xml:space="preserve">
+    <value>Select a Virtual Category</value>
+  </data>
+  <data name="Article.lbl_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Article.lbl_ContentEditor" xml:space="preserve">
+    <value>Contents Editor</value>
+  </data>
+  <data name="Article.lbl_ImageClick" xml:space="preserve">
+    <value>Please click an image to insert into the editor.</value>
+  </data>
+  <data name="Article.lbl_IssueDateTime" xml:space="preserve">
+    <value>Issue Date/Time</value>
+  </data>
+  <data name="Article.lbl_NoVirCatAvail" xml:space="preserve">
+    <value>No Virtual Category Available</value>
+  </data>
+  <data name="Article.lbl_PostedBy" xml:space="preserve">
+    <value>Posted By</value>
+  </data>
+  <data name="Article.lbl_RelatedArticles" xml:space="preserve">
+    <value>Related Articles</value>
+  </data>
+  <data name="Article.lbl_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Article.lbl_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Article.lbl_SecondaryCategory" xml:space="preserve">
+    <value>Secondary Category</value>
+  </data>
+  <data name="Article.lbl_SubTitle" xml:space="preserve">
+    <value>Sub Title</value>
+  </data>
+  <data name="Article.lbl_Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Article.lbl_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Article.lbl_UpdateThumbnail" xml:space="preserve">
+    <value>Update Thumbnail</value>
+  </data>
+  <data name="Article.lbl_UpdateThumbnailDescr" xml:space="preserve">
+    <value>If checked, The thumbnail update page will show after article is saved.</value>
+  </data>
+  <data name="Article.lbl_UploadImages" xml:space="preserve">
+    <value>Upload Images</value>
+  </data>
+  <data name="Article.msg_PostRequiredField" xml:space="preserve">
+    <value>Required Field</value>
+  </data>
+  <data name="Article.msg_PostSuccess" xml:space="preserve">
+    <value>Article has been successfully submitted</value>
+  </data>
+  <data name="Article.msg_UploadImage" xml:space="preserve">
+    <value>Image upload failed due to invalid format or/and size:</value>
+  </data>
+  <data name="Gen.ErrorOccurContactAdmin" xml:space="preserve">
+    <value>An error occured. Please contact system administrator for further assistance.</value>
+  </data>
+  <data name="Article.lbl_MaxImageSize" xml:space="preserve">
+    <value>Maximum image file size: </value>
+  </data>
+  <data name="Article.lbl_Category" xml:space="preserve">
+    <value>Article Category</value>
+  </data>
+  <data name="Forum.lbl_Writer" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Gen.lbl_OptionSelect" xml:space="preserve">
+    <value>-- Select --</value>
+  </data>
+  <data name="Login.lbl_Userinfo" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+</root>

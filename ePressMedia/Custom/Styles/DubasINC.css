@@ -1,0 +1,472 @@
+.cmdPnlR, #ctl00_Content_Content_ascx_2_movePnl
+{
+display:none;
+}
+
+body {
+color: black;
+font-size: 11pt;
+background: white;
+background-image: url('/pics/design/bg.gif');
+background-repeat: no-repeat;
+background-position: center;
+background-position-y: 0px;
+background-attachment: fixed;
+line-height: 20px;
+}
+
+body *
+{
+font-family: 'Arial','Verdana' !important;
+}
+
+#frm
+{
+background:white;
+opacity: 0.93;
+}
+
+#mainMenu a:hover {
+background: url(/Pics/design/menu_hover.png) !important;
+color: #FFF;
+}
+
+#mainMenu a
+{
+height: 110px;
+top: 70px;
+line-height: 181px;
+margin: 0px;
+padding: 0 12px;
+opacity: 0.88;
+}
+
+#contentWrap {
+width: 980px;
+margin: 0 auto;
+padding: 0px;
+box-shadow: 0 2px 6px 0 #888;
+background: none;
+}
+
+
+
+#mainPnl {
+width: 980px;
+float: left;
+margin:0;
+}
+
+#subMenu
+{
+background: darkgray;
+margin-top: -10px;
+}
+
+#footer
+{
+margin-top:-20px;
+}
+
+.footerAll
+{
+opacity: 0.88;
+}
+
+.footerAll
+{
+background:white;
+line-height: 25px;
+}
+
+.Head_LogoPart
+{
+margin: 16px 15px;
+}
+
+#mainMenu {
+height: 110px;
+/*background: #D1D3D4;*/
+background: url(/Pics/design/menu_bg.png) !important;
+text-align: center;
+line-height: 40px;
+width: 100%;
+margin-bottom: 10px;
+}
+
+.MasterPage_1131_frm, .menuPnl {
+width: 670px;
+margin-left: -10px;
+margin-right: auto;
+}
+
+#subMenu .menuPnl
+{
+width: 670px;
+text-align: center;
+}
+
+#Head_ascx_3_Container
+{
+float: right;
+position: relative;
+}
+
+#Master_Head_html_2
+{
+float: left;
+}
+
+.menu_bottom
+{
+background: url(/Pics/design/bottom_bar.jpg) !important;
+height: 32px;
+line-height: 32px;
+text-align: center;
+}
+
+.menu_bottom a {
+margin: 0 12px;
+color: white;
+}
+
+#Menu_ascx_3_Container
+{
+float: right;
+width:400px;
+}
+.main_welcome
+{
+float: left;
+}
+
+.aboutUs
+{
+background: white;
+}
+.graybar, .whitebar
+{
+height: 20px;
+background: darkgray;
+}
+
+.whitebar
+{
+height: 20px;
+background: white;
+}
+
+.info_text
+{
+padding: 20px;
+}
+
+.Service_Serve_menu, .ProjectGallery_sidemenu
+{
+background:white;
+border-right: 1px dotted #c00000;
+}
+.service_info
+{
+padding:25px;
+}
+
+.service_info, .ContactForm_Container
+{
+background:white;
+}
+
+.Service_Serve_menuInfo
+{
+padding:25px;
+}
+.ProjectGallery_sidemenu
+{
+padding:25px;
+}
+
+
+.contantinfo
+{
+background:white;
+padding: 30px;
+overflow: auto;
+
+}
+
+.contantinfo a:hover, .contantinfo a
+{
+color:#c00000;
+}
+
+.MasterPage_1121_mainPnl
+{
+width: 735px !important;
+float: left;
+}
+
+.Service_Serve_menuInfo a:hover, .ProjectGallery_sidemenu a:hover
+{
+color: red;
+}
+
+.contac_US
+{
+background: white;
+padding: 50px 0 50px 115px;
+float: left;
+text-align: center;
+}
+
+.ContactForm_Container span
+{
+display: block;
+}
+
+
+
+.ContactForm_Container
+{
+float: right;
+padding: 55px 30px;
+line-height: 30px;
+width:430px;
+}
+
+.contantsinfo a
+{
+color:#c00000;
+}
+
+.info_title
+{
+font-size: 14px !important;
+height:30px;
+background:#c00000;
+line-height:30px;
+color:white;
+padding:0 30px;
+}
+
+.resident_img
+{
+float: left;
+margin: 15px 30px;
+}
+
+.footer_logo
+{
+float:left;
+padding:0 50px;
+}
+
+.team_box
+{
+border:1px dotted darkgray;
+padding:10px;
+margin: 10px 0;
+}
+
+.team_name
+{
+float:left;
+padding:20px;
+}
+
+.team_info
+{
+padding: 20px 0px 20px 245px;
+}
+
+.ContactForm_Container div
+{
+margin: 0 25px;
+}
+
+.ContactForm_FirstName, .ContactForm_EmailAddress, .ContactForm_City
+{
+float: left;
+}
+
+#ctl00_Content_Content_ascx_3_txt_address, #ctl00_Content_Content_ascx_3_txt_comments
+{
+width: 325px;
+}
+
+#ctl00_Content_Content_ascx_3_RadCaptcha1
+{
+margin-left: -26px;
+margin-top: 20px;
+}
+
+#ctl00_Content_Content_ascx_3_btn_send
+{
+width: 350px;
+height: 32px;
+background-color: #c00000;
+border: 1px solid #c00000;
+margin-top: 20px;
+}
+
+.service_img1
+{
+float:left;
+}
+.service_img2
+{
+float:right;
+}
+
+.service_img1 img
+{
+width:380px
+}
+.service_img2 img
+{
+width:285px
+}
+
+.newhouseconstruction_title
+{
+font-size: 16px;
+font-weight: bold;
+}
+
+.newhouseconstruction
+{
+width:295px;
+padding:20px;
+float:left;
+}
+
+.newhouseconstruction_all
+{
+float:left;
+}
+
+.service_info a
+{
+color:#c00000 !important;
+}
+
+
+#Content_ascx_2_Container, #Content_ascx_3_Container
+{
+margin: 10px 20px;
+}
+
+.picDesc
+{
+display: none;
+}
+
+.picTtl {
+line-height: 14pt;
+text-align: center;
+text-decoration: none;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: normal;
+}
+
+.picFrm {
+border: 1px solid #dbdbdb;
+padding: 20px;
+width: 111px;
+box-shadow: none;
+margin-bottom: 5px;
+}
+
+.picBox {
+float: left;
+width: 130px;
+margin: 10px 20px;
+position: relative;
+}
+
+.gallery_img_all img {
+width: 210px;
+padding:5px
+}
+
+.gallery_img_all .img1, .gallery_img_all .img2, .gallery_img_all .img3
+{
+float:left
+}
+
+.MultiImageArticleSummary_Container {
+margin: 0 30px;
+}
+
+.MultiImageArticleSummary_Header
+{
+display: none;
+}
+
+.MultiImageArticleSummary_repNext, .MultiImageArticleSummary_repPrev
+{
+width: 40px;
+}
+
+.MultiImageArticleSummary_repCaro {
+width: 560px;
+overflow: hidden;
+}
+
+.MultiImageArticleSummary_repTtl {
+text-align: center;
+font-weight: normal;
+margin-bottom: 0px;
+}
+
+.photogallery_title
+{
+margin: 35px 30px;
+font-size: 14px !important;
+height: 30px;
+background: #c00000;
+line-height: 30px;
+color: white;
+padding: 0 30px;
+}
+
+.threadHeader, .tagdiv, .snsLnk, .ArticleList_poster
+{
+display:none;
+}
+
+.thrdVw {
+border-top: 0;
+border-bottom: 0;
+margin-bottom: 0;
+}
+
+
+
+.thrdVw .msg
+{
+margin-top: -30px;
+}
+
+.ArticleList_desc a:hover, .prv a:hover
+{
+color:#c00000;
+}
+
+.pp_details p
+{
+display: block;
+font-size: 13px !important;
+font-weight: 700;
+line-height: 25px !important;
+margin: 5px 50px 5px 0;
+color: #c00000;
+}
+
+#ctl00_Content_Content_ascx_3_RadCaptcha1_CaptchaTextBoxLabel
+{
+display: block;
+}
+
+
+

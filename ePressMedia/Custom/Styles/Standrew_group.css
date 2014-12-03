@@ -1,0 +1,23 @@
+.group_pic {
+text-align: center;
+}
+.group_pic img {
+width: 640px;
+margin: 5px 0;
+}
+.group_information
+{
+line-height: 20px;
+margin: 0 10px;
+}
+
+
+.group_contact {
+margin: 15px 0;
+font-weight: bold;
+}
+.group_contact a:hover {
+color: #FBA00C;
+}
+
+

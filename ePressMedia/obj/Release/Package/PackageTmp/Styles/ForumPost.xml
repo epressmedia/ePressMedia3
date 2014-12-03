@@ -1,0 +1,21 @@
+﻿<root>
+
+  <tools name="MainToolbar" enabled="true">
+    <tool name="Outdent" />
+    <tool name="Indent" />
+    <tool name="JustifyLeft" />
+    <tool name="JustifyRight" />
+    <tool name="JustifyFull" />
+    <tool name="JustifyCenter" />
+
+    <tool separator="true" />
+    <tool name="Bold" shortcut="CTRL+B"/>
+    <tool name="Italic" shortcut="CTRL+I"/>
+    <tool name="Underline" shortcut="CTRL+U"/>
+    <tool name="StrikeThrough" />
+    <tool name="FontName"/>
+    <tool name="FontSize"/>
+    <tool name="ForeColor"/>
+  </tools>
+
+</root>

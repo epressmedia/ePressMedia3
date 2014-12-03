@@ -1,0 +1,108 @@
+.head_title, .MultiImageArticleSummary_Header, .KNNDefaultSideSubMenu_Header
+{
+display: none;
+}
+
+.selPage {
+font-weight: bold;
+color: black !important;
+background-color:#eeeeee;
+}
+
+.cntrPnl div a
+{
+color: #959595;
+border: 1px solid #959595;
+padding: 4px 3px 2px 2px;
+}
+
+th.label
+{
+background-color: white;
+color: black;
+font-weight: initial;
+border-top: 2px solid #0156a7;
+border-bottom: 2px solid #0156a7;
+}
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container .ArtCat
+{
+display: none;
+}
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container .PageableArticleListView_Header a
+{
+top: -18px;
+right: 10px;
+}
+
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container .PageableArticleListView_Contents .ArtThumb img {
+height: 100%;
+width: 100%;
+border: 0px solid #D1D1D1 !important;
+}
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container .PageableArticleListView_Contents .ArtContainer {
+overflow: hidden;
+margin-top: 0;
+margin: 15px 5px 0px 5px;
+height: 180px;
+}
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container .PageableArticleListView_Contents .ArtThumb {
+float: none;
+text-align: center;
+padding-left: 0px;
+margin-right: 0px;
+}
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container .ArtAbstract
+{
+display: none;
+}
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container .PageableArticleListView_Contents .ArtInf .ArtDesc {
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+color: white;
+font-size: 12px;
+font-weight: bold;
+background: black;
+line-height: 30px;
+text-align: center;
+}
+
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container 
+.PageableArticleListView_Contents {
+padding: 0 5px;
+}
+
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container .PageableArticleListView_Header span 
+{
+display: none;
+}
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container 
+{
+border-top: 0px;
+}
+#ctl00_RightBarContent_RightBarContent_ascx_7_PageableArticleListView_Container
+.ArtRotator {
+margin-top: -30px;
+}
+#RightBarContent_ascx_7_Container {
+margin-top: -10px;
+}
+.main_right_banner
+{
+margin-top: 5px;
+}
+.popupBox div
+{
+text-align: center;
+border: 1px solid;
+line-height: 40px;
+background: rgba(255, 255, 255, 0.8)
+}
+.popupBox
+{
+left: 277px !important;
+top: 210px !important;
+box-shadow:0 40px 10px 10px rgba(0,0,0,0.3);
+}
+
+

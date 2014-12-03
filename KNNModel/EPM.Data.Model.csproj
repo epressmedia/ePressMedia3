@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{340E9653-FB96-4650-9E07-79B1A34B690A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EPM.Data.Model</RootNamespace>
+    <AssemblyName>EPM.Data.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess, Version=2014.2.918.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342">
+      <Private>True</Private>
+      <HintPath>C:\Program Files (x86)\Telerik\Data Access\bin\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2014.2.918.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342">
+      <HintPath>C:\Program Files (x86)\Telerik\Data Access\bin\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.ServiceHost, Version=2014.2.918.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342">
+      <HintPath>C:\Program Files (x86)\Telerik\Data Access\bin\Telerik.OpenAccess.ServiceHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminModel\AccessControlList.generated.cs" />
+    <Compile Include="AdModel\AdBanner.cs" />
+    <Compile Include="AdModel\AdBanner.generated.cs" />
+    <Compile Include="AdModel\AdExpose.generated.cs" />
+    <Compile Include="AdModel\AdMediaType.generated.cs" />
+    <Compile Include="AdModel\AdRefSize.generated.cs" />
+    <Compile Include="AdModel\AdZone.generated.cs" />
+    <Compile Include="AdModel\AdZoneActionType.generated.cs" />
+    <Compile Include="AdModel\AdZoneMember.generated.cs" />
+    <Compile Include="ArticleModel\ArticleTag.generated.cs" />
+    <Compile Include="ArticleModel\ArticleThumbnail.generated.cs" />
+    <Compile Include="ArticleModel\RelatedArticle.generated.cs" />
+    <Compile Include="ArticleModel\VirtualCategoryLink.generated.cs" />
+    <Compile Include="BizModel\BannerAd.generated.cs" />
+    <Compile Include="BizModel\BusinessCategory.generated.cs" />
+    <Compile Include="BizModel\BusinessEntity.generated.cs" />
+    <Compile Include="BizModel\BusinessEntityConfig.generated.cs" />
+    <Compile Include="BizModel\BusinessEntityImage.generated.cs" />
+    <Compile Include="BizModel\BusinessEntityLetterClassification.generated.cs" />
+    <Compile Include="BizModel\BusinessEntityNote.generated.cs" />
+    <Compile Include="BizModel\BusinessEntityRequest.generated.cs" />
+    <Compile Include="BizModel\BusinessEntityThumbnail.generated.cs" />
+    <Compile Include="BizModel\BusinessEntityViewHistory.generated.cs" />
+    <Compile Include="CalendarModel\Calendar.generated.cs" />
+    <Compile Include="CalendarModel\Event.generated.cs" />
+    <Compile Include="ClassifiedModel\ClassifiedAd.generated.cs" />
+    <Compile Include="ClassifiedModel\ClassifiedCategory.generated.cs" />
+    <Compile Include="ClassifiedModel\ClassifiedComment.generated.cs" />
+    <Compile Include="ClassifiedModel\ClassifiedImage.generated.cs" />
+    <Compile Include="ClassifiedModel\ClassifiedTag.generated.cs" />
+    <Compile Include="EmailModel\EmailAction.generated.cs" />
+    <Compile Include="EmailModel\EmailEvent.generated.cs" />
+    <Compile Include="EmailModel\EmailHistory.generated.cs" />
+    <Compile Include="EmailModel\EmailPlaceholder.generated.cs" />
+    <Compile Include="EPM_vw_comment.generated.cs" />
+    <Compile Include="EPM_vw_user_info.generated.cs" />
+    <Compile Include="FormModel\Form.generated.cs" />
+    <Compile Include="FormModel\FormEmail.generated.cs" />
+    <Compile Include="ForumModel\Forum.generated.cs" />
+    <Compile Include="ForumModel\ForumAttachments.generated.cs" />
+    <Compile Include="ForumModel\ForumComment.generated.cs" />
+    <Compile Include="ForumModel\ForumConfig.generated.cs" />
+    <Compile Include="ForumModel\ForumThread.generated.cs" />
+    <Compile Include="GeoModel\Ref_city.generated.cs" />
+    <Compile Include="GeoModel\Ref_country.generated.cs" />
+    <Compile Include="GeoModel\Ref_postalcode.generated.cs" />
+    <Compile Include="GeoModel\Ref_province.generated.cs" />
+    <Compile Include="EPMModelEntity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EPMModelEntity.rlinq</DependentUpon>
+    </Compile>
+    <Compile Include="ArticleModel\Article.generated.cs" />
+    <Compile Include="ArticleModel\ArticleCategory.generated.cs" />
+    <Compile Include="ArticleModel\ArticleComment.generated.cs" />
+    <Compile Include="GetTagCloudResultSet0.generated.cs" />
+    <Compile Include="KNNModel\EPM_vw_user_info.generated.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteModel\ContentType.generated.cs" />
+    <Compile Include="SiteModel\ContentView.generated.cs" />
+    <Compile Include="SiteModel\CustomPage.generated.cs" />
+    <Compile Include="SiteModel\MainMenu.generated.cs" />
+    <Compile Include="SiteModel\MasterPageConfig.generated.cs" />
+    <Compile Include="SiteModel\MasterPageLinks.generated.cs" />
+    <Compile Include="SiteModel\PageTemplate.generated.cs" />
+    <Compile Include="SiteModel\Popup.generated.cs" />
+    <Compile Include="SiteModel\SearchQuery.generated.cs" />
+    <Compile Include="SiteModel\SiteMenu.generated.cs" />
+    <Compile Include="SiteModel\SiteSetting.generated.cs" />
+    <Compile Include="SiteModel\StyleSheet.generated.cs" />
+    <Compile Include="SiteModel\ThumbnailType.generated.cs" />
+    <Compile Include="SiteModel\Widget.generated.cs" />
+    <Compile Include="SiteModel\WidgetType.generated.cs" />
+    <Compile Include="SiteModel\Widget_detail.generated.cs" />
+    <Compile Include="UDFModel\UDFAssignment.generated.cs" />
+    <Compile Include="UDFModel\UDFAttachment.generated.cs" />
+    <Compile Include="UDFModel\UDFDataType.generated.cs" />
+    <Compile Include="UDFModel\UDFGroup.generated.cs" />
+    <Compile Include="UDFModel\UDFInfo.generated.cs" />
+    <Compile Include="UDFModel\UDFReference.generated.cs" />
+    <Compile Include="UDFModel\UDFValue.generated.cs" />
+    <Compile Include="UserModel\Application.generated.cs" />
+    <Compile Include="UserModel\DailyLogin.generated.cs" />
+    <Compile Include="UserModel\Subscription.generated.cs" />
+    <Compile Include="UserModel\UserLink.generated.cs" />
+    <Compile Include="UserModel\UserMembership.generated.cs" />
+    <Compile Include="UserModel\UserProfile.generated.cs" />
+    <Compile Include="UserModel\UserRoleMembership.generated.cs" />
+    <Compile Include="UserModel\UserRoles.generated.cs" />
+    <Compile Include="UserModel\Users.generated.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EPMModelEntity.rlinq.diagram">
+      <DependentUpon>EPMModelEntity.rlinq</DependentUpon>
+    </None>
+    <OpenAccessDeploy Include="EPMModelEntity.rlinq">
+      <Generator>MetaModelCodeGenerator</Generator>
+      <LastGenOutput>EPMModelEntity.cs</LastGenOutput>
+    </OpenAccessDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArticleModel\AdminModel\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\OpenAccess.targets')" Project="$(MSBuildExtensionsPath)\OpenAccess.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

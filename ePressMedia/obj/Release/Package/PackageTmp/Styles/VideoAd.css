@@ -1,0 +1,21 @@
+﻿
+  #carousel_container {  } /*height:1%; overflow:hidden;  }*/
+  #carousel_inner { float:left; width:480px; overflow: hidden; background: #F8F8F8; border-top:1px solid #dbdbdb; position:relative; }
+  #carousel_ul { position:relative; left:-120px; /**/ list-style-type: none; margin: 0px; padding: 0px; width:9999px; /**/ padding-bottom:10px; }
+  #carousel_ul li{ float: left; width:100px; padding:0px; height:94px; margin-top:10px; margin-bottom:10px; margin-left:10px; margin-right:10px; }
+  /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+  #carousel_ul li img { margin-bottom:-4px; cursor:pointer; cursor: hand; border:0px; }
+  #navPrev, #navNext{ float:left; height:114px; width:45px; background: #f7f7f7; border-top:1px solid #dbdbdb; }
+  #navPrev img, #navNext img{ cursor: pointer; cursor: hand; margin-top:14px; }
+  #navPrev { text-align:right; }
+  .bizLbl { text-align:center; margin-top:10px; line-height:10pt; }
+  #vidPnl, #descPnl {  height:220px; float:left; }
+  #vidPnl { width:290px; padding-left:20px; padding-top:15px; }
+  #descPnl { width:228px; padding:8px; line-height:13pt; }
+  #descPnl h1, #descPnl h2 { line-height:14pt; margin:0; padding:0; font-size:10pt; }
+  #descPnl h1 { margin-top: 10px; color:#ff6600; }
+  
+  #vidAd { width:570px; border:5px solid #333; height:1%; overflow:hidden; }
+  .descSec { margin-bottom:10px; padding-bottom:10px; border-bottom:1px dotted #ff6000; }
+  .bizLnk { text-align:right; }
+  .bizLnk img { margin-right: 4px; vertical-align:middle; }

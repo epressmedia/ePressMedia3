@@ -1,0 +1,539 @@
+.head_line1 a
+{
+color:#fff;
+}
+
+.ArtRotator
+{
+width: 127px;
+height: 127px;
+float: left;
+padding:5px
+}
+
+.RecentMultiArticles_contents img {
+padding-right: 10px;
+}
+.ArticleList_thumb
+{
+max-width: 300px;
+height: 176px;
+overflow: hidden;
+border: 0px solid #CFCFCF;
+}
+
+.SingleArticleRotatorMultiCats_Contents .ArtThumb img {
+border: 0px solid #D1D1D1 !important;
+width: 200px;
+height: auto;
+}
+
+.SingleArticleRotatorMultiCats_Contents .ArtThumb {
+float: left;
+padding-left: 2px;
+margin-right: 10px;
+height: 127px;
+width: 127px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body
+{
+color: #000;
+font-size: 13px;
+}
+body *
+{
+font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+#contentWrap
+{
+width: 1280px;
+padding: 0px;
+}
+
+.MasterPage_1131_frm,.menuPnl
+{
+width: 100%;
+clear: both;
+}
+
+#mainMenu
+{
+background: #6d6e71;
+height: 48px;
+line-height: 48px;
+text-align: left;
+}
+
+#leftPnl, .MultiImageArticleSummary_repPrev, .MultiImageArticleSummary_repNext, .SingleArticleRotatorMultiCats_Header, .ArtCat, .ArtInf
+{
+display: none;
+}
+
+.MasterPage_1131_contentWrap #mainPnl
+{
+width: 830px;
+margin:0 10px
+}
+
+.MasterPage_1131_contentWrap #rightPnl
+{
+width: 300px;
+float: left;
+margin: 0 40px;
+}
+
+
+#RightBarContent_ascx_3_Container
+{
+width: 275px;
+
+}
+
+
+#ctl00_Menu_Menu_ascx_4_login_info a
+{
+color: white;
+}
+
+
+
+#Menu_ascx_4_Container
+{
+position: relative;
+float: right;
+color: white;
+top: -52px;
+left: -55px;
+}
+
+div.artInf, div.ArticleList_HeadlineartInf
+{
+float: left;
+width: 670px;
+}
+
+div.ArticleList_HeadlineAbstract
+{
+color: rgb(0, 0, 0);
+font-weight: normal;
+line-height: 20px;
+height: 40px;
+overflow: hidden;
+}
+
+div.ArticleList_HeadlineSubTitle
+{
+font-size: 20px;
+font-weight: bold;
+color: #f7941e;
+white-space: nowrap;
+}
+
+.RecentMultiArticles_Header
+{
+font-size: 20px;
+line-height: 30px;
+font-weight: normal;
+word-spacing: 0px;
+}
+
+.RecentMultiArticles_container
+{
+margin-top: 20px;
+}
+
+.RecentMultiArticles_itemcontainer
+{
+border: 6px solid #a6ce39;
+margin-bottom: 5px;
+}
+
+.ArticleSummaryList_title
+{
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+color: #333;
+font-size: 20PX;
+font-weight: bold;
+position: relative;
+LEFT: 320PX;
+}
+
+.thrdVw .ttl
+{
+padding-left: 14px;
+line-height: 26pt;
+font-size: 20px;
+font-weight: bold;
+color: #333;
+border-bottom: 0;
+}
+
+.ArticleList_thumb img
+{
+height: auto;
+}
+
+.ArticleList_thumb
+{
+max-width: 300px;
+}
+
+#ctl00_RightBarContent_RightBarContent_ascx_3_Repeater1_ctl01_number_count img, #ctl00_RightBarContent_RightBarContent_ascx_3_Repeater1_ctl02_number_count img, #ctl00_RightBarContent_RightBarContent_ascx_3_Repeater1_ctl03_number_count img, #ctl00_RightBarContent_RightBarContent_ascx_3_Repeater1_ctl04_number_count img, #ctl00_RightBarContent_RightBarContent_ascx_3_Repeater1_ctl05_number_count img
+{
+width: 65px !important;
+height: 65px !important;
+float:left;
+}
+
+.RecentMultiArticles_contents li
+{
+white-space: normal;
+padding:5px;
+border-bottom: 1px dotted #DBDBDB;
+margin-top: 5px;
+}
+
+
+#ctl00_Menu_Menu_ascx_4_login_panel a
+{
+color: white;
+}
+
+#mainMenu a 
+{
+pADDING-LEFT: 20PX;
+}
+
+.ArticleSummaryList_art img 
+{
+border: 1px solid #D1D1D1 !important;
+width: 300px;
+height: 180px;
+padding: 3px;
+}
+
+.thrdVw, .inf 
+{
+border-top: 0;
+border-bottom: 0;
+margin-bottom: 8px;
+margin-top: 20px;
+}
+
+.thrdVw .inf 
+{
+border-bottom: 0;
+margin-left: 15px;
+}
+
+
+.IssueTime,.inf_icons
+{
+display:none;
+}
+
+div.poster
+{
+position: static;
+right: 16px;
+}
+
+.ArticleList_desc a:hover
+{
+color:#a6ce39;
+}
+
+.MultiImageArticleSummary_TabContents
+{
+padding: 10px;
+background: none;
+border: 0;
+margin-bottom: 5px;
+overflow: hidden;
+margin-top: 40px;
+}
+
+.MultiImageArticleSummary_tabPnl
+{
+background: none;
+border: 0;
+padding: 5px;
+overflow: hidden;
+}
+
+.MultiImageArticleSummary_repCaro
+{
+width: 830px;
+overflow: hidden;
+}
+
+.MultiImageArticleSummary_repCaroUl
+{
+width: 940px;
+position: relative;
+left: 0px;
+}
+
+.MultiImageArticleSummary_repSec
+{
+float: left;
+text-align: center;
+margin: 0px 5px;
+width: 220px;
+margin-bottom: -30px;
+white-space: nowrap;
+}
+
+.MultiImageArticleSummary_repSec img
+{
+border: 1px solid #EDEDED;
+width: 220px !important;
+height: 220px !important;
+}
+
+.MultiImageArticleSummary_repTtl
+{
+text-align: left;
+font-weight: bold;
+margin-bottom: 6px;
+top: -50px;
+position: relative;
+background: black;
+opacity: 0.7;
+}
+
+.MultiImageArticleSummary_tabPnl a
+{
+padding-left: 10px;
+color: white;
+}
+
+#ctl00_RightBarContent_RightBarContent_ascx_8_lbl_header
+{
+display: none;
+}
+
+#RightBarContent_ascx_8_Container
+{
+margin-top: -40px !important;
+}
+
+.MultiImageArticleSummary_Header
+{
+display:none;
+}
+
+#RightBarContent_ascx_9_Container
+{
+width:275px;
+}
+
+
+.footer_link a
+{
+padding: 0 20px;
+}
+
+.footer_info
+{
+padding: 0 30px;
+color: white;
+}
+
+#sub_link
+{
+padding: 10px 0;
+}
+
+.ArticleImageSilder_gallary .caption
+{
+font-size: 18px;
+line-height: 25px;
+}
+
+.ArticleImageSilder_gallary
+{
+width:100%;
+height: 480px !important;
+}
+
+th.label
+{
+background-color: #6d6e71;
+}
+
+#text_search
+{
+height:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************  768 to 960 Start      ***************************/
+@media (min-width: 768px) and (max-width: 960px)  {
+
+#contentWrap {
+width: 960px;
+padding: 0px;
+}
+.MasterPage_1131_contentWrap #mainPnl
+{
+width: 600px;
+margin: 0 10px;
+}
+.MasterPage_1131_contentWrap #rightPnl
+{
+margin: 0 20px !Important;
+}
+.ArticleImageSilder_gallary
+{
+height: 400px !important;
+}
+.msg img
+{
+max-width:940px;
+text-align:center;
+}
+
+
+
+
+}
+/*************************  768 to 960 END      ***************************/
+
+/**********************  639 to 767 START SmartPhone Sideway**************************/
+@media (min-width: 639px) and (max-width: 767px)  {
+
+#contentWrap {
+width: 767px;
+padding: 0px;
+}
+.MasterPage_1131_contentWrap #mainPnl
+{
+width: 747px;
+margin-left:10px;
+margin-right:10px;
+}
+
+.head, #menuBar, .LoginLinkLine_Container,.footer_menu, .footer_link
+{
+display:none;
+}
+
+.MasterPage_1131_contentWrap #rightPnl {
+width: 280px;
+float: left;
+margin: 0;
+padding: 0 240px;
+}
+.footer_info1
+{
+text-align:center;
+}
+
+.ArticleImageSilder_gallary
+{
+height: 360px !important;
+}
+
+.msg img
+{
+max-width:747px;
+text-align:center;
+}
+
+}
+/**********************  639 to 767 End **************************/
+
+/**********************  1 to 638 START SmartPhone StraightWay**************************/
+@media (min-width: 1px) and (max-width: 638px) 
+{
+
+#contentWrap {
+width: 320px;
+
+}
+.MasterPage_1131_contentWrap #mainPnl
+{
+width: 300px;
+}
+
+
+.head, #menuBar, .LoginLinkLine_Container,.footer_menu, .footer_link
+{
+display:none;
+}
+
+.footer_info {
+padding: 0;;
+}
+.footer_info1
+{
+text-align:center;
+}
+.ArticleList_thumb
+{
+float: none;
+}
+
+.MasterPage_1131_contentWrap #rightPnl {
+width: 280px;
+float: left;
+margin: 0;
+padding: 0 25px;
+}
+
+.ArticleImageSilder_gallary
+{
+height: 300px !important;
+}
+
+.msg img, .msg embed
+{
+max-width:300px;
+text-align:center;
+}
+
+.thrdVw .msg
+{
+padding:0px
+}
+
+#Content_ascx_3_Container
+{
+margin-left: 10px;
+}
+
+
+}
+/**********************  1 to 638 End**************************/
+
+
+

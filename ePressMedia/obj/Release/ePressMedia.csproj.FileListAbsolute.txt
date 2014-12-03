@@ -1,0 +1,251 @@
+D:\EPM\ePressMedia\ePressMedia\bin\RadUploadTemp\RadUploadTestFile
+D:\EPM\ePressMedia\ePressMedia\bin\ePressMedia.dll
+D:\EPM\ePressMedia\ePressMedia\bin\ePressMedia.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\AjaxControlToolkit.dll
+D:\EPM\ePressMedia\ePressMedia\bin\AntiXSSLibrary.dll
+D:\EPM\ePressMedia\ePressMedia\bin\API.dll
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Business.Model.dll
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Core.dll
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Data.Model.dll
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Email.dll
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Web.UI.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Google.GData.Analytics.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Google.GData.Client.dll
+D:\EPM\ePressMedia\ePressMedia\bin\HtmlSanitizationLibrary.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Knn.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Microsoft.Web.Infrastructure.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Newtonsoft.Json.dll
+D:\EPM\ePressMedia\ePressMedia\bin\SanitizerProviders.dll
+D:\EPM\ePressMedia\ePressMedia\bin\System.Net.Http.dll
+D:\EPM\ePressMedia\ePressMedia\bin\System.Net.Http.Formatting.dll
+D:\EPM\ePressMedia\ePressMedia\bin\System.Net.Http.WebRequest.dll
+D:\EPM\ePressMedia\ePressMedia\bin\System.Web.Http.dll
+D:\EPM\ePressMedia\ePressMedia\bin\System.Web.Http.WebHost.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.OpenAccess.Config.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.OpenAccess.Runtime.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.OpenAccess.Web.40.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.OpenAccess.Web.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.Web.UI.dll
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.Web.UI.Skins.dll
+D:\EPM\ePressMedia\ePressMedia\bin\FiftyOne.Foundation.dll
+D:\EPM\ePressMedia\ePressMedia\bin\API.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Business.Model.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Email.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Web.UI.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Core.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\EPM.Data.Model.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\Knn.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\AjaxControlToolkit.pdb
+D:\EPM\ePressMedia\ePressMedia\bin\log4net.xml
+D:\EPM\ePressMedia\ePressMedia\bin\Newtonsoft.Json.xml
+D:\EPM\ePressMedia\ePressMedia\bin\System.Net.Http.xml
+D:\EPM\ePressMedia\ePressMedia\bin\System.Net.Http.Formatting.xml
+D:\EPM\ePressMedia\ePressMedia\bin\System.Net.Http.WebRequest.xml
+D:\EPM\ePressMedia\ePressMedia\bin\System.Web.Http.xml
+D:\EPM\ePressMedia\ePressMedia\bin\System.Web.Http.WebHost.xml
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.OpenAccess.Web.xml
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.OpenAccess.Web.40.xml
+D:\EPM\ePressMedia\ePressMedia\bin\Telerik.Web.UI.xml
+D:\EPM\ePressMedia\ePressMedia\bin\ar\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\cs\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\de\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\es\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\fr\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\he\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\hi\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\it\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\ja\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\ko\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\nl\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\pt\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\ru\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia\ePressMedia\obj\Release\ePressMedia.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia\ePressMedia\obj\Release\ePressMedia.dll
+D:\EPM\ePressMedia\ePressMedia\obj\Release\ePressMedia.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\ePressMedia.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\ePressMedia.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\AjaxControlToolkit.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\AntiXSSLibrary.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\API.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Business.Model.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Core.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Email.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Web.UI.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Google.GData.Analytics.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Google.GData.Client.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\HtmlSanitizationLibrary.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Microsoft.Web.Infrastructure.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Newtonsoft.Json.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\SanitizerProviders.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Net.Http.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Net.Http.Formatting.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Net.Http.WebRequest.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Web.Http.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Web.Http.WebHost.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.Config.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.Runtime.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.Web.40.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.Web.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.ReportViewer.WebForms.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.Web.Design.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.Web.UI.Skins.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\API.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Business.Model.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Email.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Web.UI.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Core.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\AjaxControlToolkit.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Newtonsoft.Json.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Net.Http.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Net.Http.Formatting.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Net.Http.WebRequest.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Web.Http.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\System.Web.Http.WebHost.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.ReportViewer.WebForms.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.ReportViewer.WebForms.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.Web.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\Telerik.OpenAccess.Web.40.xml
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\ar\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\cs\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\de\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\es\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\fr\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\he\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\hi\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\it\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\ja\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\ko\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\nl\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\pt\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\ru\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\obj\Release\ePressMedia.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5\ePressMedia\obj\Release\ePressMedia.dll
+D:\EPM\ePressMedia 3_5\ePressMedia\obj\Release\ePressMedia.pdb
+D:\EPM\ePressMedia 3_5\ePressMedia\bin\log4net.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ePressMedia.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ePressMedia.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\AjaxControlToolkit.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Business.Model.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Core.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Email.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Web.UI.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Google.GData.Analytics.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Google.GData.Client.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Microsoft.Web.Infrastructure.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Newtonsoft.Json.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\System.Net.Http.Formatting.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\System.Web.Http.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\System.Web.Http.WebHost.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.Config.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.Runtime.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.Web.40.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.Web.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.Web.Design.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.Web.UI.Skins.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Business.Model.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Email.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Web.UI.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Core.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\log4net.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Newtonsoft.Json.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\System.Net.Http.Formatting.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\System.Web.Http.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\System.Web.Http.WebHost.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.Web.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Telerik.OpenAccess.Web.40.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ar\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\cs\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\de\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\es\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\fr\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\he\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\hi\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\it\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ja\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ko\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\nl\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\pt\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ru\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\obj\Release\ePressMedia.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5_1\ePressMedia\obj\Release\ePressMedia.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\obj\Release\ePressMedia.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\AjaxMin.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\HtmlAgilityPack.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\log4net.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Microsoft.Data.Edm.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Microsoft.Data.OData.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Microsoft.WindowsAzure.Storage.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\System.Spatial.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\HtmlAgilityPack.pdb
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\HtmlAgilityPack.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Microsoft.Data.Edm.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Microsoft.Data.OData.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Microsoft.WindowsAzure.Storage.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\System.Spatial.xml
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\pl\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\de\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\es\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\it\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\de\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\es\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\fr\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\it\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ja\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ko\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ru\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\de\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\es\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\fr\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\it\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ja\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ko\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\ru\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\zh-Hans\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\zh-Hant\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\ePressMedia\bin\Microsoft.WindowsAzure.Configuration.xml

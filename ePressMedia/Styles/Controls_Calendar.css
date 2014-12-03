@@ -1,0 +1,69 @@
+﻿
+
+/*********************** .RecentMultiArticles **************************************/
+   .UpCommingEvent_container
+    {
+        margin: 10px 0 5px 0;
+    }
+    .UpCommingEvent_Header
+    {
+        font-size: 15px;
+height: 30px;
+line-height: 30px;
+color: #344056;
+font-weight: bold;
+}
+        
+    
+    
+    .UpCommingEvent_Header span
+    {
+        display: block;
+        float: left;
+        margin-left: 10px;
+
+    }
+    
+    .UpCommingEvent_Header img
+    {
+        padding-top: 10px;
+display: block;
+float: left;
+    }
+    
+
+    
+    .UpCommingEvent_itemcontainer
+    {
+        
+        border: 1px solid #DEDBD1;
+        margin-bottom: 5px;
+}
+    
+    .UpCommingEvent_contents
+    {
+        padding: 10px;
+    }
+    
+    
+    .UpCommingEvent_itemcontainer li
+    {
+        font-size: 9pt;
+        color: #606060;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 2px;
+    }
+    
+    
+    .UpCommingEvent_itemcontainer li a:hover
+    {
+        text-decoration: underline;
+        color: #000064;
+    }
+
+.UpCommingEvent_eventdate
+{
+    font-weight:bold;
+}

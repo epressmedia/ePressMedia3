@@ -1,0 +1,98 @@
+#leftPnl {
+width: 167px;
+float: left;
+}
+#mainPnl
+{
+width: 632px;
+}
+.contentWrap
+{
+width: 1000px;
+padding: 0;
+box-shadow: 0 0px 0px 0 #888;
+}
+.head_all
+{
+background-color: #edf2ff;
+height: 72px;
+}
+.head_swf
+{
+background-color: transparent;
+float: left;
+}
+.head_logo
+{
+float: right;
+}
+.menu_all
+{
+padding-left: 115px;
+height: 35px;
+background: url(/pics/design/Img/menubg.png) repeat-x;
+line-height: 35px;
+text-align: center;
+color: #295785;
+margin-top: -58px;
+}
+.menu_bt {
+float: left;
+padding: 0 40px;
+}
+.mnuOvrl {
+
+color: white;
+font-weight: bold;
+line-height: 25px;
+position: absolute;
+top: 79px;
+z-index: 10;
+height: 35px;
+text-align: center;
+width: 1000px;
+padding-left: 100px;
+}
+
+.mnuOvrl a {
+color: white;
+}
+
+.mnuOvrl a:hover {
+color: black;
+}
+.bt {
+float:left;
+padding: 0 40px;
+}
+.footer
+{
+padding: 10px;
+border: 3px solid rgb(223, 223, 223);
+margin-bottom: 10px;
+border-radius: 10px;
+}
+.prcTbl th, .prcTbl td {
+background-color: #f7f7f7;
+border: 1px solid #dbdbdb;
+padding: 4px;
+font-weight: normal;
+}
+.pgTtl {
+font-size: 10pt;
+padding-top: 14px;
+padding-bottom: 14px;
+border-bottom: 1px dotted #dbdbdb;
+margin-bottom: 4px;
+}
+.prcTbl td {
+background-color: #fff;
+}
+#Content_ascx_2_Container th.label {
+background-color: #009cff;
+}
+.cntrPnl input
+{
+border: #009cff;
+background-color: #009cff;
+}

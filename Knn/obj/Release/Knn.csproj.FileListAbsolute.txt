@@ -1,0 +1,9 @@
+D:\EPM\ePressMedia\Knn\bin\Release\Knn.dll
+D:\EPM\ePressMedia\Knn\bin\Release\Knn.pdb
+D:\EPM\ePressMedia\Knn\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia\Knn\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia\Knn\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia\Knn\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia\Knn\obj\Release\Knn.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia\Knn\obj\Release\Knn.dll
+D:\EPM\ePressMedia\Knn\obj\Release\Knn.pdb

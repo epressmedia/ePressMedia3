@@ -1,0 +1,473 @@
+body *
+{
+font-family: '굴림', NanumGothic, 'Malgun Gothic', '돋음';
+
+}
+.MultiContentSummary_Container
+{
+padding: 3px 0;
+}
+
+.ArticleList_thumb {
+float: left;
+border: 0;
+margin-right: 10px;
+padding: 5px;
+}
+
+
+#frm, .menuPnl {
+width: 1100px;
+margin-left: auto;
+margin-right: auto;
+}
+#mainPnl {
+width: 650px;
+float: left;
+margin: 0 10px;
+}
+#rightPnl {
+width: 225px;
+float: left;
+margin-left: 0;
+}
+
+#mainMenu a
+{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#ctl00_Head_editButton8_8, #ctl00_Content_editButton8_17, #ctl00_Footer_editButton8_2, #ctl00_Content_editButton8_6, #ctl00_Head_editButton8_4, .colum_main_mobile
+{
+display: none;
+}
+.main_right_banner img, .main_long_banner
+{
+margin-bottom: 5px;
+}
+
+#contentWrap
+{
+width: 1110px;
+margin: 0 auto;
+padding: 0;
+box-shadow: none;
+}
+
+#mainMenu{
+
+height: 38px;
+background: url(/Pics/design/menu_bg.png) repeat-x;
+text-align: center;
+line-height: 40px;
+width: 100%;
+}
+
+#subMenu
+{
+height: 27px;
+line-height: 27px;
+width: 100%;
+border-bottom-style: initial;
+border-width: 0px;
+background: rgb(218, 218, 218);
+}
+
+#subMenu a {
+color: #0b2e64;
+display: inline-block;
+}
+
+.top_othersite_link
+{
+line-height: 35px;
+float: left;
+}
+
+.head_banner
+{
+float: right;
+margin: 20px 10px 20px 0;
+}
+.LoginLinkLine_Container
+{
+float: right;
+line-height: 35px;
+margin-right: 20px;
+}
+
+.SiteSearch
+{
+float: left;
+border: 3px solid #0556a5;
+width: 290px;
+height: 30px;
+overflow: hidden;
+margin: 42px 0px;
+border-radius: 10px;
+}
+
+.text_search
+{
+margin: 0;
+float: left;
+border-style: none;
+width: 224px;
+height: 22px;
+padding: 4px 2px 4px 15px;
+font-size: 15px;
+font-weight: bold;
+color: black;
+font-family: Dotum;
+background: #fff;
+border-radius: 10px;
+background-image: url(/pics/design/searchBg.png);
+}
+
+.Head_LogoPart
+{
+margin: 40px 20px;
+float: left;
+}
+
+
+.blue_line
+{
+background:#0556a5;
+height:5px;
+}
+
+.gray_line
+{
+background:darkgray;
+height:5px;
+}
+
+.logo_part
+{
+float: left;
+padding: 20px 10px;
+margin-left: 20px;
+}
+.footer_text
+{
+float: left;
+padding: 20px 10px;
+}
+
+.head_title
+ {
+height: 30px;
+line-height: 30px;
+background: #0556a5;
+margin: 5px 0;
+color: white;
+}
+
+.title
+{
+margin: 0 20px;
+
+}
+
+.MultiContentSummary_Header
+{
+display:none;
+}
+
+
+
+
+
+#Content_ascx_23_Container, #Content_ascx_11_Container
+{
+float:left;
+width: 320px;
+}
+
+#Content_ascx_14_Container, #Content_ascx_24_Container
+{
+float:right;
+width: 320px;
+}
+
+.PageableArticleListView_Header
+{
+height: 30px;
+line-height: 30px;
+margin: 5px 0;
+color: black;
+}
+
+.PageableArticleListView_Header span
+{
+margin: 0 20px;
+font-size:12px;
+}
+
+#Content_ascx_17_Container
+{
+width: 320px;
+float: right;
+
+}
+
+#Content_html_10
+{
+width: 320px;
+}
+#Content_ascx_16_Container
+{
+float:left;
+width:320px;
+}
+
+.PageableArticleListView_Contents .ArtCat {
+background: rgb(141, 139, 139);
+font-size: 12px;
+font-weight: bold;
+padding: 10px;
+}
+
+.ArtCat a
+{
+color: white;
+}
+.MultiContentSummary_newsTabs
+{
+padding: 5px 0;
+}
+
+.MultiContentSummary_newsTabs a.sel, .MultiContentSummary_newsTabs a:hover
+{
+background: initial;
+color: black;
+text-decoration: none;
+font-weight: bold;
+}
+.MultiContentSummary_newsTabs a
+{
+font-weight: initial;
+line-height: 4px;
+}
+
+#newsTabs a
+{
+padding: 5px 12px;
+border-right: 1px solid darkgray;
+}
+
+
+.PageableArticleListView_Contents .ArtThumb
+{
+float: none;
+text-align: center;
+}
+
+#ctl00_Content_Content_ascx_17_Category_Repeater_ctl01_PageableArticleListView_Repeater_ctl00_Thumb
+{
+width: 100%;
+}
+
+.PageableArticleListView_Contents .ArtContainer {
+overflow: hidden;
+margin-top: 0;
+margin: 10px 5px;
+}
+
+.RecentMultiArticles_Header
+{
+height: 80px;
+}
+
+.RecentMultiArticles_itemcontainer
+{
+width: 182px;
+}
+
+
+
+
+.MultiImageArticleSummary_Header
+{
+text-decoration: none;
+border-radius: 5px;
+margin: -14px 0;
+width: 0px;
+float: left;
+line-height: 25px;
+}
+
+.MultiImageArticleSummary_Header span {
+float: left;
+font-size: 13px;
+color: black;
+padding: 0;
+font-weight: bold;
+text-transform: uppercase;
+margin-left: 20px;
+}
+
+
+
+#ctl00_Head_Master_Head_ascx_10_weatherSection
+{
+border: 0;
+margin: 10px 0;
+}
+
+.picTtl
+{
+width: 200px;
+}
+
+.aboutus_info
+{
+line-height: 25px;
+margin: 0 10px;
+}
+
+#Content_ascx_22_Container .RecentMultiArticles_Header
+ {
+height: 30px;
+line-height: 30px;
+margin: 5px 0;
+color: black;
+}
+
+#Content_ascx_22_Container .RecentMultiArticles_itemcontainer {
+width: 320px;
+}
+
+#Content_ascx_22_Container .RecentMultiArticles_container {
+padding: 0;
+}
+
+#Content_ascx_22_Container .RecentMultiArticles_Header span {
+display: block;
+float: left;
+color: black;
+margin-left: 20px;
+font-size: 12px;
+}
+
+#Content_ascx_22_Container .RecentMultiArticles_container {
+float: left;
+}
+.MultiContentSummary_ContentItem
+{
+line-height: 25px;
+}
+
+.MasterPage_1111_mainPnl
+{
+width: 660px !important;
+float: left;
+margin: 0 220px !important;
+}
+
+
+.RecentMultiArticles_container
+{
+padding:15px;
+}
+
+#LeftBarContent_ascx_5_Container .RecentMultiArticles_container
+{
+padding:5px 0;
+}
+
+#LeftBarContent_ascx_5_Container .RecentMultiArticles_itemcontainer
+{
+width: 215px;
+}
+
+#LeftBarContent_ascx_5_Container .RecentMultiArticles_Header
+{
+height: 40px;
+line-height: 40px;
+padding: 0px 15px;
+background: rgb(255, 60, 146);
+}
+
+#LeftBarContent_ascx_5_Container .RecentMultiArticles_Header a
+{
+color:white;
+}
+
+.RecentMultiArticles_contents li
+ {
+font-size: 9pt;
+color: #606060;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 4px 0;
+}
+
+.MultiContentSummary_TabContents
+ {
+background: initial;
+}
+.MultiContentSummary_tabPnl
+ {
+background: initial;
+border: 0px;
+}
+.main_banner
+{
+margin: 0 0 5px 0;
+}
+.Left_KCR_banner img
+{
+margin: 3px 0;
+}
+
+.MultiImageArticleSummary_repCaro
+ {
+width: 570px;
+height: 100px;
+overflow: hidden;
+}
+
+.MultiImageArticleSummary_TabContents
+ {
+background: initial;
+}
+
+.MultiImageArticleSummary_tabPnl
+{
+background: initial;
+border: 0;
+}
+#ctl00_Head_btn_editButton_8_9
+{
+display:none;
+}
+
+.chu1000_name
+{
+line-height: 20px;
+font-size: 12px;
+color:black;
+float: left;
+border-right: 1px solid darkgray;
+padding: 0px 15px;
+}
+.MultiImageArticleSummary_repNext, .MultiImageArticleSummary_repPrev
+{
+width: 23px;
+}
+.chu1000_name a:hover
+{
+font-weight: bold;
+}
+.MultiImageArticleSummary_Container {
+margin: 0 0 5px 0;
+}
+.chu1000
+{
+margin-left: 20px;
+padding: 10px 0;
+}

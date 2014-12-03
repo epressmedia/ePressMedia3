@@ -1,0 +1,308 @@
+.mobile_BT, .mobile_ad_banner, .mobile_subBT, #Content_ascx_21_Container
+{
+display:none;
+}
+.mbt
+{
+float:left;
+}
+
+
+
+/*************************  768 to 960 Start      ***************************/
+@media (min-width: 768px) and (max-width: 960px)  {
+
+#mainMenu a {
+margin-left: 15px !important;
+margin-right: 15px !important;
+}
+
+#rightPnl, .top_othersite_link, .mobile_BT, .head_banner
+{
+display:none;
+}
+
+.LoginLinkLine_Container
+{
+float:right;
+}
+
+#contentWrap
+{
+width: 960px;
+}
+
+#mainMenu a
+{
+margin-left: 7px;
+margin-right: 7px;
+}
+
+#subMenu a
+{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#subMenu .menuPnl {
+width: 960px;
+text-align: center;
+}
+
+#leftPnl {
+width: 215px;
+float: left;
+margin: 0 25px;
+}
+
+#frm, .menuPnl {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.Head_LogoPart {
+margin: 40px 80px;
+float: left;
+}
+
+}
+/*************************  768 to 960 END      ***************************/
+
+/**********************  639 to 767 START SmartPhone Sideway**************************/
+@media (min-width: 639px) and (max-width: 767px)  {
+
+#rightPnl, .top_othersite_link, .SiteSearch, #leftPnl, .LoginLinkLine_Container, .head_banner, #Master_Footer_html_2, #menuBar, .main_banner, .head_title, .MultiContentSummary_Container, .main_sub_banner, .main_long_banner, .PageableArticleListView_Container, .ArticleList_poster, #Content_ascx_20_Container, #Content_Img_3_Container, #Content_Img_4_Container, .RecentMultiArticles_container, .Weather_Contents, .ArticleSummaryList_Container,.brdCrmb
+
+{
+display:none;
+}
+
+#contentWrap
+{
+width: 640px;
+}
+
+.mobile_BT, .mobile_ad_banner, .mobile_subBT, .colum_main_mobile
+{
+display:block;
+text-align: center;
+}
+
+#mainPnl {
+width: 620px;
+}
+
+.mobile_subBT
+{
+line-height: 60px;
+background: darkgray;
+text-align: center;
+}
+
+.mobile_subBT a {
+color: white;
+padding: 0 20px;
+font-weight: bold;
+font-size: 18px;
+}
+
+#Content_ascx_21_Container
+{
+display:block;
+}
+
+.colum_main_mobile img {
+width: 296px;
+}
+
+.Head_LogoPart {
+margin: 20px 20px;
+float: left;
+}
+
+.ArticleList_art, .ArticleList_Headart, div.ArticleList_Headlineart {
+padding: 6px;
+border-bottom: 1px dotted gray;
+overflow: hidden;
+height: 1%;
+}
+
+#contentWrap
+{
+background-position-y: 0px;
+background-image: none;
+background-repeat: no-repeat;
+}
+
+#Content_Img_3_Container
+{
+display:block;
+}
+
+.mbt img {
+width: 128px;
+}
+
+
+}
+/**********************  639 to 767 End **************************/
+/**********************  1 to 638 START SmartPhone StraightWay**************************/
+@media (min-width: 1px) and (max-width: 638px) {
+
+.ArticleList_desc a {
+font-size: 12px;
+font-weight: bold;
+line-height: 15px;
+}
+
+#rightPnl, .top_othersite_link, .SiteSearch, #leftPnl, .LoginLinkLine_Container, .head_banner, #Master_Footer_html_2, #menuBar, .main_banner, .head_title, .MultiContentSummary_Container, .main_sub_banner, .main_long_banner, .PageableArticleListView_Container, .ArticleList_poster, #Content_ascx_20_Container, #Content_Img_3_Container, #Content_Img_4_Container, .RecentMultiArticles_container, .Weather_Contents, .ArticleSummaryList_Container,.brdCrmb
+{
+display:none;
+}
+
+
+
+.ArticleSummaryList_title
+{
+font-size: 12px;
+}
+
+div.ArticleSummaryList_desc {
+line-height: 12pt;
+}
+div.ArticleSummaryList_art
+{
+height: 55px;
+}
+
+.ArticleSummaryList_art img {
+padding: 3px;
+width: 60px;
+}
+
+.ArticleList_thumb img
+{
+width: 60px;
+}
+
+.colum_main_mobile img
+{
+width:148px;
+}
+
+
+#contentWrap
+{
+width: 360px;
+}
+
+.mobile_BT, .mobile_ad_banner, .mobile_subBT, .colum_main_mobile
+{
+display:block;
+text-align: center;
+}
+
+#mainPnl
+{
+width: 340px;
+}
+
+
+.mobile_ad_banner img
+{
+width: 100%;
+}
+
+.mobile_BT img
+{
+width:72px;
+}
+
+.mobile_subBT
+{
+line-height: 30px;
+background: darkgray;
+text-align: center;
+}
+
+.mobile_subBT a {
+color: white;
+padding: 0 10px;
+font-weight: bold;
+}
+
+.thrdVw .msg {
+padding: 3px;
+line-height: 16pt;
+height: 1%;
+margin-top: 40px;
+}
+
+.thrdVw .msg p
+{
+margin-top: 10px;
+}
+
+#Content_ascx_21_Container, #Content_Img_3_Container
+{
+display:block;
+}
+
+.Head_LogoPart {
+margin: 15px 20px;
+float: left;
+}
+
+.ArticleList_thumb {
+float: none;
+border: 0;
+margin-right: 10px;
+padding: 10px;
+}
+
+.ArticleList_thumb img {
+width: 100%;
+}
+
+.ArticleList_art, .ArticleList_Headart, div.ArticleList_Headlineart {
+padding: 6px;
+border-bottom: 1px dotted gray;
+overflow: hidden;
+height: 1%;
+}
+
+.inf_icons {
+float: left;
+top: 0px;
+position: relative;
+margin-left: 10px;
+}
+
+#contentWrap
+{
+background-position-y: 0px;
+background-image: none;
+background-repeat: no-repeat;
+}
+
+
+
+
+}
+/**********************  1 to 638 END **************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

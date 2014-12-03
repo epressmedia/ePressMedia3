@@ -1,0 +1,20 @@
+div.poster
+{
+position: static;
+margin-left:10px;
+}
+
+.inf_icons {
+float: right;
+top: -30px;
+position: relative;
+}
+
+
+
+.brdCrmb
+{
+text-align: left;
+border-bottom: 0px dotted #aaa;
+margin-left: 20px;
+}

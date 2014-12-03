@@ -1,0 +1,970 @@
+2014-04-28 22:56:02,833 [8] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataTypes.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataTypes.DataTypeName" UniqueName="UDFDataTypes.DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" FilterControlWidth="300px">  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataTypes.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataTypes.DataTypeName" UniqueName="UDFDataTypes.DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" FilterControlWidth="300px">  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataTypes.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataTypes.DataTypeName" UniqueName="UDFDataTypes.DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" FilterControlWidth="300px">  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:56:24,994 [16] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataTypes.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataTypes.DataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataTypes.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataTypes.DataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataTypes.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataTypes.DataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:56:26,014 [31] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataTypes.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataTypes.DataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataTypes.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataTypes.DataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataTypes.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDFDataTypes.DataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:57:46,826 [8] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataType.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataType.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="UDFDataType.DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:57:54,407 [13] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:57:57,301 [9] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:57:58,887 [28] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeName" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:58:07,495 [12] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:58:09,912 [20] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="UDataTypeName" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:58:37,735 [8] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:58:38,820 [5] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.String"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:58:48,230 [12] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.Int32"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.Int32"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.Int32"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 22:58:49,379 [28] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/udf/default.aspx
+Raw Url : /cp/udf/default.aspx?
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.Int32"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.Int32"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Literal content ('<telerik:GridBoundColumn DataField="DataTypeID" FilterControlAltText="Filter DataTypeName column"
+                                HeaderText="Data Type" SortExpression="DataTypeID" UniqueName="DataTypeName" DataType="System.Int32"ShowFilterIcon = "false" AutoPostBackOnFilter="true" FilterDelay = "1000" CurrentFilterFunction="StartsWith" >  
+                            </telerik:GridBoundColumn>') is not allowed within a 'Telerik.Web.UI.GridColumnCollection'.
+Source : System.Web
+StackTrace :    at System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   at System.Web.UI.TemplateParser.ProcessLiteral()
+TargetSite : Void AppendLiteralString(System.String)
+
+ 2014-04-28 23:11:05,364 [24] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/CP/UDF/UDFReference.aspx?UDFID=20
+Raw Url : /CP/UDF/UDFReference.aspx?UDFID=20
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfreference_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfreference.aspx.639b05d6.yx05jdcn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : The control with ID 'RadAjaxPanel1' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.
+Source : Telerik.Web.UI
+StackTrace :    at Telerik.Web.UI.RadAjaxControl.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void OnLoad(System.EventArgs)
+
+ 2014-04-29 16:53:16,787 [7] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Cannot create an object of type 'System.Web.UI.WebControls.Unit' from its string representation 'auto' for the 'Width' property.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Cannot create an object of type 'System.Web.UI.WebControls.Unit' from its string representation 'auto' for the 'Width' property.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Cannot create an object of type 'System.Web.UI.WebControls.Unit' from its string representation 'auto' for the 'Width' property.
+Source : System.Web
+StackTrace :    at System.Web.UI.PropertyConverter.ObjectFromString(Type objType, MemberInfo propertyInfo, String value)
+   at System.Web.UI.ControlBuilder.AddProperty(String filter, String name, String value, Boolean mainDirectiveMode)
+   at System.Web.UI.ControlBuilder.PreprocessAttribute(String filter, String attribname, String attribvalue, Boolean mainDirectiveMode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttributes(ParsedAttributeCollection attribs)
+   at System.Web.UI.ControlBuilder.Init(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs)
+   at System.Web.UI.ControlBuilder.CreateBuilderFromType(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs, Int32 line, String sourceFileName)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+TargetSite : System.Object ObjectFromString(System.Type, System.Reflection.MemberInfo, System.String)
+
+ 2014-04-29 17:09:26,889 [37] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx(16): error CS1061: 'ASP.cp_udf_udfgroup_aspx' does not contain a definition for 'rpt_group_ItemDataBound' and no extension method 'rpt_group_ItemDataBound' accepting a first argument of type 'ASP.cp_udf_udfgroup_aspx' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+
+ 2014-04-29 18:07:22,756 [5] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx(19): error CS1061: 'ASP.cp_udf_udfgroup_aspx' does not contain a definition for 'lbl_groupname_Click' and no extension method 'lbl_groupname_Click' accepting a first argument of type 'ASP.cp_udf_udfgroup_aspx' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+
+ 2014-04-29 20:20:20,825 [42] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.uzzkfs67.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : RadPane must be placed inside a RadSplitter control.
+Source : Telerik.Web.UI
+StackTrace :    at Telerik.Web.UI.RadPane.get_Splitter()
+   at Telerik.Web.UI.RadPane.GetInitializeScript()
+   at Telerik.Web.UI.RadPane.RegisterInitializeScriptWithScriptManager()
+   at Telerik.Web.UI.RadPane.ControlPreRender()
+   at Telerik.Web.UI.RadWebControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Telerik.Web.UI.RadSplitter get_Splitter()
+
+ 2014-04-29 20:59:01,491 [14] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Type 'System.Web.UI.WebControls.Repeater' does not have a public property named 'class'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Type 'System.Web.UI.WebControls.Repeater' does not have a public property named 'class'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Type 'System.Web.UI.WebControls.Repeater' does not have a public property named 'class'.
+Source : System.Web
+StackTrace :    at System.Web.UI.ControlBuilder.AddProperty(String filter, String name, String value, Boolean mainDirectiveMode)
+   at System.Web.UI.ControlBuilder.PreprocessAttribute(String filter, String attribname, String attribvalue, Boolean mainDirectiveMode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttributes(ParsedAttributeCollection attribs)
+   at System.Web.UI.ControlBuilder.Init(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs)
+   at System.Web.UI.ControlBuilder.CreateBuilderFromType(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs, Int32 line, String sourceFileName)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+TargetSite : Void AddProperty(System.String, System.String, System.String, Boolean)
+
+ 2014-04-29 21:40:13,674 [44] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/UDF/UDFReference.aspx
+Raw Url : /Cp/UDF/UDFReference.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfreference_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfreference.aspx.639b05d6.nexje57z.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Operator '==' incompatible with operand types 'Int32' and 'Object'
+Source : System.Web.Extensions
+StackTrace :    at System.Web.Query.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at System.Web.Query.Dynamic.ExpressionParser.ParseComparison()
+   at System.Web.Query.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at System.Web.Query.Dynamic.ExpressionParser.ParseLogicalOr()
+   at System.Web.Query.Dynamic.ExpressionParser.ParseExpression()
+   at System.Web.Query.Dynamic.ExpressionParser.Parse(Type resultType)
+   at System.Web.Query.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at System.Web.Query.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at System.Web.Query.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at System.Web.UI.WebControls.DynamicQueryableWrapper.Where(IQueryable source, String predicate, Object[] values)
+   at System.Web.UI.WebControls.QueryableDataSourceView.ExecuteQueryExpressions(IQueryable source, QueryContext context)
+   at System.Web.UI.WebControls.QueryableDataSourceView.ExecuteQuery(IQueryable source, QueryContext context)
+   at Telerik.OpenAccess.Web.OpenAccessLinqDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.RadGrid.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+
+ 2014-05-01 22:59:25,987 [13] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Biz/default.aspx?q=&cat=395
+Raw Url : /Biz/default.aspx?q=&cat=395
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.biz_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.6a971e4e.uncvcwcd.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : An exception occured during the execution of 'Extent<BizModel.BusinessEntity>().Where(c => (c.BusienssCategory.CategoryId == value(EPM.Business.Model.Biz.BEController+<>c__DisplayClass2).CatID)).Where(c => ((c.ApprovedFg == True) AndAlso (c.DeletedFg == False))).Where(x => (x.PremiumListing == True)).OrderBy(x => NewGuid())'. Failure: Invalid node in orders: ParamNodeProxy@d5d19a for ParamNode@39bab4f System.Guid {2} index 1
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.OrderBy(
+    .Call System.Linq.Queryable.Where(
+        .Call System.Linq.Queryable.Where(
+            .Call System.Linq.Queryable.Where(
+                .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[BizModel.BusinessEntity]>(Extent<BizModel.BusinessEntity>()),
+                '(.Lambda #Lambda1<System.Func`2[BizModel.BusinessEntity,System.Boolean]>)),
+            '(.Lambda #Lambda2<System.Func`2[BizModel.BusinessEntity,System.Boolean]>)),
+        '(.Lambda #Lambda3<System.Func`2[BizModel.BusinessEntity,System.Boolean]>)),
+    '(.Lambda #Lambda4<System.Func`2[BizModel.BusinessEntity,System.Guid]>))
+
+.Lambda #Lambda1<System.Func`2[BizModel.BusinessEntity,System.Boolean]>(BizModel.BusinessEntity $c) {
+    ($c.BusienssCategory).CategoryId == .Constant<EPM.Business.Model.Biz.BEController+<>c__DisplayClass2>(EPM.Business.Model.Biz.BEController+<>c__DisplayClass2).CatID
+}
+
+.Lambda #Lambda2<System.Func`2[BizModel.BusinessEntity,System.Boolean]>(BizModel.BusinessEntity $c) {
+    $c.ApprovedFg == True && $c.DeletedFg == False
+}
+
+.Lambda #Lambda3<System.Func`2[BizModel.BusinessEntity,System.Boolean]>(BizModel.BusinessEntity $x) {
+    $x.PremiumListing == True
+}
+
+.Lambda #Lambda4<System.Func`2[BizModel.BusinessEntity,System.Guid]>(BizModel.BusinessEntity $x) {
+    .Call System.Guid.NewGuid()
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, FetchStrategyBuilder strategyBuilder, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.OpenAccess.Query.Piece`1.System.Collections.IEnumerable.GetEnumerator()
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Controls.Biz.ListView.BizList.bindBiz() in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\ListView\BizList.ascx.cs:line 264
+   at ePressMedia.Controls.Biz.ListView.BizList.Page_Load(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\ListView\BizList.ascx.cs:line 30
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+Message : Invalid node in orders: ParamNodeProxy@d5d19a for ParamNode@39bab4f System.Guid {2} index 1
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+
+ 2014-05-01 23:03:06,598 [23] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Biz/default.aspx?q=&cat=395
+Raw Url : /Biz/default.aspx?q=&cat=395
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.biz_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.6a971e4e.aerlrxdr.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : An exception occured during the execution of 'Extent<BizModel.BusinessEntity>().Where(c => (c.BusienssCategory.CategoryId == value(EPM.Business.Model.Biz.BEController+<>c__DisplayClass2).CatID)).Where(c => ((c.ApprovedFg == True) AndAlso (c.DeletedFg == False))).Where(x => (x.PremiumListing == True)).OrderBy(x => value(ePressMedia.Controls.Biz.ListView.BizList+<>c__DisplayClass0).random.Next())'. Failure: Invalid node in orders: ParamNodeProxy@11c3381 for ParamNode@3af83f7 System.Int32 {4} index 1
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.OrderBy(
+    .Call System.Linq.Queryable.Where(
+        .Call System.Linq.Queryable.Where(
+            .Call System.Linq.Queryable.Where(
+                .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[BizModel.BusinessEntity]>(Extent<BizModel.BusinessEntity>()),
+                '(.Lambda #Lambda1<System.Func`2[BizModel.BusinessEntity,System.Boolean]>)),
+            '(.Lambda #Lambda2<System.Func`2[BizModel.BusinessEntity,System.Boolean]>)),
+        '(.Lambda #Lambda3<System.Func`2[BizModel.BusinessEntity,System.Boolean]>)),
+    '(.Lambda #Lambda4<System.Func`2[BizModel.BusinessEntity,System.Int32]>))
+
+.Lambda #Lambda1<System.Func`2[BizModel.BusinessEntity,System.Boolean]>(BizModel.BusinessEntity $c) {
+    ($c.BusienssCategory).CategoryId == .Constant<EPM.Business.Model.Biz.BEController+<>c__DisplayClass2>(EPM.Business.Model.Biz.BEController+<>c__DisplayClass2).CatID
+}
+
+.Lambda #Lambda2<System.Func`2[BizModel.BusinessEntity,System.Boolean]>(BizModel.BusinessEntity $c) {
+    $c.ApprovedFg == True && $c.DeletedFg == False
+}
+
+.Lambda #Lambda3<System.Func`2[BizModel.BusinessEntity,System.Boolean]>(BizModel.BusinessEntity $x) {
+    $x.PremiumListing == True
+}
+
+.Lambda #Lambda4<System.Func`2[BizModel.BusinessEntity,System.Int32]>(BizModel.BusinessEntity $x) {
+    .Call (.Constant<ePressMedia.Controls.Biz.ListView.BizList+<>c__DisplayClass0>(ePressMedia.Controls.Biz.ListView.BizList+<>c__DisplayClass0).random).Next()
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, FetchStrategyBuilder strategyBuilder, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.OpenAccess.Query.Piece`1.System.Collections.IEnumerable.GetEnumerator()
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Controls.Biz.ListView.BizList.bindBiz() in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\ListView\BizList.ascx.cs:line 265
+   at ePressMedia.Controls.Biz.ListView.BizList.Page_Load(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\ListView\BizList.ascx.cs:line 30
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+Message : Invalid node in orders: ParamNodeProxy@11c3381 for ParamNode@3af83f7 System.Int32 {4} index 1
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+
+ 2014-05-05 22:57:52,383 [6] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/UDF/default.aspx
+Raw Url : /cp/UDF/default.aspx?
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.639b05d6.zkm6qoob.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : DataBinding: 'UDFModel.UDFDataType' does not contain a property with the name 'DataTypeDescr'.
+Source : System.Web
+StackTrace :    at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at ePressMedia.Cp.UDF._default.LoadDataType() in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\default.aspx.cs:line 37
+   at ePressMedia.Cp.UDF._default.Page_Load(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\default.aspx.cs:line 25
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Object GetPropertyValue(System.Object, System.String)
+
+ 2014-05-05 23:00:32,387 [38] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/UDF/default.aspx
+Raw Url : /cp/UDF/default.aspx
+Message : The state information is invalid for this page and might be corrupted.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.639b05d6.a3hxyhxi.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9935/cp/UDF/
+	Path: /cp/UDF/default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	ViewState: rjkr8OjkMz+CWUko10aRmDst0ibR0LPHt5Qbx7ZTHjQO+QwFReDXr+s+b/PR4A7XTausVlYzqv0Re9o7eaWBF8N4ZSXfNC5dtMIyDDRYoN/9Tq8uWi884JwD8tchQ+GCMtEwks7LZCf56cFZvRGWZ9b8OY0FmsiyCpFdEazj9kXzqZcs8NUI/MMXdS+N82NXVfujZ3zzLQJzQzmXgesHp5pZv8JD3p+Hu2FS8BnH+mT4b5QrZ44vznM9pQfuxvQATQQ/v7HSEgs59IBwYkcR5S/kx4S5NpBPytPklhqzi7fx0hviA1iZmRufkMEMfZDrUy/QMMkNkzP83MHfQIS3IPlbSRu6rk0mMXJAmWzHvp26h9cL/OYi5YB3P1zH+spPcJlRAdn1IuYZXifYpZqBUJFcGeLsGefbqgjOuriaBbKUKVLdl+/yhWyQoQJ4EEdKEDbXBrpyG8MGEQlzqxe0yvf2WK1dKSScb0+LiSyYyjNqaA6I1+EnfOsmIG/gAdjL6bcl8nc0/iijRou2ZZ3y6cYl7HMqb3aQHC8QRoS2dGkaBXeW4jGxyGF4NzocngoXeazeSxqUT2Oe+HE6f1GyPdYSK442D5xQ9o5UBoGtCqMos0TGUxNPcw9ztJpBvCl5+vgoPVrPzfYz7cs7QJkrWoZC70kMJ9LPzpPS2ROnjPOLtVupAuJlrFhrNFTC4JDDN+BboF6fe7HyimFQsBU1H6FwR3/oM36xic1YAHuOE5XpFCxAKubouipq0bE0tstBPTDb0cTKhMo0+YJsXlC...
+Source : 
+StackTrace : 
+TargetSite : 
+Message : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+Source : mscorlib
+StackTrace :    at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+TargetSite : Int32 FromBase64_Decode(Char*, Int32, Byte*, Int32)
+
+ 2014-05-06 16:56:47,185 [105] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\ViewBiz.aspx.cs:22 [(null)] - The base class includes the field 'MapFrame', but its type (System.Web.UI.HtmlControls.HtmlGenericControl) is not compatible with the type of control (System.Web.UI.HtmlControls.HtmlIframe).
+ 2014-05-06 16:59:39,939 [7] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\ViewBiz.aspx.cs:22 [(null)] - The base class includes the field 'MapFrame', but its type (System.Web.UI.HtmlControls.HtmlGenericControl) is not compatible with the type of control (System.Web.UI.HtmlControls.HtmlIframe).
+ 2014-05-06 17:01:10,690 [16] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\ViewBiz.aspx.cs:22 [(null)] - The base class includes the field 'MapFrame', but its type (System.Web.UI.HtmlControls.HtmlGenericControl) is not compatible with the type of control (System.Web.UI.HtmlControls.HtmlIframe).
+ 2014-05-06 17:01:14,110 [16] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\ViewBiz.aspx.cs:22 [(null)] - The base class includes the field 'MapFrame', but its type (System.Web.UI.HtmlControls.HtmlGenericControl) is not compatible with the type of control (System.Web.UI.HtmlControls.HtmlIframe).
+ 2014-05-06 17:02:16,030 [14] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\ViewBiz.aspx.cs:22 [(null)] - The base class includes the field 'MapFrame', but its type (System.Web.UI.HtmlControls.HtmlGenericControl) is not compatible with the type of control (System.Web.UI.HtmlControls.HtmlIframe).
+ 2014-05-06 17:04:20,200 [16] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\ViewBiz.aspx.cs:22 [(null)] - The base class includes the field 'MapFrame', but its type (System.Web.UI.HtmlControls.HtmlGenericControl) is not compatible with the type of control (System.Web.UI.HtmlControls.HtmlIframe).
+ 2014-05-07 15:58:37,546 [31] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\view.aspx.cs:32 [(null)] - The base class includes the field 'MapFrame', but its type (System.Web.UI.HtmlControls.HtmlGenericControl) is not compatible with the type of control (System.Web.UI.HtmlControls.HtmlIframe).
+ 2014-05-07 16:03:38,292 [7] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\view.aspx.cs:32 [(null)] - The base class includes the field 'MapFrame', but its type (System.Web.UI.HtmlControls.HtmlGenericControl) is not compatible with the type of control (System.Web.UI.HtmlControls.HtmlIframe).
+ 2014-05-07 16:40:09,168 [37] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\view.aspx.cs:32 [(null)] - d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Classified\DetailView\AdView.ascx(28): error CS1061: 'ASP.controls_classified_detailview_adview_ascx' does not contain a definition for 'Btn_OnCommand' and no extension method 'Btn_OnCommand' accepting a first argument of type 'ASP.controls_classified_detailview_adview_ascx' could be found (are you missing a using directive or an assembly reference?)
+ 2014-05-07 16:40:41,583 [41] ERROR EPM.Core.EPMBasePage d:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\view.aspx.cs:32 [(null)] - d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Classified\DetailView\AdView.ascx(28): error CS1061: 'ASP.controls_classified_detailview_adview_ascx' does not contain a definition for 'Btn_OnCommand' and no extension method 'Btn_OnCommand' accepting a first argument of type 'ASP.controls_classified_detailview_adview_ascx' could be found (are you missing a using directive or an assembly reference?)
+ 

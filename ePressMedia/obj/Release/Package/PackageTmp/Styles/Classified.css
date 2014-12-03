@@ -1,0 +1,51 @@
+﻿.classified_list  td.thumb
+{
+    width: 80px;
+}
+
+.classified_list td.data
+{
+padding: 4px;
+background-color: #F8F8F8;
+margin: 10px 0 10px 0;
+line-height: 14pt;
+border:none;
+border-bottom: 1px dotted #DBDBDB;
+
+}
+
+
+.state_ddl
+{
+    display:inline-block !important;
+    zoom:1 !important;
+    *display:inline !important;
+}
+
+
+
+/********************* AdList.ascx Start *************************/
+    div.AdRepeaterSimple_list
+    {
+        padding: 6px;
+border-bottom: 1px dotted  #DBDBDB;
+overflow: hidden;
+    }
+    div.AdRepeaterSimple_list_thumb {
+float: left;
+}
+    div.AdRepeaterSimple_list_thumb img
+    {
+        margin-right: 5px;
+    }
+    div.AdRepeaterSimple_list_artInf {
+overflow: hidden;
+}
+
+div.AdRepeaterSimple_list_title
+{
+    font-weight:bold;
+    font-size:14px;
+    margin: 7px 0;
+}
+/********************* AdList.ascx End *************************/

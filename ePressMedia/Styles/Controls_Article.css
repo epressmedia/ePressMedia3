@@ -1,0 +1,594 @@
+﻿
+
+
+/********** .ArticleListSummary Start ***********************/
+.ArticleListSummary_Line
+{
+	display: block;
+	clear: left;
+	font-size: 12px;
+}
+
+.ArticleListSummary_Line a div
+{
+	
+	margin: 5px 10px 5px 10px;
+}
+
+
+
+.ArticleListSummary_Line a:hover
+{
+		
+		text-decoration: underline;
+}
+
+.ArticleListSummary_Title
+{
+	font-weight: bold;
+color: #010A6F;
+width: 65%;
+display: inline;
+float: left;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.ArticleListSummary_Title span
+{
+	color: #343434;
+}
+
+
+
+.ArticleListSummary_Author
+{
+	font-weight: bold;
+color: #8C8C8C;
+font-size: 11px;
+float:left;
+display: inline;
+}
+
+.ArticleListSummary_List
+{
+	
+border-bottom: 1px dotted #AAA;
+padding-bottom: 40px
+}
+
+
+.ArticleListSummary_Headline
+{
+	margin: 10px 10px 10px 10px;
+	border-bottom: 1px dotted #AAA;
+	padding-bottom: 10px;
+}
+
+.ArticleListSummary_HeadlineTitle
+{
+	font-size: 25px;
+font-weight: bold;
+color: #010a6f;
+margin-bottom: 10px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.ArticleListSummary_HeadlineSubTitle
+{
+	font-size: 13px;
+font-weight: bold;
+color: #343434;
+margin-bottom: 10px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+
+.ArticleListSummary_HeadlineAbstract
+{
+	color: #8c8c8c;
+	font-weight: bold;
+	line-height: 20px;
+	
+	
+}
+
+.ArticleListSummary_HeadlineReporter
+{
+	text-align: right;
+		color: #8c8c8c;
+	font-weight: bold;
+}
+
+
+
+/********** .ArticleListSummary END ***********************/
+
+
+/********** .ArticleList Start ***********************/
+
+div.ArticleList_HeadlineartInf
+{
+	padding-left:5px;
+}
+div.ArticleList_HeadlineartInf a:hover
+{
+	text-decoration:underline;
+}
+div.ArticleList_HeadlineTitle
+{
+	font-size: 25px;
+font-weight: bold;
+color: #010A6F;
+margin-bottom: 10px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+div.ArticleList_HeadlineSubTitle
+{
+	font-size: 13px;
+font-weight: bold;
+color: #343434;
+margin-bottom: 10px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+div.ArticleList_HeadlineAbstract
+{
+	color: #8C8C8C;
+font-weight: bold;
+line-height: 20px;
+height: 40px;
+overflow:hidden;
+}
+
+div.ArticleList_HeadlineReporter
+{margin-top: 10px;
+color: black;
+font-weight: bold;
+}
+div.ArticleList_HeadlineReporter div span
+{
+	color: #8C8C8C;
+}
+div.ArticleList_HeadlineReporter div
+{
+	padding-bottom: 8px;
+}
+
+td.thumb { width:80px; }
+td p { line-height:13pt; margin-bottom:6px; margin-top:6px; }
+
+.ArticleList_art,.ArticleList_Headart, div.ArticleList_Headlineart { padding:6px; border-bottom:1px dotted #dbdbdb; overflow: hidden; height: 1%; }
+
+.ArticleList_art_alt {background-color: #F7F7F7}
+
+div.prv { line-height:16pt; }
+.ArticleList_thumb  
+{
+    float:left; 
+                    /* max-width:130px; */
+                     border: 1px solid #CFCFCF;
+margin-right: 10px;padding:5px;}
+/*.ArticleList_thumb img { width:120px; height:90px; }*/
+.ArticleList_artInf{ overflow:hidden;}
+.ArticleList_Headlinethumb { float:left;  padding-top:5px; padding-left:2px; }
+.ArticleList_desc {line-height:20pt; position:relative; }
+.ArticleList_poster { position:absolute; right:16px; }
+.ArticleList_desc a {  font-size:16px; font-weight:bold; }
+
+.ArticleList_PostPending
+{
+background: #F5D6D6; 
+overflow:hidden; 
+font-size:17px;
+ font-weight:bold; 
+ text-align: center; 
+ color: red;
+ padding: 10px;
+}
+.ArtPicFrm 
+{ border:1px solid #dbdbdb; padding:4px;box-shadow: 0 1px 6px 0 #888; margin-bottom: 5px;}
+
+.ArtPicBox
+{float: left;
+margin: 8px 7px 8px 8px;
+position: relative;}
+
+/********** .ArticleList End ***********************/
+
+
+/************************** ArticleSummaryList ***************************/
+
+
+div.ArticleSummaryList_art{
+padding: 6px;
+border-bottom: 1px dotted 
+#DBDBDB;
+overflow: hidden;
+height: 1%;
+}
+
+.ArticleSummaryList_smallart
+{
+    padding: 6px;
+border-bottom: 1px dotted #DBDBDB;
+overflow: hidden;
+height: 1%;
+}
+
+
+div.ArticleSummaryList_thumb {
+float: left;
+/*padding-left: 2px;
+margin-right: 10px*/
+}
+div.ArticleSummaryList_artInf{
+overflow:hidden;
+}
+div.ArticleSummaryList_desc {
+line-height: 20pt;
+position: relative;
+}
+div.ArticleSummaryList_desc a {
+font-size: 10pt;
+font-weight: bold;
+}
+div.ArticleSummaryList_prv {
+line-height: 16pt;
+}
+
+.ArticleSummaryList_title
+{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #115278;
+    font-size: 17px;
+    font-weight:bold;
+}
+
+.ArticleSummaryList_subtitle
+{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #41717c;
+    font-size: 12px;
+    font-weight:bold;
+}
+
+
+.ArticleSummaryList_art img
+{
+    padding:3px;
+}
+
+
+
+/***************************MultiImageArticleSummary*****************************/
+
+.MultiImageArticleSummary_Container
+{
+    margin: 10px 0 5px 0;
+}
+
+.MultiImageArticleSummary_tabPnl {
+
+background: #F7F7F7;
+border: 1px solid #DEDBD1;
+padding: 5px;
+overflow:hidden;
+
+}
+
+.MultiImageArticleSummary_tabPnl a
+{
+    padding-left:10px;
+}
+
+.MultiImageArticleSummary_TabContents
+{
+    
+padding: 10px;
+background: #F3F1EB;
+border: 1px solid #DEDBD1;
+margin-bottom: 5px;
+overflow:hidden;
+}
+
+.MultiImageArticleSummary_Header span
+{
+    float: left;
+font-size: 15px;
+color: #9F9F9F;
+padding: 0;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+.MultiImageArticleSummary_ContentItem
+{
+    white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+
+.MultiImageArticleSummary_Header
+{
+font-size: 15px;
+height: 30px;
+line-height: 30px;
+color: #344056;
+font-weight: bold
+}
+
+
+
+
+.MultiImageArticleSummary_btn_more_link >img
+{
+    margin-top: 5px;
+}
+
+
+    .MultiImageArticleSummary_repCaro, .MultiImageArticleSummary_repNext, .MultiImageArticleSummary_repPrev, .MultiImageArticleSummary_repSec
+    {
+        float: left;
+        text-align: center;
+    }
+    .MultiImageArticleSummary_repCaro
+    {
+        width: 190px;
+        overflow: hidden;
+    }
+    .MultiImageArticleSummary_repNext, .MultiImageArticleSummary_repPrev
+    {
+        width: 18px;
+    }
+    .MultiImageArticleSummary_repNext img, .MultiImageArticleSummary_repPrev img
+    {
+        margin-top: 45px;
+        cursor: hand;
+    }
+    .MultiImageArticleSummary_repCaroUl
+    {
+        width: 9999px;
+        position: relative;
+        left: -95px;
+    }
+    .MultiImageArticleSummary_repSec
+    {
+        margin: 0px 5px;
+        width: 85px;
+    }
+    .MultiImageArticleSummary_repSec img
+    {
+        border: 1px solid #EDEDED;
+    }
+    .MultiImageArticleSummary_repTtl
+    {
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+
+    .MultiImageArticleSummary_repSec p
+    {
+        text-align: left;
+        margin-bottom: 6px;
+        line-height: 11pt;
+        color: #666;
+    }
+    
+    
+/************ ArticleImageSilder_gallary -- Start **********************/
+    
+.ArticleImageSilder_gallary {
+	position:relative;
+	height:260px;
+	overflow: hidden
+}
+	.ArticleImageSilder_gallary a {
+		float:left;
+		position:absolute;
+	}
+	
+	.ArticleImageSilder_gallary a img {
+		border:none;
+	}
+	
+	.ArticleImageSilder_gallary a.show {
+		z-index:500
+	}
+
+	.ArticleImageSilder_gallary .caption {
+		z-index:600; 
+		background-color:#000; 
+		color:#ffffff; 
+		height:50px; 
+		width:100%; 
+		position:absolute;
+		bottom:0;
+		font-size: 22px;
+		padding-left:10px;
+		font-weight:bold;
+		overflow:hidden;
+	}
+
+	.ArticleImageSilder_gallary .caption .content {
+		margin:5px
+	}
+	
+	.ArticleImageSilder_gallary .caption .content h3 {
+		margin:0;
+		padding:0;
+		color:#1DCCEF;
+	}
+
+/************ ArticleImageSilder_gallary -- End **********************/
+/************ ArticleImageSilderNivo -- Start **********************/
+.nivoSlider
+{
+    margin-bottom: 0px !important;
+    box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+    
+}
+.nivo-controlNav
+{
+   position: relative;
+    margin-bottom: -25px;
+    top: -30px;
+    z-index: 100;
+    padding:0px !important;
+}
+
+/************ ArticleImageSilderNivo -- End **********************/
+
+
+/************ ArticleYouTubeSlider -- Start **********************/
+    #ytvideo,
+    #ytvideo2 {
+    float: left;
+    margin-right:10px;
+    }
+    .yt_holder {
+    padding: 10px;
+    float: left;
+    border-top: 5px solid #777;
+    border-bottom: 5px solid #777;
+    margin-bottom:15px;
+    }
+    .youtube_page ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    }
+    .youtube_page ul li {
+    list-style-type: none;
+    display:block;
+    background: #f1f1f1;
+    float: left;
+    width: 216px;
+    margin-bottom: 5px;
+    padding:2px;
+    }
+    .youtube_page ul li img {
+    width: 120px;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #999;
+    }
+    .youtube_page ul li a {
+    font-family: georgia;
+    text-decoration: none;
+    display: block;
+    color: #000;
+    }
+    .youtube_page .currentvideo {
+    background: #e6e6e6;
+    }
+    .demo2
+    {
+    float:left;
+    width:160px;
+    
+    }
+    .demo2 img
+    {
+    width: 160px;
+    display:block;
+    }
+    
+    .yt-vid div
+    {
+       white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+    }
+/************ ArticleYouTubeSlider -- End **********************/
+
+/************ PageableArticleListView_Contents -- Start **********************/
+
+.PageableArticleListView_Contents .ArtThumb
+{
+    float: left;
+padding-left: 2px;
+margin-right: 10px;
+}
+
+.PageableArticleListView_Contents .ArtInf
+{
+overflow: hidden
+}
+
+.PageableArticleListView_Contents .ArtInf .ArtDesc
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #115278;
+    font-size: 17px;
+    font-weight: bold;
+}
+.PageableArticleListView_Contents .ArtInf .ArtDesc .Arttitle
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.PageableArticleListView_Contents .ArtInf .ArtAbstract
+{
+line-height: 16pt;
+}
+.PageableArticleListView_Contents .ArtContainer
+{
+    overflow:hidden;
+    margin-top: 10px;
+}
+
+.PageableArticleListView_Contents .ArtCat
+{
+    background: #EBEBEB;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.PageableArticleListView_Header
+{
+font-size: 15px;
+line-height: 30px;
+color: #344056;
+font-weight: bold;
+word-spacing: -5px;
+}
+.PageableArticleListView_Contents .ArtThumb img
+{
+border: 1px solid #D1D1D1 !important;
+height:120px;
+}
+
+.PageableArticleListView_Header a {
+float: right;
+top: 10px;
+position: relative;
+margin: 0 3px;
+}
+/************ PageableArticleListView_Contents -- End **********************/
+
+

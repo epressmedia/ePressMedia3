@@ -1,0 +1,51 @@
+﻿.siFrm { width:274px; margin:48px auto; }
+h1 { font-size:14pt; font-weight:bold; margin:24px 0px; color:#003366; }
+h2 { font-size:11pt; font-weight:bold; margin:16px 0px; }
+.psiBox { border:1px solid #dbdbdb; width:240px; text-align:left; line-height:26px; padding:16px; background-color:#f0f0f0; margin-top:16px; margin: 0 auto; }
+table.signUp { border-collapse:collapse; width:100%; margin-top:-1px; background-color:#f7f7f7; border:1px solid #dbdbdb;  }
+table.signUp td { padding:10px; line-height:20pt; } /*border-bottom:1px dotted #ccc; }*/
+table.signUp td.lbl { text-align:right; font-weight:bold;  width:120px;  vertical-align: text-top}
+table.signUp span.guide { line-height:12pt; color:#3366bb; line-height:14pt; }
+p.guide { margin-bottom:12px; font-size:9pt; line-height:14pt; }
+div.guide { margin-bottom:12px; }
+select { font-size:9pt; }
+/* input[type=text], input[type=password] { font-size:9pt; } */
+p { font-size:9pt; margin-bottom:20px; }
+table.nb { border-collapse:collapse; }
+table.nb td { padding:6px; border:none; }
+table.nb td.lbl { text-align:right; text-align:right; font-weight:bold;  width:120px; vertical-align: text-top;}
+.err { color:#ff0000; }
+.noerr { color:#0000ff; }
+
+
+.ForgetUserInfoTable td {
+width: 50%;
+text-align: center;
+font-family: arial;
+font-size: 13px;
+font-weight: bold;
+padding: 10px 0;
+color: rgb(126, 126, 126);
+}
+
+.ForgetUserInfoTable td:first-child
+{
+    border-right: 2px solid rgb(209, 209, 209);
+}
+
+.ForgetUserInfoTable {
+width: 100%;
+}
+.ForgetUserInfoTable div {
+margin: 10px 0;
+}
+
+.RecoverPassword_username_link
+{
+    margin-left:10px;
+    padding: 2px 12px 2px 12px;
+border: 1px solid #0155A7;
+background-color: #0155A7;
+color: #FFF;
+font-weight: bold;
+}

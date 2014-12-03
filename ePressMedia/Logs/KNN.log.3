@@ -1,0 +1,1188 @@
+2014-06-02 23:56:22,127 [18] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/cp/UDF/default.aspx
+Raw Url : /cp/UDF/default.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.639b05d6.e-hpxls1.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Query execution did not find a matching element.
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute[TResult](Expression expr)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at ePressMedia.Cp.UDF._default.RadGrid1_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\default.aspx.cs:line 136
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.RadGrid.CallOnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+
+ 2014-06-03 23:30:26,181 [32] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Type 'Telerik.Web.UI.GridColumnValidationSettings' does not have a public property named 'modelerrormessage'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Type 'Telerik.Web.UI.GridColumnValidationSettings' does not have a public property named 'modelerrormessage'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Type 'Telerik.Web.UI.GridColumnValidationSettings' does not have a public property named 'modelerrormessage'.
+Source : System.Web
+StackTrace :    at System.Web.UI.ControlBuilder.GetChildPropertyBuilder(String tagName, IDictionary attribs, Type& childType, TemplateParser templateParser, Boolean defaultProperty)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+TargetSite : System.Web.UI.ControlBuilder GetChildPropertyBuilder(System.String, System.Collections.IDictionary, System.Type ByRef, System.Web.UI.TemplateParser, Boolean)
+
+ 2014-06-03 23:44:59,777 [31] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx(44): error CS1061: 'ASP.cp_form_formemail_aspx' does not contain a definition for 'btn_add_Click' and no extension method 'btn_add_Click' accepting a first argument of type 'ASP.cp_form_formemail_aspx' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+
+ 2014-06-04 17:28:35,983 [11] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.y4zaobov.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : The ControlToValidate property of 'email_validator' cannot be blank.
+Source : System.Web
+StackTrace :    at System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Boolean ControlPropertiesValid()
+
+ 2014-06-04 17:39:28,157 [23] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.b4x_g7z_.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Unable to cast object of type 'Telerik.Web.UI.GridEditFormItem' to type 'Telerik.Web.UI.GridEditFormInsertItem'.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 98
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridEditFormItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.GridTableView.Rebind()
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_ItemCreated(System.Object, Telerik.Web.UI.GridItemEventArgs)
+
+ 2014-06-04 17:40:54,470 [24] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.urm5-giv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Cannot find a cell bound to column name 'EamilEvent'
+Source : Telerik.Web.UI
+StackTrace :    at Telerik.Web.UI.GridDataItem.get_Item(String columnUniqueName)
+   at Telerik.Web.UI.GridEditFormItem.get_Item(String columnUniqueName)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 100
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridEditFormItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.GridTableView.Rebind()
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Web.UI.WebControls.TableCell get_Item(System.String)
+
+ 2014-06-04 17:55:49,056 [29] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx(53): error CS1061: 'ASP.cp_form_formemail_aspx' does not contain a definition for 'Email_List_ItemCommand' and no extension method 'Email_List_ItemCommand' accepting a first argument of type 'ASP.cp_form_formemail_aspx' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+
+ 2014-06-04 18:07:00,836 [15] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.lvtvfn9w.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 118
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_UpdateCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
+
+ 2014-06-04 18:23:02,788 [17] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.gki6ydte.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 122
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_UpdateCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
+
+ 2014-06-04 19:30:14,746 [12] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.gki6ydte.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 122
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.RadGrid.CallOnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_UpdateCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
+
+ 2014-06-04 19:38:39,664 [22] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.2n06h8e5.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 124
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.RadGrid.CallOnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_UpdateCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
+
+ 2014-06-04 19:42:53,513 [13] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.lnzckw_q.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 129
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_UpdateCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
+
+ 2014-06-04 19:50:08,443 [18] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.iuz59s2p.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Unable to cast object of type 'Telerik.Web.UI.GridEditFormItem' to type 'Telerik.Web.UI.GridDataItem'.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 122
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_UpdateCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
+
+ 2014-06-04 19:52:44,653 [8] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.iuz59s2p.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Unable to cast object of type 'Telerik.Web.UI.GridEditFormItem' to type 'Telerik.Web.UI.GridDataItem'.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 122
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_UpdateCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
+
+ 2014-06-04 19:54:37,676 [9] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.z60hbvxl.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 129
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_UpdateCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
+
+ 2014-06-04 19:54:50,560 [33] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.z60hbvxl.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_UpdateCommand(Object sender, GridCommandEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 129
+   at Telerik.Web.UI.RadGrid.OnUpdateCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.GridCommandEventArgs.ExecuteCommand(Object source)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridEditFormItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_UpdateCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
+
+ 2014-06-04 20:09:13,590 [7] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.t7vz7eyn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Cannot find a cell bound to column name 'ContactName'
+Source : Telerik.Web.UI
+StackTrace :    at Telerik.Web.UI.GridDataItem.get_Item(String columnUniqueName)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 116
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.InitializeItem(Int32 dataSourceIndex, String& nextItemHierarchicalIndex, Boolean& itemIsInEditMode)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.RadGrid.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Web.UI.WebControls.TableCell get_Item(System.String)
+
+ 2014-06-04 20:10:25,932 [24] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.hnlestir.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Cannot find a cell bound to column name 'ContactName'
+Source : Telerik.Web.UI
+StackTrace :    at Telerik.Web.UI.GridDataItem.get_Item(String columnUniqueName)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 116
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.InitializeItem(Int32 dataSourceIndex, String& nextItemHierarchicalIndex, Boolean& itemIsInEditMode)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.RadGrid.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Web.UI.WebControls.TableCell get_Item(System.String)
+
+ 2014-06-04 20:10:52,653 [12] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.hnlestir.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Cannot find a cell bound to column name 'ContactName'
+Source : Telerik.Web.UI
+StackTrace :    at Telerik.Web.UI.GridDataItem.get_Item(String columnUniqueName)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 116
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.InitializeItem(Int32 dataSourceIndex, String& nextItemHierarchicalIndex, Boolean& itemIsInEditMode)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.RadGrid.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Web.UI.WebControls.TableCell get_Item(System.String)
+
+ 2014-06-04 20:11:52,519 [15] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.yscohqbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Cannot find a cell bound to column name 'DeleteColumn'
+Source : Telerik.Web.UI
+StackTrace :    at Telerik.Web.UI.GridDataItem.get_Item(String columnUniqueName)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemDataBound(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 147
+   at Telerik.Web.UI.RadGrid.OnItemDataBound(GridItemEventArgs e)
+   at Telerik.Web.UI.GridItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.InitializeItem(Int32 dataSourceIndex, String& nextItemHierarchicalIndex, Boolean& itemIsInEditMode)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.RadGrid.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Web.UI.WebControls.TableCell get_Item(System.String)
+
+ 2014-06-05 21:45:30,392 [5] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/UDF/AddUDFMember.aspx?GroupID=17
+Raw Url : /CP/UDF/AddUDFMember.aspx?GroupID=17
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_addudfmember_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_addudfmember.aspx.639b05d6.gf7on_xv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Input string was not in a correct format.
+Source : mscorlib
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at ePressMedia.Cp.UDF.AddUDFMember.btn_add_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFMember.aspx.cs:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+
+ 2014-06-05 21:47:17,503 [8] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.zja23cft.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.GetUDFAssignmentInfo(Int32 UDFAssignmentID) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 103
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_member_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 97
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void GetUDFAssignmentInfo(Int32)
+
+ 2014-06-05 22:16:52,020 [37] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.oss4jayr.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 116
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.InitializeItem(Int32 dataSourceIndex, String& nextItemHierarchicalIndex, Boolean& itemIsInEditMode)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.RadGrid.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_ItemCreated(System.Object, Telerik.Web.UI.GridItemEventArgs)
+
+ 2014-06-05 22:19:07,159 [14] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.ajpqkzxc.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_ItemDataBound(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 155
+   at Telerik.Web.UI.RadGrid.OnItemDataBound(GridItemEventArgs e)
+   at Telerik.Web.UI.GridItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.InitializeItem(Int32 dataSourceIndex, String& nextItemHierarchicalIndex, Boolean& itemIsInEditMode)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.RadGrid.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
+
+ 2014-06-05 22:19:45,066 [36] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.w9d-ehm3.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.Form.FormEmail.Email_List_ItemDataBound(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 155
+   at Telerik.Web.UI.RadGrid.OnItemDataBound(GridItemEventArgs e)
+   at Telerik.Web.UI.GridItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.InitializeItem(Int32 dataSourceIndex, String& nextItemHierarchicalIndex, Boolean& itemIsInEditMode)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.GridTableView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.GridTableView.DataBind()
+   at Telerik.Web.UI.RadGrid.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Email_List_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
+
+ 2014-06-05 23:06:37,139 [22] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : The client disconnected.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.0gidbj1k.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+	Path: /CP/Form/FormEmail.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
+	ViewState: eZ7XsMIao1ekdJi3vl2CTAr/MTZ15i9aboix/ZiHk4jmjmTUAJsCnOiurDfMjQn9PBZyyjRxjDGwHN78thpmuQc3oxkOKP754UjTEy0TWFvee0tN2pJCz4vmdvXGWX4M4GUUhRuEFflUiTmCrsoZGxqZuEEEM7aExzvt06lRqDyLX5zu/+b1Qlm4Lyres8qfAK5fQqATirAF7SiyvaYz0rT8QPyJTeOh5PFplJhuuNIeVxsGBfvEbG2k4bDDfpn4cntLT/dO4IKUJIQqHgFIUv9wNRfkFzBhoA9dyfNEA0ZH/uZCvzItZzTr2j3DQQBGC1JfZEA3okgwGAC8gLacQ3e3r0WismkcS6ivx+OpywyFmSzFvZtcWHyEhRvK2FhEKDwk9vy0/PVVpRU6J0FmF/pBHQHmkFrLI/rEXj0VivgSi4T8m+k4QawLWIp536sh5d8WgHse9FeRyUAQxFpzHYqa18oc12qEjgXUu17ftHQZh6Q6F9ROKRfaaMlY6epT/kf3ctAlPI6DcEF9/pm7F9WdAsSSh21DSkgSFOduMNaOJdd7DaIX+uimerosWY8b+Kd3OJHjRZSLgS6Nm8EWoNuXaI/lHheY1Cq4mDO0jLLTfRDhxjfaZesKUsLNyNeWhcbojZObGu4o+0gbrFDOlnnHRHm9Jw8K8so3+ZKfmTFWQZGnW9KKFhFQECQRzsyZp3G2CWn/FQhR4+ImsI6LVmgrwsstpZsIEs0fMY37L38MH5ZaffxHfBPU...
+Source : 
+StackTrace : 
+TargetSite : 
+Message : Invalid length for a Base-64 char array or string.
+Source : mscorlib
+StackTrace :    at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+TargetSite : Int32 FromBase64_Decode(Char*, Int32, Byte*, Int32)
+
+ 2014-06-05 23:06:37,559 [47] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : The client disconnected.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.0gidbj1k.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+	Path: /CP/Form/FormEmail.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
+	ViewState: eZ7XsMIao1ekdJi3vl2CTAr/MTZ15i9aboix/ZiHk4jmjmTUAJsCnOiurDfMjQn9PBZyyjRxjDGwHN78thpmuQc3oxkOKP754UjTEy0TWFvee0tN2pJCz4vmdvXGWX4M4GUUhRuEFflUiTmCrsoZGxqZuEEEM7aExzvt06lRqDyLX5zu/+b1Qlm4Lyres8qfAK5fQqATirAF7SiyvaYz0rT8QPyJTeOh5PFplJhuuNIeVxsGBfvEbG2k4bDDfpn4cntLT/dO4IKUJIQqHgFIUv9wNRfkFzBhoA9dyfNEA0ZH/uZCvzItZzTr2j3DQQBGC1JfZEA3okgwGAC8gLacQ3e3r0WismkcS6ivx+OpywyFmSzFvZtcWHyEhRvK2FhEKDwk9vy0/PVVpRU6J0FmF/pBHQHmkFrLI/rEXj0VivgSi4T8m+k4QawLWIp536sh5d8WgHse9FeRyUAQxFpzHYqa18oc12qEjgXUu17ftHQZh6Q6F9ROKRfaaMlY6epT/kf3ctAlPI6DcEF9/pm7F9WdAsSSh21DSkgSFOduMNaOJdd7DaIX+uimerosWY8b+Kd3OJHjRZSLgS6Nm8EWoNuXaI/lHheY1Cq4mDO0jLLTfRDhxjfaZesKUsLNyNeWhcbojZObGu4o+0gbrFDOlnnHRHm9Jw8K8so3+ZKfmTFWQZGnW9KKFhFQECQRzsyZp3G2CWn/FQhR4+ImsI6LVmgrwsstpZsIEs0fMY37L38MH5ZaffxHfBPU...
+Source : 
+StackTrace : 
+TargetSite : 
+Message : Invalid length for a Base-64 char array or string.
+Source : mscorlib
+StackTrace :    at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+TargetSite : Int32 FromBase64_Decode(Char*, Int32, Byte*, Int32)
+
+ 2014-06-05 23:06:38,102 [46] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+Raw Url : /CP/Form/FormEmail.aspx?formid=1
+Message : The client disconnected.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.0gidbj1k.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9351/CP/Form/FormEmail.aspx?formid=1
+	Path: /CP/Form/FormEmail.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
+	ViewState: eZ7XsMIao1ekdJi3vl2CTAr/MTZ15i9aboix/ZiHk4jmjmTUAJsCnOiurDfMjQn9PBZyyjRxjDGwHN78thpmuQc3oxkOKP754UjTEy0TWFvee0tN2pJCz4vmdvXGWX4M4GUUhRuEFflUiTmCrsoZGxqZuEEEM7aExzvt06lRqDyLX5zu/+b1Qlm4Lyres8qfAK5fQqATirAF7SiyvaYz0rT8QPyJTeOh5PFplJhuuNIeVxsGBfvEbG2k4bDDfpn4cntLT/dO4IKUJIQqHgFIUv9wNRfkFzBhoA9dyfNEA0ZH/uZCvzItZzTr2j3DQQBGC1JfZEA3okgwGAC8gLacQ3e3r0WismkcS6ivx+OpywyFmSzFvZtcWHyEhRvK2FhEKDwk9vy0/PVVpRU6J0FmF/pBHQHmkFrLI/rEXj0VivgSi4T8m+k4QawLWIp536sh5d8WgHse9FeRyUAQxFpzHYqa18oc12qEjgXUu17ftHQZh6Q6F9ROKRfaaMlY6epT/kf3ctAlPI6DcEF9/pm7F9WdAsSSh21DSkgSFOduMNaOJdd7DaIX+uimerosWY8b+Kd3OJHjRZSLgS6Nm8EWoNuXaI/lHheY1Cq4mDO0jLLTfRDhxjfaZesKUsLNyNeWhcbojZObGu4o+0gbrFDOlnnHRHm9Jw8K8so3+ZKfmTFWQZGnW9KKFhFQECQRzsyZp3G2CWn/FQhR4+ImsI6LVmgrwsstpZsIEs0fMY37L38MH5ZaffxHfBPU...
+Source : 
+StackTrace : 
+TargetSite : 
+Message : Invalid length for a Base-64 char array or string.
+Source : mscorlib
+StackTrace :    at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+TargetSite : Int32 FromBase64_Decode(Char*, Int32, Byte*, Int32)
+
+ 2014-06-07 15:29:21,211 [18] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/Site/EmailTemplates.aspx
+Raw Url : /Cp/Site/EmailTemplates.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_site_emailtemplates_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_emailtemplates.aspx.b772068.ysmi1stw.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Insert of '1203893847-' failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+declare @generated_ids table([email_event_id] int)
+insert [Admin].[EmailEvents] ([body], [created_by], [created_dt], [description], [email_event_name], [modified_by], [modified_dt], [subject]) 
+output inserted.[email_event_id] into @generated_ids 
+ VALUES (?, ?, ?, ?, ?, ?, ?, ?) 
+select t.[email_event_id] 
+from @generated_ids as g join [Admin].[EmailEvents] as t on g.[email_event_id] = t.[email_event_id] 
+where @@ROWCOUNT > 0
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Admin.EmailTemplateController.AddEmailTemplate(String EmailEventName, String EmailEventDescr) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\Admin\EmailTemplateController.cs:line 44
+   at ePressMedia.Cp.Site.EmailTemplates.btn_add_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx.cs:line 97
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Exception Throw()
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+TargetSite : Boolean execute(System.Nullable`1[System.Int32])
+
+ 2014-06-07 15:29:34,331 [6] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/Site/EmailTemplates.aspx
+Raw Url : /Cp/Site/EmailTemplates.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_site_emailtemplates_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_emailtemplates.aspx.b772068.ysmi1stw.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Insert of '1203893847-' failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+declare @generated_ids table([email_event_id] int)
+insert [Admin].[EmailEvents] ([body], [created_by], [created_dt], [description], [email_event_name], [modified_by], [modified_dt], [subject]) 
+output inserted.[email_event_id] into @generated_ids 
+ VALUES (?, ?, ?, ?, ?, ?, ?, ?) 
+select t.[email_event_id] 
+from @generated_ids as g join [Admin].[EmailEvents] as t on g.[email_event_id] = t.[email_event_id] 
+where @@ROWCOUNT > 0
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Admin.EmailTemplateController.AddEmailTemplate(String EmailEventName, String EmailEventDescr) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\Admin\EmailTemplateController.cs:line 44
+   at ePressMedia.Cp.Site.EmailTemplates.btn_add_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx.cs:line 97
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Exception Throw()
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+TargetSite : Boolean execute(System.Nullable`1[System.Int32])
+
+ 2014-06-07 15:46:07,960 [19] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/Site/EmailTemplates.aspx
+Raw Url : /Cp/Site/EmailTemplates.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_site_emailtemplates_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_emailtemplates.aspx.b772068.ysmi1stw.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Insert of '1203893847-' failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+declare @generated_ids table([email_event_id] int)
+insert [Admin].[EmailEvents] ([body], [created_by], [created_dt], [description], [email_event_name], [modified_by], [modified_dt], [subject]) 
+output inserted.[email_event_id] into @generated_ids 
+ VALUES (?, ?, ?, ?, ?, ?, ?, ?) 
+select t.[email_event_id] 
+from @generated_ids as g join [Admin].[EmailEvents] as t on g.[email_event_id] = t.[email_event_id] 
+where @@ROWCOUNT > 0
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Admin.EmailTemplateController.AddEmailTemplate(String EmailEventName, String EmailEventDescr) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\Admin\EmailTemplateController.cs:line 44
+   at ePressMedia.Cp.Site.EmailTemplates.btn_add_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx.cs:line 97
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+TargetSite : Boolean execute(System.Nullable`1[System.Int32])
+
+ 2014-06-07 15:47:57,985 [17] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/Site/EmailTemplates.aspx
+Raw Url : /Cp/Site/EmailTemplates.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_site_emailtemplates_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_emailtemplates.aspx.b772068.8a58svq8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Insert of '1203893847-' failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+declare @generated_ids table([email_event_id] int)
+insert [Admin].[EmailEvents] ([body], [created_by], [created_dt], [description], [email_event_name], [modified_by], [modified_dt], [subject]) 
+output inserted.[email_event_id] into @generated_ids 
+ VALUES (?, ?, ?, ?, ?, ?, ?, ?) 
+select t.[email_event_id] 
+from @generated_ids as g join [Admin].[EmailEvents] as t on g.[email_event_id] = t.[email_event_id] 
+where @@ROWCOUNT > 0
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Admin.EmailTemplateController.AddEmailTemplate(String EmailEventName, String EmailEventDescr) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\Admin\EmailTemplateController.cs:line 44
+   at ePressMedia.Cp.Site.EmailTemplates.btn_add_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx.cs:line 97
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+TargetSite : Boolean execute(System.Nullable`1[System.Int32])
+
+ 

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EPM.Business.Model.Biz.BECategoryController">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAEAAASAAAAAAQAAAAABCAAA=</HashCode>
+      <FileName>Biz\BECategoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EPM.Business.Model.Biz.BEController">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAIAAAAACAAggAAAAAAAAYAAAAgIAAAAIAACAA=</HashCode>
+      <FileName>Biz\BEController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EPM.Business.Model.Biz.BEImageController">
+    <Position X="5.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAA=</HashCode>
+      <FileName>Biz\BEImageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EPM.Business.Model.Biz.BENoteController">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAIBAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Biz\BENoteController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EPM.Business.Model.Biz.BERequestController">
+    <Position X="3" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAABAgAAAAAAAAAAAAAQAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Biz\BERequestController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EPM.Business.Model.Biz.BEThumbnailController">
+    <Position X="5.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAQAAAAAgAAAAAAEAAAAAAAE=</HashCode>
+      <FileName>Biz\BEThumbnailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

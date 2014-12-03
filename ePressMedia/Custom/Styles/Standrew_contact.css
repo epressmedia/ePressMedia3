@@ -1,0 +1,38 @@
+.contactor_title
+{
+background: silver;
+height: 30px;
+line-height: 30px;
+font-weight: bold;
+color: #0079c1;
+margin:5px 0;
+}
+
+.contoctor_info
+{
+float: left;
+padding: 10px;
+line-height: 30px;
+font-size: 13px;
+}
+
+.contact1, .contact2, .contact3,.contact4,.contact5,.contact6
+{
+width:320px;
+}
+
+.contact1,.contact3,.contact5
+{
+float:left;
+}
+.contact2,.contact4,.contact6
+{
+float:right;
+}
+
+.contoctor_info a:hover {
+color: #bcd631;
+}
+
+
+

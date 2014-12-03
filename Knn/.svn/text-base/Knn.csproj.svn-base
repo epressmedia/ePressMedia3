@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00B79CDA-2C23-4F2E-A97C-58F66745DCC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Knn</RootNamespace>
+    <AssemblyName>Knn</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Article\Article.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Article\ArticleCategory.cs" />
+    <Compile Include="Article\ArticleCategoryConfig.cs" />
+    <Compile Include="Article\ArticleLink.cs" />
+    <Compile Include="Article\Filters\ArticleFilter.cs" />
+    <Compile Include="BizAd\BannerAd.cs" />
+    <Compile Include="BizAd\Biz.cs" />
+    <Compile Include="BizAd\BizCategory.cs" />
+    <Compile Include="BizAd\Filters\BizFilter.cs" />
+    <Compile Include="BizAd\Popup.cs" />
+    <Compile Include="Calendar\Calendar.cs" />
+    <Compile Include="Calendar\Event.cs" />
+    <Compile Include="Classified\Ad.cs" />
+    <Compile Include="Classified\BizRealtyAd.cs" />
+    <Compile Include="Classified\CarAd.cs" />
+    <Compile Include="Classified\ClassifiedCategory.cs" />
+    <Compile Include="Classified\Filters\AdFilter.cs" />
+    <Compile Include="Classified\Filters\TutorAdFilter.cs" />
+    <Compile Include="Classified\HomestayAd.cs" />
+    <Compile Include="Classified\JobAd.cs" />
+    <Compile Include="Classified\ResRealtyAd.cs" />
+    <Compile Include="Classified\TutorAd.cs" />
+    <Compile Include="Data\DataFilter.cs" />
+    <Compile Include="Classified\Filters\CarAdFilter.cs" />
+    <Compile Include="Classified\Filters\JobAdFilter.cs" />
+    <Compile Include="Classified\Filters\RealtyAdFilter.cs" />
+    <Compile Include="Common\Area.cs" />
+    <Compile Include="Common\UserComment.cs" />
+    <Compile Include="Data\DataAccess.cs" />
+    <Compile Include="Forum\Filters\ForumFilter.cs" />
+    <Compile Include="Forum\Forum.cs" />
+    <Compile Include="Forum\ForumConfig.cs" />
+    <Compile Include="Forum\ForumThread.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search\Search.cs" />
+    <Compile Include="Security\AccessControl.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="Website\ContentType.cs" />
+    <Compile Include="Website\ContentView.cs" />
+    <Compile Include="Website\SiteMenu.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

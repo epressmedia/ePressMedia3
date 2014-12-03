@@ -1,0 +1,34 @@
+D:\EPM\ePressMedia\KNNModel\bin\Release\EPM.Data.Model.dll.config
+D:\EPM\ePressMedia\KNNModel\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia\KNNModel\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia\KNNModel\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia\KNNModel\bin\Release\Telerik.OpenAccess.ServiceHost.dll
+D:\EPM\ePressMedia\KNNModel\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia\KNNModel\bin\Release\Telerik.OpenAccess.ServiceHost.xml
+D:\EPM\ePressMedia\KNNModel\obj\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia\KNNModel\obj\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia\KNNModel\obj\Release\EPM.Data.Model.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5\KNNModel\bin\Release\EPM.Data.Model.dll.config
+D:\EPM\ePressMedia 3_5\KNNModel\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5\KNNModel\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5\KNNModel\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5\KNNModel\bin\Release\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_5\KNNModel\bin\Release\Telerik.OpenAccess.ServiceHost.dll
+D:\EPM\ePressMedia 3_5\KNNModel\bin\Release\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_5\KNNModel\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5\KNNModel\bin\Release\Telerik.OpenAccess.ServiceHost.xml
+D:\EPM\ePressMedia 3_5\KNNModel\obj\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5\KNNModel\obj\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5\KNNModel\obj\Release\EPM.Data.Model.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5_1\KNNModel\bin\Release\EPM.Data.Model.dll.config
+D:\EPM\ePressMedia 3_5_1\KNNModel\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5_1\KNNModel\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5_1\KNNModel\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5_1\KNNModel\bin\Release\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_5_1\KNNModel\bin\Release\Telerik.OpenAccess.ServiceHost.dll
+D:\EPM\ePressMedia 3_5_1\KNNModel\bin\Release\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_5_1\KNNModel\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5_1\KNNModel\bin\Release\Telerik.OpenAccess.ServiceHost.xml
+D:\EPM\ePressMedia 3_5_1\KNNModel\obj\Release\EPM.Data.Model.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5_1\KNNModel\obj\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5_1\KNNModel\obj\Release\EPM.Data.Model.pdb

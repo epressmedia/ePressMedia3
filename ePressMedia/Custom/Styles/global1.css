@@ -1,0 +1,186 @@
+.info_title {
+font-size: 14px;
+color: white;
+font-weight: bold;
+position: relative;
+top: -30px;
+margin: 0 30px;
+}
+
+.info_body img {
+width: 100%;
+}
+
+.info_head_img img {
+width: 100%;
+}
+
+.MasterPage_1131_contentWrap #rightPnl img
+{
+width: 200px;
+margin: 2px 0;
+}
+
+.MasterPage_1131_contentWrap #mainPnl {
+width: 730px;
+float: left;
+margin-left: 0;
+}
+
+.MasterPage_1131_contentWrap #rightPnl {
+width: 200px;
+float: left;
+margin:0 10px;
+}
+
+
+.MasterPage_1131_contentWrap #leftPnl
+{
+width: 130px;
+float: left;
+margin: 0 10px;
+}
+
+.MasterPage_1131_contentWrap #leftPnl img
+{
+margin: 2px 0;
+}
+.MasterPage_1131_frm, .menuPnl, .MasterPage_1131_contentWrap {
+width: 1100px !important;
+margin: 0 auto;
+box-shadow: 0 2px 6px 0 #888;
+background: #FFF;
+}
+
+.MasterPage_1111_contentWrap
+{
+width:920px !important;
+}
+
+
+   .main_table img:hover
+    {
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    }
+
+
+#frm
+{
+width:920px;
+}
+.MasterPage_1111_mainPnl {
+width: 920px !important;
+margin-left: 0;
+float: none;
+}
+
+.main_table
+{
+ margin-left:auto; 
+    margin-right:auto;
+margin-bottom: 20px;
+border-collapse:initial;
+border-spacing: 7px;
+text-align:center;
+}
+
+.leftPnl
+{
+width:0px !important
+}
+
+
+.MasterPage_1121_contentWrap
+{
+width: 750px !important;
+}
+
+.MasterPage_1121_contentWrap #frm
+{
+width: 720px !important;
+}
+.MasterPage_1121_contentWrap  #mainPnl
+{
+width:100%;
+float:none;
+margin-left:0px;
+}
+div.ppt
+{
+font-size: 26px !important;
+font-weight: bold;
+font-family: sans-serif;
+font-variant: small-caps;
+}
+
+th.label, input[type="submit"]
+{
+background-color: gray;
+}
+
+input[type="submit"]
+{
+background-color: gray;
+border:none;
+}
+
+#leftPnl
+{
+width:0px;
+}
+
+.ss-controls
+{
+display:none;
+}
+
+#controls
+{
+margin-right: 180px;
+}
+
+.prev, .next
+{
+background: black;
+color: white !important;
+}
+
+.download
+{
+margin-right: 40px;
+background:black;
+padding: 5px;
+color: white !important;
+}
+
+.nav-controls a
+{
+margin: 0 2px;
+padding: 2px;
+}
+
+#Content_ascx_2_Container
+{
+width: 725px;
+}
+
+.menuPnl {
+width: 750px;
+
+}
+
+#mainMenu 
+{
+background:  #015eac;
+}
+
+#contentWrap {
+padding:0px
+}
+
+
+
+
+
+

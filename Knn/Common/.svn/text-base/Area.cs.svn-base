@@ -1,0 +1,79 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Data;
+using System.Data.SqlClient;
+using System.Text;
+
+using Knn;
+using Knn.Data;
+
+namespace Knn.Common
+{
+    public class Area
+    {
+        int id;
+        public int Id { get { return id; } }
+
+        string name;
+        public string Name { get { return name; } }
+
+        string province;
+        public string Province { get { return province; } }
+
+        bool visible;
+        public bool Visible { get { return visible; } }
+
+        //static string selectFormat = "SELECT * FROM Areas WHERE Visible=1 AND Province='{0}'";
+        static string selectFormat = "SELECT * FROM Areas WHERE Province='{0}'";
+        static string selectByPrefix = 
+            "SELECT * FROM Areas WHERE Province='{0}' AND AreaName LIKE N'{1}%'";
+
+        public static NameValueCollection GetAreas(string province)
+        {
+            return DataAccess.SelectKeyValuePairs("Areas", "AreaId", "AreaName",
+                "Visible=1 AND Province='" + province.ToUpper() + "'");
+        }
+
+        public static NameValueCollection GetAllAreas(string province)
+        {
+            return DataAccess.SelectKeyValuePairs("Areas", "AreaId", "AreaName",
+                "Province='" + province.ToUpper() + "'");
+        }
+        
+        public static List<Area> SelectAreas(string province)
+        {
+            return DataAccess.SelectCollection<Area>(
+                string.Format(selectFormat, province.ToUpper()), getAreaFromReader);
+        }
+
+        public static List<Area> SelectAreas(string province, string prefix)
+        {
+            return DataAccess.SelectCollection<Area>(
+                string.Format(selectByPrefix, province.ToUpper(), prefix), getAreaFromReader);
+        }
+
+
+        static string setVisibleCommand = "UPDATE Areas SET Visible=@Visible WHERE AreaId=@AreaId";
+        public static bool SetVisible(int areaId, bool visible)
+        {
+            SqlCommand cmd = new SqlCommand(setVisibleCommand);
+            cmd.Parameters.Add(new SqlParameter("@Visible", visible));
+            cmd.Parameters.Add(new SqlParameter("@AreaId", areaId));
+
+            return (1 == DataAccess.ExecuteCommand(cmd));
+        }
+
+        static Area getAreaFromReader(SqlDataReader reader)
+        {
+            Area a = new Area();
+
+            a.id = (int)reader["AreaId"];
+            a.name = reader["AreaName"].ToString();
+            a.province = reader["Province"].ToString();
+            a.visible = (bool)reader["Visible"];
+
+            return a;
+        }
+    }
+}

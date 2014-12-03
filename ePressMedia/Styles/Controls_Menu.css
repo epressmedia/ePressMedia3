@@ -1,0 +1,40 @@
+﻿    .StdKNNMenu2_Container
+    {
+        width:1002px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .StdMenu2
+    {
+        background: url(../img/menu2_bg.gif) repeat-x;
+        text-align: center;
+        width: 100%;
+        display:block;
+        float: none;
+    }
+    
+    .StdMenu2 ul.rmRootGroup
+    {
+        float:none;
+        background:transparent;
+        border: none;
+        width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 4px;
+        height:33px;
+    }
+    .StdMenu2 .rmItem > a.rmRootLink
+    {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    
+    .RadMenu_Default a.rmExpanded, .RadMenu_Default a.rmExpanded:hover 
+    {
+        background-color:transparent !important;
+        color: Black;
+    }

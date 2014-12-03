@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage_1111" CodeBehind="MasterPage_1111.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeaderScript" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id = "contentWrap" class="contentWrap  MasterPage_1111_contentWrap">
+        <asp:ContentPlaceHolder ID="Head" runat="server">
+        </asp:ContentPlaceHolder>
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+        </telerik:RadScriptManager>
+        <asp:ContentPlaceHolder ID="Menu" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="frm">
+            <div style="height: 1%; overflow: hidden;">
+                <div id="mainPnl"  class="MasterPage_1111_mainPnl">
+                    <asp:ContentPlaceHolder ID="Content" runat="server">
+                    </asp:ContentPlaceHolder>
+                    &nbsp;
+                </div>
+            </div>
+            <div id="footer">
+                <asp:ContentPlaceHolder ID="Footer" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

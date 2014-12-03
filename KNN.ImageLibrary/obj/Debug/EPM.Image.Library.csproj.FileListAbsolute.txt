@@ -1,0 +1,56 @@
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\Knn.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\Telerik.Web.UI.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\Knn.pdb
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\Telerik.Web.UI.xml
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia\KNN.ImageLibrary\obj\Debug\EPM.Image.Library.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia\KNN.ImageLibrary\obj\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\obj\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Debug\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\obj\Debug\EPM.Image.Library.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\obj\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_4\KNN.ImageLibrary\obj\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\obj\Debug\EPM.Image.Library.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\obj\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\obj\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\obj\Debug\EPM.Image.Library.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\obj\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\obj\Debug\EPM.ImageLibrary.pdb

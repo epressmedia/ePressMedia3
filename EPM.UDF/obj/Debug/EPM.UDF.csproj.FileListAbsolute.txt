@@ -1,0 +1,12 @@
+D:\EPM\ePressMedia 3_4\EPM.UDF\bin\Debug\EPM.UDF.dll
+D:\EPM\ePressMedia 3_4\EPM.UDF\bin\Debug\EPM.UDF.pdb
+D:\EPM\ePressMedia 3_4\EPM.UDF\obj\Debug\EPM.UDF.dll
+D:\EPM\ePressMedia 3_4\EPM.UDF\obj\Debug\EPM.UDF.pdb
+D:\EPM\ePressMedia 3_5\EPM.UDF\bin\Debug\EPM.UDF.dll
+D:\EPM\ePressMedia 3_5\EPM.UDF\bin\Debug\EPM.UDF.pdb
+D:\EPM\ePressMedia 3_5\EPM.UDF\obj\Debug\EPM.UDF.dll
+D:\EPM\ePressMedia 3_5\EPM.UDF\obj\Debug\EPM.UDF.pdb
+D:\EPM\ePressMedia 3_5_1\EPM.UDF\bin\Debug\EPM.UDF.dll
+D:\EPM\ePressMedia 3_5_1\EPM.UDF\bin\Debug\EPM.UDF.pdb
+D:\EPM\ePressMedia 3_5_1\EPM.UDF\obj\Debug\EPM.UDF.dll
+D:\EPM\ePressMedia 3_5_1\EPM.UDF\obj\Debug\EPM.UDF.pdb

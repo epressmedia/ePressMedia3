@@ -1,0 +1,160 @@
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\EPM.Core.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\EPM.Core.pdb
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\FiftyOne.Foundation.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\HtmlAgilityPack.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Knn.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\log4net.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\SanitizerProviders.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Telerik.Web.UI.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Knn.pdb
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\log4net.xml
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Telerik.Web.UI.xml
+D:\EPM\ePressMedia\KNN.Core\obj\Debug\EPM.Core.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia\KNN.Core\obj\Debug\EPM.Core.dll
+D:\EPM\ePressMedia\KNN.Core\obj\Debug\EPM.Core.pdb
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\EPM.Business.Model.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\EPM.Business.Model.pdb
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia\KNN.Core\bin\Debug\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.Core.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.Core.pdb
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.Business.Model.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\HtmlAgilityPack.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\log4net.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\SanitizerProviders.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.Business.Model.pdb
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\log4net.xml
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_4\KNN.Core\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_4\KNN.Core\obj\Debug\EPM.Core.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_4\KNN.Core\obj\Debug\EPM.Core.dll
+D:\EPM\ePressMedia 3_4\KNN.Core\obj\Debug\EPM.Core.pdb
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.Core.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.Core.pdb
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.Business.Model.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\HtmlAgilityPack.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\log4net.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\SanitizerProviders.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.Business.Model.pdb
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\log4net.xml
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_5\KNN.Core\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5\KNN.Core\obj\Debug\EPM.Core.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5\KNN.Core\obj\Debug\EPM.Core.dll
+D:\EPM\ePressMedia 3_5\KNN.Core\obj\Debug\EPM.Core.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.Core.dll.config
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.Core.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.Core.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\AjaxControlToolkit.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\AjaxMin.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.Business.Model.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\HtmlAgilityPack.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\log4net.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Microsoft.Data.Edm.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Microsoft.Data.OData.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\System.Spatial.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Newtonsoft.Json.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.Business.Model.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\HtmlAgilityPack.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\HtmlAgilityPack.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\log4net.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Microsoft.Data.Edm.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Microsoft.Data.OData.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\System.Spatial.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ar\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\cs\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\de\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\es\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\fr\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\he\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\hi\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\it\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ja\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ko\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\nl\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\pl\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\pt\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ru\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\de\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\es\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\fr\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\it\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ja\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ko\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\ru\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\obj\Debug\EPM.Core.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5_1\KNN.Core\obj\Debug\EPM.Core.dll
+D:\EPM\ePressMedia 3_5_1\KNN.Core\obj\Debug\EPM.Core.pdb

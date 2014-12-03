@@ -1,0 +1,81 @@
+2014-10-01 21:55:36,961 [13] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Article/view.aspx?p=53&aid=41544
+Raw Url : /Article/view.aspx?p=53&aid=41544
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_view_aspx.ProcessRequest(HttpContext context) in c:\Users\Justin\AppData\Local\Temp\Temporary ASP.NET Files\vs\c1692077\ab7610dd\App_Web_view.aspx.c7c2cb9d.2qsftbpf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : The ObjectScope has already been disposed and it's managed persistent objects can no longer be accessed. The ObjectScope should be disposed at the end of the life cycle of your business logic instance. This can also be done in the Dispose of your ASP page or MVC controller.
+Object name: 'OpenAccessRuntime.EnlistableObjectScope'.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at OpenAccessRuntime.ObjectScope.CheckNotDisposed()
+   at OpenAccessRuntime.ObjectScope.Telerik.OpenAccess.SPI.IExtendedObjectScope.get_ShouldLogExpressions()
+   at Telerik.OpenAccess.Query.ExtentQueryImpl`1.Telerik.OpenAccess.Query.ExecutionSettings.get_ShouldLogExpressions()
+   at Telerik.OpenAccess.Query.ExpressionCutter.CutAndExecute(Expression expression, ExecutionSettings settings, Expression whole)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.OpenAccess.Query.Piece`1.System.Collections.IEnumerable.GetEnumerator()
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Controls_RecentMultiThreads.LoadContent() in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\RecentMultiThreads.ascx.cs:line 106
+   at Controls_RecentMultiThreads.Page_Load(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\RecentMultiThreads.ascx.cs:line 41
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void CheckNotDisposed()
+
+ 2014-10-01 21:59:24,268 [40] ERROR Article_ArticleList d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ListView\ArticleList.ascx.cs:207 [(null)] - The ObjectScope has already been disposed and it's managed persistent objects can no longer be accessed. The ObjectScope should be disposed at the end of the life cycle of your business logic instance. This can also be done in the Dispose of your ASP page or MVC controller.
+Object name: 'OpenAccessRuntime.EnlistableObjectScope'.
+ 2014-10-01 21:59:24,449 [40] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Article/view.aspx?p=53&aid=41544
+Raw Url : /Article/view.aspx?p=53&aid=41544
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_view_aspx.ProcessRequest(HttpContext context) in c:\Users\Justin\AppData\Local\Temp\Temporary ASP.NET Files\vs\c1692077\ab7610dd\App_Web_view.aspx.c7c2cb9d.tg7piivd.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : The ObjectScope has already been disposed and it's managed persistent objects can no longer be accessed. The ObjectScope should be disposed at the end of the life cycle of your business logic instance. This can also be done in the Dispose of your ASP page or MVC controller.
+Object name: 'OpenAccessRuntime.EnlistableObjectScope'.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at OpenAccessRuntime.ObjectScope.CheckNotDisposed()
+   at OpenAccessRuntime.ObjectScope.Telerik.OpenAccess.SPI.IExtendedObjectScope.get_ShouldLogExpressions()
+   at Telerik.OpenAccess.Query.ExtentQueryImpl`1.Telerik.OpenAccess.Query.ExecutionSettings.get_ShouldLogExpressions()
+   at Telerik.OpenAccess.Query.ExpressionCutter.CutAndExecute(Expression expression, ExecutionSettings settings, Expression whole)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.OpenAccess.Query.Piece`1.System.Collections.IEnumerable.GetEnumerator()
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Controls_RecentMultiThreads.LoadContent() in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\RecentMultiThreads.ascx.cs:line 106
+   at Controls_RecentMultiThreads.Page_Load(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\RecentMultiThreads.ascx.cs:line 41
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void CheckNotDisposed()
+
+ 

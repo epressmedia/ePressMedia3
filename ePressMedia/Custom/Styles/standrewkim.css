@@ -1,0 +1,544 @@
+body, *{
+font-size: 12px;
+font-family: "굴림",Gulim,AppleGothic,sans-serif;
+}
+
+#menuBar
+{
+display: none;
+}
+
+#mainMenu, #ctl00_Menu_Menu_ascx_3_RadMenu1
+{
+background:url(/Pics/design/menu_bg_1.png);
+height: 42px;
+text-align: center;
+line-height: 42px;
+width:770px
+}
+
+#ctl00_Menu_page_Menu_ascx_2_wrapper
+{
+margin-top: -48px;
+}
+
+#contentWrap, .MasterPage_1131_frm
+{
+width: 1130px;
+}
+
+#rightPnl {
+width: 240px !important;
+float: right !important;
+margin-left: initial !important;
+
+}
+
+#mainPnl
+{
+width:645px !important;
+margin-right: 10px !important;
+margin-left:10px !important;
+}
+
+#leftPnl, .rightPnl, .MasterPage_11131_leftPnl 
+{
+width:210px !important;
+}
+
+#menuBar, .StdKNNMenu2_Container
+{
+position: relative;
+left: 300px;
+top: -65px;
+}
+
+#subMenu .menuPnl
+{
+width: 615px !important;
+
+}
+
+
+#subMenu span.sep {
+margin-left: -5px;
+}
+
+.menuPnl *
+{
+font-family: Gulim, 'Dotum';
+}
+
+
+.menuPnl {
+width: 777px;
+margin: 0;
+}
+
+div.poster
+{
+position:initial;
+}
+
+.MissaTime a
+{
+color: white;
+}
+.MissaTime
+{
+background: #0079c1;
+width: 238px;
+border-radius: 5px;
+border: 1px solid rgb(0, 75, 119);
+}
+
+.MissaTime_Text
+{
+line-height: 20px;
+padding: 20px;
+}
+
+.R_banner
+{
+margin:5px 0;
+}
+
+th.label
+{
+background-color: #0079c1;
+}
+
+input[type=submit], input[type=button]
+{
+border: 1px solid #0079cc;
+background-color: #0079c1;
+}
+
+.MultiImageArticleSummary_repCaro
+{
+width: 590px;
+overflow: hidden;
+}
+
+.MultiImageArticleSummary_repSec img
+{
+height: 100px !important;
+width: 100px !important;
+}
+
+.MultiImageArticleSummary_repSec {
+margin: 0px 5px;
+width: 100px;
+}
+
+
+#LeftBarContent_ascx_2_Container {
+width: 190px;
+float: left;
+background: rgb(219, 219, 219);
+border-radius: 7px;
+padding: 18px 7px;
+border: 1px solid rgb(117, 117, 117);
+min-height: 150px;
+margin-bottom: 5px;
+height: 160px;
+}
+
+.AfterLoginPanel_UserAccount
+{
+float: left;
+margin-left: 15px;
+}
+.AfterLoginPanel_Welcome
+{
+font-size: 15pt;
+color: black;
+margin: 30px 0px 10px 13px;
+font-weight: bold;
+}
+.AfterLoginPanel_username
+{
+font-size: 10pt;
+margin: 0;
+color: black;
+margin-bottom: 23px;
+text-align: right;
+float: left;
+margin-left: 130px;
+}
+
+.AfterLoginPanel_username_postfix
+{
+float: right;
+}
+
+
+.myaccount_button
+{
+font-size: 9pt;
+border: none !important;
+height: 30px;
+padding: 2px 5px !important;
+}
+.logout_button
+{
+margin-left: 13px;
+font-size: 9pt;
+border: none !important;
+height: 30px;
+}
+.AfterLoginPanel_Links
+{
+margin: 10px;
+clear: both;
+}
+.LoginPanel_Container
+{
+line-height: 20px;
+}
+.login_links a
+{
+float: left;
+}
+.signup_button 
+{
+background-color: rgb(136, 136, 136);
+padding: 3px 56px;
+top: 10px;
+font-size: 13px;
+color: white;
+font-weight: bold;
+}
+.login_links a:nth-child(3)
+{
+background-color: rgb(136, 136, 136);
+color: white;
+margin-top: 5px;
+padding: 5px 35px;
+font-size: 11px;
+letter-spacing: -1px;
+}
+
+.loginpanel_lostusername_link, .loginpanel_lostpassword_link
+{
+display:none;
+}
+
+div.login_button {
+float: right;
+position: relative;
+top: -78px;
+}
+input.login_button {
+border: none;
+background: url(/Pics/design/login_BT_1.jpg);
+position: relative;
+height: 55px;
+width: 58px;
+padding: 0px;
+}
+
+.login_links
+{
+float: left;
+top: -51px;
+position: relative;
+}
+
+.siBox {
+border: 0 !important;
+width: 186px!important;
+text-align: left!important;
+line-height: 20px!important;
+padding: 0!important;
+margin-top: 0!important;
+background:none !important;
+}
+
+.footer_design
+{
+background: url(/Pics/design/footer_img.jpg);
+width: 100%;
+}
+
+.footer_text
+{
+line-height: 25px;
+padding:0 25px
+}
+
+.StdMenu2 .rmItem > a.rmRootLink
+{
+font-size: 12px;
+}
+
+#ctl00_Menu_Menu_ascx_3_RadMenu1 span
+{
+line-height: 24px;
+}
+
+#ctl00_LeftBarContent_LeftBarContent_ascx_2_txt_Password, #ctl00_LeftBarContent_LeftBarContent_ascx_2_txt_UserName
+{
+width: 110px;
+}
+
+.RadMenu_Default .rmSlide {
+margin-top: 10px;
+}
+.news_article_headtext {
+padding: 10px 10px 7px 20px;
+font-size: 16px;
+font-weight: bold;
+color: white;
+background: #0079c1;
+height: 19px;
+}
+.samok_headtext {
+padding: 10px 10px 7px 20px;
+font-size: 16px;
+font-weight: bold;
+color: white;
+background: rgb(160, 160, 160);
+height: 19px;
+}
+.RecentMultiArticles_Header span, .MultiImageArticleSummary_Header span
+{
+color: white;
+font-size: 16px;
+}
+
+#ctl00_LeftBarContent_LeftBarContent_ascx_3_Calendar1 {
+height: 200px;
+}
+
+
+.ArticleSummaryList_Container
+{
+margin: 10px;
+}
+
+.RecentMultiArticles_Header img {
+padding-top: 10px;
+display: block;
+float: left;
+margin-top: -31px;
+}
+
+#LeftBarContent_ascx_9_Container
+ {
+margin-top: 22px;
+}
+
+.ArticleSummaryList_smallart a, .ArticleSummaryList_title {
+font-size: 16px;
+letter-spacing: -1px;
+line-height: 22px;
+font-weight: bold;
+color: #333;
+font-weight: bold;
+}
+
+.RecentMultiArticles_Header, .MultiImageArticleSummary_Header
+{
+font-size: 15px;
+line-height: 19px;
+word-spacing: -5px;
+padding: 10px 10px 7px 20px;
+font-weight: bold;
+color: white;
+background: #0079c1;
+height: 19px;
+}
+
+#LeftBarContent_ascx_9_Container .RecentMultiArticles_Header
+{
+font-size: 15px;
+height: 30px;
+line-height: 30px;
+padding: 0;
+color: #344056;
+font-weight: bold;
+word-spacing: -5px;
+background: none;
+}
+
+.RecentMultiArticles_container
+{
+width: 320px;
+}
+
+.RadMenu_Default .rmGroup a.rmLink, .RadMenu_Default .rmGroup .rmText, .RadMenu_Default .rmGroup .rmItem a.rmDisabled, .RadMenu_Default .rmGroup .rmItem a.rmDisabled:hover, .RadMenu_Default .rmGroup .rmItem a.rmDisabled .rmText, .RadMenu_Default .rmGroup .rmItem a.rmDisabled:hover .rmText {
+background-position: 0 500px;
+background-repeat: no-repeat;
+background-color: transparent;
+}
+
+.RadMenu ul.rmActive, .RadMenu ul.rmRootGroup
+{
+margin: 5px !important;
+}
+
+.rmSlide
+{
+width: 120px;
+}
+
+.RadMenu_Default a.rmLink {
+color: White !important;
+font-size: 11px !important;
+text-align: left;
+}
+
+.RadMenu_Default .rmGroup, .RadMenu_Default .rmMultiColumn, .RadMenu_Default .rmGroup .rmVertical {
+border: 1px solid rgb(231, 231, 231) !important;
+background: rgb(170, 170, 170) !important;
+}
+
+.rmItem span
+{
+font-weight:bold;
+}
+
+.theme-default .nivoSlider img {
+position: absolute;
+top: 0px;
+left: 0px;
+display: none;
+border-radius: 10px;
+}
+
+#LeftBarContent_ascx_9_Container .RecentMultiArticles_container
+{
+width: 210px;
+}
+
+#frm, .menuPnl {
+width: 1130px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.KNNDefaultSideSubMenu_Header span {
+font-size: 15pt;
+font-weight: bold;
+}
+
+.missa_info
+{
+float:left;
+line-height:20px;
+margin: 0 10px;
+}
+.missa_pic
+{
+float:right;
+margin: 0 10px;
+}
+   .RadMenu_Default a.rmLink:hover, .RadMenu_Default a.rmFocused, .RadMenu_Default a.rmSelected
+{
+background-color: transparent !important;
+}
+
+a.rmSelected
+{
+    background-color: transparent !important;
+}
+
+#ctl00_Menu_Menu_ascx_3_RadMenu1 span {
+padding: 0 25px;
+}
+
+.LoginLinkLine_Container
+{
+padding: 20px 0;
+text-align: center;
+background: #0079c1;
+border: 1px solid rgb(1, 67, 107);
+color: white;
+border-radius: 10px;
+margin:10px 0;
+}
+
+.LoginLinkLine_Container a
+{
+color: white;
+}
+
+.theYear_menu
+{
+padding: 10px;
+}
+
+.theYear_menu a:hover
+{
+color: orange;
+font-weight: bold;
+}
+.theYear_menu a
+{
+color: white;
+font-weight: bold;
+}
+.Year_bt
+{
+float: left;
+background: darkgray;
+padding: 12px;
+border-radius: 7px;
+margin:5px;
+}
+.history_pics, .sundayschool_pic, .youthgroup_pics
+{
+text-align: center;
+}
+
+.youthgroup_pics img
+{
+width:640px;
+}
+
+.history_pics img
+{
+width:300px
+}
+
+.history span, .sundayschool span, .youtugroup span
+{
+font-family: "굴림" !important;
+color: #666 !important;
+}
+
+.history tr, .sundayschool tr, .youtugroup tr
+{
+height: 25px;
+line-height: 25px;
+}
+
+.history, .sundayschool, .youtugroup
+{
+margin: 0 15px;
+}
+
+.picBox
+{
+margin: 10px 15px;
+}
+
+.samok
+{
+float: left;
+width: 310px;
+margin: 5px;
+border: 1px solid darkgray;
+}
+.samok_group
+{
+text-align: center;
+margin: 20px 0;
+}
+
+#RightBarContent_ascx_3_Container .ArticleSummaryList_smallart a, #RightBarContent_ascx_3_Container .ArticleSummaryList_title
+ {
+font-size: 14px;
+font-weight: initial;
+}

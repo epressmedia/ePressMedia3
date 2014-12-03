@@ -1,0 +1,37 @@
+D:\EPM\ePressMedia\EPM.Email\bin\Release\EPM.Email.dll
+D:\EPM\ePressMedia\EPM.Email\bin\Release\EPM.Email.pdb
+D:\EPM\ePressMedia\EPM.Email\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia\EPM.Email\bin\Release\log4net.dll
+D:\EPM\ePressMedia\EPM.Email\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia\EPM.Email\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia\EPM.Email\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia\EPM.Email\obj\Release\EPM.Email.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia\EPM.Email\obj\Release\EPM.Email.dll
+D:\EPM\ePressMedia\EPM.Email\obj\Release\EPM.Email.pdb
+D:\EPM\ePressMedia\EPM.Email\bin\Release\log4net.xml
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\EPM.Email.dll
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\EPM.Email.pdb
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\log4net.dll
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5\EPM.Email\obj\Release\EPM.Email.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5\EPM.Email\obj\Release\EPM.Email.dll
+D:\EPM\ePressMedia 3_5\EPM.Email\obj\Release\EPM.Email.pdb
+D:\EPM\ePressMedia 3_5\EPM.Email\bin\Release\log4net.xml
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\EPM.Email.dll
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\EPM.Email.pdb
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\log4net.xml
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5_1\EPM.Email\obj\Release\EPM.Email.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5_1\EPM.Email\obj\Release\EPM.Email.dll
+D:\EPM\ePressMedia 3_5_1\EPM.Email\obj\Release\EPM.Email.pdb
+D:\EPM\ePressMedia 3_5_1\EPM.Email\bin\Release\log4net.dll

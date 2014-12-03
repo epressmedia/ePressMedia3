@@ -1,0 +1,9 @@
+D:\EPM\ePressMedia 3_5\EPM.UDF\bin\Release\EPM.UDF.dll
+D:\EPM\ePressMedia 3_5\EPM.UDF\bin\Release\EPM.UDF.pdb
+D:\EPM\ePressMedia 3_5\EPM.UDF\obj\Release\EPM.UDF.dll
+D:\EPM\ePressMedia 3_5\EPM.UDF\obj\Release\EPM.UDF.pdb
+D:\EPM\ePressMedia 3_5_1\EPM.UDF\bin\Release\EPM.UDF.dll
+D:\EPM\ePressMedia 3_5_1\EPM.UDF\bin\Release\EPM.UDF.pdb
+D:\EPM\ePressMedia 3_5_1\EPM.UDF\obj\Release\EPM.UDF.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5_1\EPM.UDF\obj\Release\EPM.UDF.dll
+D:\EPM\ePressMedia 3_5_1\EPM.UDF\obj\Release\EPM.UDF.pdb

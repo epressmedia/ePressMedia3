@@ -1,0 +1,1038 @@
+2014-06-07 15:48:04,953 [16] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/Site/EmailTemplates.aspx
+Raw Url : /Cp/Site/EmailTemplates.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_site_emailtemplates_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_emailtemplates.aspx.b772068.8a58svq8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Insert of '1203893847-' failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+declare @generated_ids table([email_event_id] int)
+insert [Admin].[EmailEvents] ([body], [created_by], [created_dt], [description], [email_event_name], [modified_by], [modified_dt], [subject]) 
+output inserted.[email_event_id] into @generated_ids 
+ VALUES (?, ?, ?, ?, ?, ?, ?, ?) 
+select t.[email_event_id] 
+from @generated_ids as g join [Admin].[EmailEvents] as t on g.[email_event_id] = t.[email_event_id] 
+where @@ROWCOUNT > 0
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Admin.EmailTemplateController.AddEmailTemplate(String EmailEventName, String EmailEventDescr) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\Admin\EmailTemplateController.cs:line 44
+   at ePressMedia.Cp.Site.EmailTemplates.btn_add_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx.cs:line 97
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+TargetSite : Boolean execute(System.Nullable`1[System.Int32])
+
+ 2014-06-07 15:50:48,961 [17] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/Site/EmailTemplates.aspx
+Raw Url : /Cp/Site/EmailTemplates.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_site_emailtemplates_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_emailtemplates.aspx.b772068.wpdwr5af.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Insert of '1203893847-' failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+declare @generated_ids table([email_event_id] int)
+insert [Admin].[EmailEvents] ([body], [created_by], [created_dt], [description], [email_event_name], [modified_by], [modified_dt], [subject]) 
+output inserted.[email_event_id] into @generated_ids 
+ VALUES (?, ?, ?, ?, ?, ?, ?, ?) 
+select t.[email_event_id] 
+from @generated_ids as g join [Admin].[EmailEvents] as t on g.[email_event_id] = t.[email_event_id] 
+where @@ROWCOUNT > 0
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Admin.EmailTemplateController.AddEmailTemplate(String EmailEventName, String EmailEventDescr) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\Admin\EmailTemplateController.cs:line 44
+   at ePressMedia.Cp.Site.EmailTemplates.btn_add_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx.cs:line 97
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+TargetSite : Boolean execute(System.Nullable`1[System.Int32])
+
+ 2014-06-07 16:02:31,971 [17] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/Site/EmailTemplates.aspx
+Raw Url : /Cp/Site/EmailTemplates.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_site_emailtemplates_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_emailtemplates.aspx.b772068.iwmncq2w.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Insert of '1203893847-' failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+declare @generated_ids table([email_event_id] int)
+insert [Admin].[EmailEvents] ([body], [created_by], [created_dt], [description], [email_event_name], [modified_by], [modified_dt], [subject]) 
+output inserted.[email_event_id] into @generated_ids 
+ VALUES (?, ?, ?, ?, ?, ?, ?, ?) 
+select t.[email_event_id] 
+from @generated_ids as g join [Admin].[EmailEvents] as t on g.[email_event_id] = t.[email_event_id] 
+where @@ROWCOUNT > 0
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Admin.EmailTemplateController.AddEmailTemplate(String EmailEventName, String EmailEventDescr) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\Admin\EmailTemplateController.cs:line 44
+   at ePressMedia.Cp.Site.EmailTemplates.btn_add_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx.cs:line 97
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+TargetSite : Boolean execute(System.Nullable`1[System.Int32])
+
+ 2014-06-10 20:39:52,726 [14] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/default.aspx
+Raw Url : /default.aspx
+Message : Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.cdcab7d2.b-kowx5m.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9351/
+	Path: /default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
+	ViewState: /wEPDwUKMTY1NDU2MTA1Mg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgJmD2QWAgIDD2QWCAIBDxYCHgVjbGFzcwUzY29udGVudFdyYXAgTWFzdGVyUGFnZV8xMTMxX2NvbnRlbnRXcmFwIG1haW5fbWFzdGVyFgoCAQ9kFgICBQ9kFgICAQ9kFgQCAQ8WAh4HVmlzaWJsZWhkAgMPZBYCAgEPDxYCHgRUZXh0BRFXZWxjb21lLCBlcG1hZG1pbmRkAgUPZBYEAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgcWDmYPZBYCAgEPFgQeBGhyZWYFHH4vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9MjgeBnRhcmdldAUFX3NlbGYWAmYPFQEM7IOd7Zmc7KCV67O0ZAIBD2QWAgIBDxYEHwUFIH4vQ2xhc3NpZmllZC9DbGFzc2lmaWVkLmFzcHg/cD0yHwYFBV9zZWxmFgJmDxUBDOq1rOyduOq1rOyngWQCAg9kFgICAQ8WBB8FBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTU0HwYFBV9zZWxmFgJmDxUBBuuJtOyKpGQCAw9kFgICAQ8WBB8FBR5+L0ZvcnVtL0ZvcnVtVGhyZWFkcy5hc3B4P3A9MTQfBgUFX3NlbGYWAmYPFQEM7Luk666k64uI7YuwZAIED2QWAgIBDxYEHwUFG34vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9Nh8GBQVfc2VsZhYCZg8VAQ/si5zslaDti4DsoJXrs7RkA...
+Source : 
+StackTrace : 
+TargetSite : 
+
+ 2014-06-10 20:39:52,853 [21] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/default.aspx
+Raw Url : /default.aspx
+Message : Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.cdcab7d2.b-kowx5m.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9351/
+	Path: /default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
+	ViewState: /wEPDwUKMTY1NDU2MTA1Mg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgJmD2QWAgIDD2QWCAIBDxYCHgVjbGFzcwUzY29udGVudFdyYXAgTWFzdGVyUGFnZV8xMTMxX2NvbnRlbnRXcmFwIG1haW5fbWFzdGVyFgoCAQ9kFgICBQ9kFgICAQ9kFgQCAQ8WAh4HVmlzaWJsZWhkAgMPZBYCAgEPDxYCHgRUZXh0BRFXZWxjb21lLCBlcG1hZG1pbmRkAgUPZBYEAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgcWDmYPZBYCAgEPFgQeBGhyZWYFHH4vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9MjgeBnRhcmdldAUFX3NlbGYWAmYPFQEM7IOd7Zmc7KCV67O0ZAIBD2QWAgIBDxYEHwUFIH4vQ2xhc3NpZmllZC9DbGFzc2lmaWVkLmFzcHg/cD0yHwYFBV9zZWxmFgJmDxUBDOq1rOyduOq1rOyngWQCAg9kFgICAQ8WBB8FBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTU0HwYFBV9zZWxmFgJmDxUBBuuJtOyKpGQCAw9kFgICAQ8WBB8FBR5+L0ZvcnVtL0ZvcnVtVGhyZWFkcy5hc3B4P3A9MTQfBgUFX3NlbGYWAmYPFQEM7Luk666k64uI7YuwZAIED2QWAgIBDxYEHwUFG34vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9Nh8GBQVfc2VsZhYCZg8VAQ/si5zslaDti4DsoJXrs7RkA...
+Source : 
+StackTrace : 
+TargetSite : 
+
+ 2014-06-10 20:39:52,923 [16] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/default.aspx
+Raw Url : /default.aspx
+Message : Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.cdcab7d2.b-kowx5m.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9351/
+	Path: /default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
+	ViewState: /wEPDwUKMTY1NDU2MTA1Mg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgJmD2QWAgIDD2QWCAIBDxYCHgVjbGFzcwUzY29udGVudFdyYXAgTWFzdGVyUGFnZV8xMTMxX2NvbnRlbnRXcmFwIG1haW5fbWFzdGVyFgoCAQ9kFgICBQ9kFgICAQ9kFgQCAQ8WAh4HVmlzaWJsZWhkAgMPZBYCAgEPDxYCHgRUZXh0BRFXZWxjb21lLCBlcG1hZG1pbmRkAgUPZBYEAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgcWDmYPZBYCAgEPFgQeBGhyZWYFHH4vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9MjgeBnRhcmdldAUFX3NlbGYWAmYPFQEM7IOd7Zmc7KCV67O0ZAIBD2QWAgIBDxYEHwUFIH4vQ2xhc3NpZmllZC9DbGFzc2lmaWVkLmFzcHg/cD0yHwYFBV9zZWxmFgJmDxUBDOq1rOyduOq1rOyngWQCAg9kFgICAQ8WBB8FBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTU0HwYFBV9zZWxmFgJmDxUBBuuJtOyKpGQCAw9kFgICAQ8WBB8FBR5+L0ZvcnVtL0ZvcnVtVGhyZWFkcy5hc3B4P3A9MTQfBgUFX3NlbGYWAmYPFQEM7Luk666k64uI7YuwZAIED2QWAgIBDxYEHwUFG34vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9Nh8GBQVfc2VsZhYCZg8VAQ/si5zslaDti4DsoJXrs7RkA...
+Source : 
+StackTrace : 
+TargetSite : 
+
+ 2014-06-10 20:39:52,972 [6] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/default.aspx
+Raw Url : /default.aspx
+Message : Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.cdcab7d2.b-kowx5m.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9351/
+	Path: /default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
+	ViewState: /wEPDwUKMTY1NDU2MTA1Mg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgJmD2QWAgIDD2QWCAIBDxYCHgVjbGFzcwUzY29udGVudFdyYXAgTWFzdGVyUGFnZV8xMTMxX2NvbnRlbnRXcmFwIG1haW5fbWFzdGVyFgoCAQ9kFgICBQ9kFgICAQ9kFgQCAQ8WAh4HVmlzaWJsZWhkAgMPZBYCAgEPDxYCHgRUZXh0BRFXZWxjb21lLCBlcG1hZG1pbmRkAgUPZBYEAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgcWDmYPZBYCAgEPFgQeBGhyZWYFHH4vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9MjgeBnRhcmdldAUFX3NlbGYWAmYPFQEM7IOd7Zmc7KCV67O0ZAIBD2QWAgIBDxYEHwUFIH4vQ2xhc3NpZmllZC9DbGFzc2lmaWVkLmFzcHg/cD0yHwYFBV9zZWxmFgJmDxUBDOq1rOyduOq1rOyngWQCAg9kFgICAQ8WBB8FBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTU0HwYFBV9zZWxmFgJmDxUBBuuJtOyKpGQCAw9kFgICAQ8WBB8FBR5+L0ZvcnVtL0ZvcnVtVGhyZWFkcy5hc3B4P3A9MTQfBgUFX3NlbGYWAmYPFQEM7Luk666k64uI7YuwZAIED2QWAgIBDxYEHwUFG34vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9Nh8GBQVfc2VsZhYCZg8VAQ/si5zslaDti4DsoJXrs7RkA...
+Source : 
+StackTrace : 
+TargetSite : 
+
+ 2014-06-10 20:39:53,124 [20] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/default.aspx
+Raw Url : /default.aspx
+Message : Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.cdcab7d2.b-kowx5m.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9351/
+	Path: /default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
+	ViewState: /wEPDwUKMTY1NDU2MTA1Mg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgJmD2QWAgIDD2QWCAIBDxYCHgVjbGFzcwUzY29udGVudFdyYXAgTWFzdGVyUGFnZV8xMTMxX2NvbnRlbnRXcmFwIG1haW5fbWFzdGVyFgoCAQ9kFgICBQ9kFgICAQ9kFgQCAQ8WAh4HVmlzaWJsZWhkAgMPZBYCAgEPDxYCHgRUZXh0BRFXZWxjb21lLCBlcG1hZG1pbmRkAgUPZBYEAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgcWDmYPZBYCAgEPFgQeBGhyZWYFHH4vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9MjgeBnRhcmdldAUFX3NlbGYWAmYPFQEM7IOd7Zmc7KCV67O0ZAIBD2QWAgIBDxYEHwUFIH4vQ2xhc3NpZmllZC9DbGFzc2lmaWVkLmFzcHg/cD0yHwYFBV9zZWxmFgJmDxUBDOq1rOyduOq1rOyngWQCAg9kFgICAQ8WBB8FBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTU0HwYFBV9zZWxmFgJmDxUBBuuJtOyKpGQCAw9kFgICAQ8WBB8FBR5+L0ZvcnVtL0ZvcnVtVGhyZWFkcy5hc3B4P3A9MTQfBgUFX3NlbGYWAmYPFQEM7Luk666k64uI7YuwZAIED2QWAgIBDxYEHwUFG34vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9Nh8GBQVfc2VsZhYCZg8VAQ/si5zslaDti4DsoJXrs7RkA...
+Source : 
+StackTrace : 
+TargetSite : 
+
+ 2014-06-10 20:39:53,348 [12] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/default.aspx
+Raw Url : /default.aspx
+Message : Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.cdcab7d2.b-kowx5m.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9351/
+	Path: /default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
+	ViewState: /wEPDwUKMTY1NDU2MTA1Mg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgJmD2QWAgIDD2QWCAIBDxYCHgVjbGFzcwUzY29udGVudFdyYXAgTWFzdGVyUGFnZV8xMTMxX2NvbnRlbnRXcmFwIG1haW5fbWFzdGVyFgoCAQ9kFgICBQ9kFgICAQ9kFgQCAQ8WAh4HVmlzaWJsZWhkAgMPZBYCAgEPDxYCHgRUZXh0BRFXZWxjb21lLCBlcG1hZG1pbmRkAgUPZBYEAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgcWDmYPZBYCAgEPFgQeBGhyZWYFHH4vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9MjgeBnRhcmdldAUFX3NlbGYWAmYPFQEM7IOd7Zmc7KCV67O0ZAIBD2QWAgIBDxYEHwUFIH4vQ2xhc3NpZmllZC9DbGFzc2lmaWVkLmFzcHg/cD0yHwYFBV9zZWxmFgJmDxUBDOq1rOyduOq1rOyngWQCAg9kFgICAQ8WBB8FBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTU0HwYFBV9zZWxmFgJmDxUBBuuJtOyKpGQCAw9kFgICAQ8WBB8FBR5+L0ZvcnVtL0ZvcnVtVGhyZWFkcy5hc3B4P3A9MTQfBgUFX3NlbGYWAmYPFQEM7Luk666k64uI7YuwZAIED2QWAgIBDxYEHwUFG34vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9Nh8GBQVfc2VsZhYCZg8VAQ/si5zslaDti4DsoJXrs7RkA...
+Source : 
+StackTrace : 
+TargetSite : 
+
+ 2014-06-10 21:04:53,772 [53] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/default.aspx
+Raw Url : /default.aspx?
+Message : Unexpected end of file looking for </telerik:RadAjaxLoadingPanel> tag.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.HandlePostParse()
+   at System.Web.UI.TemplateControlParser.HandlePostParse()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at EPM.Core.EPMPageRender.LoadASCX(XElement control, Control placeholderControl, Page page, XmlDocument control_node, String control_id, String control_src, String cont_name, String control_seq, String control_name, Boolean preview, Boolean adminMode, Boolean master) in d:\EPM\ePressMedia 3_5_1\KNN.Core\EPMPageRender.cs:line 172
+   at EPM.Core.EPMPageRender.PageRender(String xml_setting, Boolean preview, Boolean adminMode, Boolean master) in d:\EPM\ePressMedia 3_5_1\KNN.Core\EPMPageRender.cs:line 119
+   at EPM.Core.EPMBasePage.LoadPageControls(Int32 cat, ContentTypes contentType, UseForTypes useForType) in d:\EPM\ePressMedia 3_5_1\KNN.Core\EPMBasePage.cs:line 217
+   at _Default.Page_Load(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Default.aspx.cs:line 27
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_default.aspx.cdcab7d2.izgue2pf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ProcessException(System.Exception)
+
+ 2014-06-11 16:32:22,958 [21] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=4
+Raw Url : /CP/Form/FormEmail.aspx?formid=4
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.z6svgbtq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Query execution did not find a matching element.
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute[TResult](Expression expr)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at ePressMedia.Cp.Form.FormEmail.chk_selectfromudf_CheckedChanged(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 246
+   at System.Web.UI.WebControls.CheckBox.OnCheckedChanged(EventArgs e)
+   at System.Web.UI.WebControls.CheckBox.RaisePostDataChangedEvent()
+   at System.Web.UI.WebControls.CheckBox.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+
+ 2014-06-11 16:32:35,152 [12] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=4
+Raw Url : /CP/Form/FormEmail.aspx?formid=4
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.z6svgbtq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Query execution did not find a matching element.
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute[TResult](Expression expr)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at ePressMedia.Cp.Form.FormEmail.chk_selectfromudf_CheckedChanged(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 246
+   at System.Web.UI.WebControls.CheckBox.OnCheckedChanged(EventArgs e)
+   at System.Web.UI.WebControls.CheckBox.RaisePostDataChangedEvent()
+   at System.Web.UI.WebControls.CheckBox.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+
+ 2014-06-11 16:34:26,775 [24] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/page/page.aspx?pg=23
+Raw Url : /page/formtest
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.page_page_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_page.aspx.a003eb5b.erjhjqnp.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Controls.Form.CustomForm.LoadUDFPanel() in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Form\CustomForm.ascx.cs:line 51
+   at ePressMedia.Controls.Form.CustomForm.Page_Load(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Form\CustomForm.ascx.cs:line 20
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void LoadUDFPanel()
+
+ 2014-06-11 16:35:29,075 [22] ERROR EPM.Email.EmailHelper d:\EPM\ePressMedia 3_5_1\EPM.Email\EmailSender.cs:170 [(null)] - An invalid character was found in the mail header: ';'.
+ 2014-06-11 16:36:48,034 [14] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=4
+Raw Url : /CP/Form/FormEmail.aspx?formid=4
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.z6svgbtq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Query execution found more than one element.
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute[TResult](Expression expr)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 137
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridEditFormItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at Telerik.Web.UI.GridTableViewBase.get_Controls()
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+
+ 2014-06-11 16:44:09,089 [19] ERROR EPM.Email.EmailHelper d:\EPM\ePressMedia 3_5_1\EPM.Email\EmailSender.cs:170 [(null)] - An invalid character was found in the mail header: ';'.
+ 2014-06-11 16:48:17,971 [24] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=4
+Raw Url : /CP/Form/FormEmail.aspx?formid=4
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.z6svgbtq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Query execution found more than one element.
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute[TResult](Expression expr)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 137
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.RadGrid.CallOnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridEditFormItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at Telerik.Web.UI.GridTableViewBase.get_Controls()
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+
+ 2014-06-11 16:48:21,413 [24] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=4
+Raw Url : /CP/Form/FormEmail.aspx?formid=4
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.z6svgbtq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Query execution found more than one element.
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute[TResult](Expression expr)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 137
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.RadGrid.CallOnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridEditFormItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at Telerik.Web.UI.GridTableViewBase.get_Controls()
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+
+ 2014-06-11 16:48:27,851 [22] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=4
+Raw Url : /CP/Form/FormEmail.aspx?formid=4
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.z6svgbtq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Query execution found more than one element.
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute[TResult](Expression expr)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 137
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.RadGrid.CallOnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridEditFormItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at Telerik.Web.UI.GridTableViewBase.get_Controls()
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+
+ 2014-06-11 16:48:59,334 [24] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Form/FormEmail.aspx?formid=4
+Raw Url : /CP/Form/FormEmail.aspx?formid=4
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_form_formemail_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_formemail.aspx.de9f372a.z6svgbtq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Query execution found more than one element.
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute[TResult](Expression expr)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at ePressMedia.Cp.Form.FormEmail.Email_List_ItemCreated(Object sender, GridItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx.cs:line 137
+   at Telerik.Web.UI.RadGrid.OnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.RadGrid.CallOnItemCreated(GridItemEventArgs e)
+   at Telerik.Web.UI.GridEditFormItem.SetupItem(Boolean dataBind, Object dataItem, GridColumn[] columns, ControlCollection rows)
+   at Telerik.Web.UI.GridItemBuilder.CreateItems(GridGroupingContext group)
+   at Telerik.Web.UI.GridTableView.CreateItems(IEnumerator enumerator, GridColumn[] columns, ControlCollection controls)
+   at Telerik.Web.UI.GridTableView.CreateControlHierarchy(Boolean useDataSource)
+   at Telerik.Web.UI.GridTableView.CreateChildControls(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at Telerik.Web.UI.GridTableViewBase.get_Controls()
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+
+ 2014-06-12 21:44:53,633 [19] ERROR ePressMedia.Controls.Forum.DetailView.ForumDetail d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\DetailView\ForumDetail.ascx.cs:98 [(null)] - Row not found: GenericOID@b4d7410d ForumThread ThreadId=10125
+UPDATE [Forum].[ForumThreads] SET [ViewCount] = ? WHERE [ThreadId] = ? AND [ViewCount] = ?
+(set event logging to all to see parameter values)
+ 2014-06-12 21:54:22,967 [15] ERROR ePressMedia.Controls.Forum.DetailView.ForumDetail d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\DetailView\ForumDetail.ascx.cs:98 [(null)] - Row not found: GenericOID@b4d7410d ForumThread ThreadId=10125
+UPDATE [Forum].[ForumThreads] SET [ViewCount] = ? WHERE [ThreadId] = ? AND [ViewCount] = ?
+(set event logging to all to see parameter values)
+ 2014-06-12 22:09:12,031 [22] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Forum/view.aspx?p=14&page=1&tid=10125
+Raw Url : /Forum/view.aspx?p=14&page=1&tid=10125
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.forum_view_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_view.aspx.bf94b8ff.xdpeoxfi.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Unable to cast object of type 'System.Web.UI.WebControls.Button' to type 'System.Web.UI.WebControls.LinkButton'.
+Source : ePressMedia
+StackTrace :    at Controls_CommentPanel.CommentList_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\CommentPanel.ascx.cs:line 486
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Controls_CommentPanel.bindPage(Int32 pageNum) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\CommentPanel.ascx.cs:line 210
+   at Controls_CommentPanel.bindData() in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\CommentPanel.ascx.cs:line 173
+   at Controls_CommentPanel.Page_Load(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\CommentPanel.ascx.cs:line 113
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void CommentList_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-06-15 23:30:14,224 [7] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Login.aspx?ReturnUrl=/Cp/Comment/default.aspx
+Raw Url : /CP/Login.aspx?ReturnUrl=%2fCp%2fComment%2fdefault.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_login_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_login.aspx.42b4d82d.x1cpd2js.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Invalid object name 'voa_keygen'. Telerik.OpenAccess.RT.sql.SQLException: Invalid object name 'voa_keygen'. ---> System.Data.SqlClient.SqlException: Invalid object name 'voa_keygen'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.IsCached(Connection con, RelationalKeyGeneratorInfoCache infoCache, String tab, String kCol, String vCol, String key, Boolean& ret)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(String sequenceName, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(RelationalClass relationalClass, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.Init(Boolean full, ModelMetaData metaData, RelationalConnectionSource conSrc, Boolean hyperdrive, SqlDriver sqlDriver)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.Init(Boolean full, ModelMetaData metaData, RelationalConnectionSource conSrc, Boolean hyperdrive, SqlDriver sqlDriver)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.init(Boolean full)
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManagerFactory.init(Boolean full)
+   at OpenAccessRuntime.storagemanager.StorageManagerFactoryBuilder.createStorageManagerFactory()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp.createStorageManagerFactory()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryBase.init()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp.init()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp..ctor(PropertySet properties, Object classloader)
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp.getPersistenceManagerFactory(PropertySet props)
+   at OpenAccessRuntime.DataObjects.BootstrapPMF.getPersistenceManagerFactory(PropertySet props)
+   at OpenAccessRuntime.Helper.getPersistenceManagerFactory(PropertySet props)
+   at OpenAccessRuntime.DatabaseAdapter.AssertPersistenceManagerFactory(String usr, String password, Boolean open)
+   at OpenAccessRuntime.DatabaseAdapter.GetObjectScope(TransactionProvider provider)
+   at Telerik.OpenAccess.Database.GetObjectScope(TransactionProvider provider)
+   at Telerik.OpenAccess.OpenAccessContextBase.GetScope()
+   at Telerik.OpenAccess.OpenAccessContextBase.Add(Object entity)
+   at EPM.Core.AccountHelper.AddLoginHistory(String userName) in d:\EPM\ePressMedia 3_5_1\KNN.Core\Common\AccountHelper.cs:line 41
+   at ePressMedia.Cp.Login.BtnLogin_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Login.aspx.cs:line 58
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : Invalid object name 'voa_keygen'.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.IsCached(Connection con, RelationalKeyGeneratorInfoCache infoCache, String tab, String kCol, String vCol, String key, Boolean& ret)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(String sequenceName, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(RelationalClass relationalClass, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.Init(Boolean full, ModelMetaData metaData, RelationalConnectionSource conSrc, Boolean hyperdrive, SqlDriver sqlDriver)
+TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.String)
+Message : Invalid object name 'voa_keygen'.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-06-15 23:30:29,209 [39] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Login.aspx?ReturnUrl=/CP/default.aspx?
+Raw Url : /CP/Login.aspx?ReturnUrl=%2fCP%2fdefault.aspx%3f
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_login_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_login.aspx.42b4d82d.x1cpd2js.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Invalid object name 'voa_keygen'. Telerik.OpenAccess.RT.sql.SQLException: Invalid object name 'voa_keygen'. ---> System.Data.SqlClient.SqlException: Invalid object name 'voa_keygen'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.IsCached(Connection con, RelationalKeyGeneratorInfoCache infoCache, String tab, String kCol, String vCol, String key, Boolean& ret)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(String sequenceName, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(RelationalClass relationalClass, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.Init(Boolean full, ModelMetaData metaData, RelationalConnectionSource conSrc, Boolean hyperdrive, SqlDriver sqlDriver)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.Init(Boolean full, ModelMetaData metaData, RelationalConnectionSource conSrc, Boolean hyperdrive, SqlDriver sqlDriver)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.init(Boolean full)
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManagerFactory.init(Boolean full)
+   at OpenAccessRuntime.storagemanager.StorageManagerFactoryBuilder.createStorageManagerFactory()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp.createStorageManagerFactory()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryBase.init()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp.init()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp..ctor(PropertySet properties, Object classloader)
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp.getPersistenceManagerFactory(PropertySet props)
+   at OpenAccessRuntime.DataObjects.BootstrapPMF.getPersistenceManagerFactory(PropertySet props)
+   at OpenAccessRuntime.Helper.getPersistenceManagerFactory(PropertySet props)
+   at OpenAccessRuntime.DatabaseAdapter.AssertPersistenceManagerFactory(String usr, String password, Boolean open)
+   at OpenAccessRuntime.DatabaseAdapter.GetObjectScope(TransactionProvider provider)
+   at Telerik.OpenAccess.Database.GetObjectScope(TransactionProvider provider)
+   at Telerik.OpenAccess.OpenAccessContextBase.GetScope()
+   at Telerik.OpenAccess.OpenAccessContextBase.Add(Object entity)
+   at EPM.Core.AccountHelper.AddLoginHistory(String userName) in d:\EPM\ePressMedia 3_5_1\KNN.Core\Common\AccountHelper.cs:line 41
+   at ePressMedia.Cp.Login.BtnLogin_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Login.aspx.cs:line 58
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : Invalid object name 'voa_keygen'.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.IsCached(Connection con, RelationalKeyGeneratorInfoCache infoCache, String tab, String kCol, String vCol, String key, Boolean& ret)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(String sequenceName, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(RelationalClass relationalClass, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.Init(Boolean full, ModelMetaData metaData, RelationalConnectionSource conSrc, Boolean hyperdrive, SqlDriver sqlDriver)
+TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.String)
+Message : Invalid object name 'voa_keygen'.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-06-15 23:30:51,597 [39] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/Login.aspx?ReturnUrl=/CP/default.aspx?
+Raw Url : /CP/Login.aspx?ReturnUrl=%2fCP%2fdefault.aspx%3f
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_login_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_login.aspx.42b4d82d.x1cpd2js.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Invalid object name 'voa_keygen'. Telerik.OpenAccess.RT.sql.SQLException: Invalid object name 'voa_keygen'. ---> System.Data.SqlClient.SqlException: Invalid object name 'voa_keygen'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.IsCached(Connection con, RelationalKeyGeneratorInfoCache infoCache, String tab, String kCol, String vCol, String key, Boolean& ret)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(String sequenceName, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(RelationalClass relationalClass, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.Init(Boolean full, ModelMetaData metaData, RelationalConnectionSource conSrc, Boolean hyperdrive, SqlDriver sqlDriver)
+Source : Telerik.OpenAccess
+StackTrace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.Init(Boolean full, ModelMetaData metaData, RelationalConnectionSource conSrc, Boolean hyperdrive, SqlDriver sqlDriver)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.init(Boolean full)
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManagerFactory.init(Boolean full)
+   at OpenAccessRuntime.storagemanager.StorageManagerFactoryBuilder.createStorageManagerFactory()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp.createStorageManagerFactory()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryBase.init()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp.init()
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp..ctor(PropertySet properties, Object classloader)
+   at OpenAccessRuntime.DataObjects.PersistenceManagerFactoryImp.getPersistenceManagerFactory(PropertySet props)
+   at OpenAccessRuntime.DataObjects.BootstrapPMF.getPersistenceManagerFactory(PropertySet props)
+   at OpenAccessRuntime.Helper.getPersistenceManagerFactory(PropertySet props)
+   at OpenAccessRuntime.DatabaseAdapter.AssertPersistenceManagerFactory(String usr, String password, Boolean open)
+   at OpenAccessRuntime.DatabaseAdapter.GetObjectScope(TransactionProvider provider)
+   at Telerik.OpenAccess.Database.GetObjectScope(TransactionProvider provider)
+   at Telerik.OpenAccess.OpenAccessContextBase.GetScope()
+   at Telerik.OpenAccess.OpenAccessContextBase.Add(Object entity)
+   at EPM.Core.AccountHelper.AddLoginHistory(String userName) in d:\EPM\ePressMedia 3_5_1\KNN.Core\Common\AccountHelper.cs:line 41
+   at ePressMedia.Cp.Login.BtnLogin_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Login.aspx.cs:line 58
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowException(System.Exception)
+Message : Invalid object name 'voa_keygen'.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.IsCached(Connection con, RelationalKeyGeneratorInfoCache infoCache, String tab, String kCol, String vCol, String key, Boolean& ret)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(String sequenceName, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at Telerik.OpenAccess.Runtime.KeyGenerator.HighLowRelationalKeyGenerator.init(RelationalClass relationalClass, Connection con, RelationalKeyGeneratorInfoCache relationalKeyGeneratorInfoCache)
+   at OpenAccessRuntime.Relational.RelationalStorageManagerFactory.Init(Boolean full, ModelMetaData metaData, RelationalConnectionSource conSrc, Boolean hyperdrive, SqlDriver sqlDriver)
+TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.String)
+Message : Invalid object name 'voa_keygen'.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeQuery(String sql)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-06-15 23:36:13,559 [20] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/CP/comment/default.aspx
+Raw Url : /CP/comment/default.aspx?
+Message : d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Comment\default.aspx(16): error CS1061: 'ASP.cp_comment_default_aspx' does not contain a definition for 'RadGrid1_ItemCommand' and no extension method 'RadGrid1_ItemCommand' accepting a first argument of type 'ASP.cp_comment_default_aspx' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+
+ 

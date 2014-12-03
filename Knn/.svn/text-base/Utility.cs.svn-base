@@ -1,0 +1,212 @@
+﻿using System; 
+using System.Configuration;
+using System.Drawing;
+using System.Drawing.Drawing2D; 
+using System.IO;
+using System.Text;
+using System.Web;
+
+namespace Knn
+{
+    public static class Utility
+    {
+        /// <summary>
+        /// 작업 결과에 따른 메시지를 javascript 의 alert() 를 이용해 표시하고 지정된 페이지로 이동한다.
+        /// </summary>
+        /// <param name="page">메시지가 표시될 System.Web.Ui.Page 의 인스턴스</param>
+        /// <param name="success">성공 여부. true:성공, false:실패</param>
+        /// <param name="successMessage">성공일 때 나타날 메시지</param>
+        /// <param name="failMessage">실패일 때 나타날 메시지</param>
+        /// <param name="redirectURL">메시지 표시 후 이동할 URL</param>
+        public static void RegisterJsResultAlert(System.Web.UI.Page page,
+            bool success, string successMessage, string failMessage, string redirectURL)
+        {
+            RegisterJsResultAlert(page, success, successMessage, failMessage, redirectURL, redirectURL);
+            /*
+            string key = "jsResult";
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("alert('");
+            sb.Append(success ? successMessage : failMessage);
+            sb.Append("');");
+
+            if (success && string.IsNullOrEmpty(redirectURL) != true)
+            {
+                sb.Append("document.location='");
+                sb.Append(redirectURL);
+                sb.Append("';");
+            }
+
+            if (page.ClientScript.IsClientScriptBlockRegistered(key) == false)
+                page.ClientScript.RegisterClientScriptBlock(page.GetType(), key, sb.ToString(), true); */
+        }
+
+        /// <summary>
+        /// 작업 결과에 따른 메시지를 javascript 의 alert() 를 이용해 표시하고 작업 결과에 따라 지정된 페이지로 이동한다.
+        /// </summary>
+        /// <param name="page">메시지가 표시될 System.Web.Ui.Page 의 인스턴스</param>
+        /// <param name="success">성공 여부. true:성공, false:실패</param>
+        /// <param name="successMessage">성공일 때 나타날 메시지</param>
+        /// <param name="failMessage">실패일 때 나타날 메시지</param>
+        /// <param name="successRedirURL">성공인 경우, 성공 메시지 표시 후 이동할 URL</param>
+        /// <param name="failRedirURL">실패인 경우, 실패 메시지 표시 후 이동할 URL</param>
+        public static void RegisterJsResultAlert(System.Web.UI.Page page,
+            bool success, string successMessage, string failMessage, string successRedirURL, string failRedirURL)
+        {
+            string key = "jsResult";
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("alert('");
+            sb.Append(success ? successMessage : failMessage);
+            sb.Append("');");
+
+            if (success && string.IsNullOrEmpty(successRedirURL) != true)
+            {
+                sb.Append("document.location='");
+                sb.Append(successRedirURL);
+                sb.Append("';");
+            }
+            else if (!success && !string.IsNullOrEmpty(failRedirURL))
+            {
+                sb.Append("document.location='");
+                sb.Append(failRedirURL);
+                sb.Append("';");
+            }
+
+
+            if (page.ClientScript.IsClientScriptBlockRegistered(key) == false)
+                page.ClientScript.RegisterClientScriptBlock(page.GetType(), key, sb.ToString(), true);
+        }
+
+        /// <summary>
+        /// Display message using JavaScript alert() function.
+        /// </summary>
+        /// <param name="page">An instance of System.Web.UI.Page which hosts javacript alert in.</param>
+        /// <param name="message"></param>
+        public static void RegisterJsAlert(System.Web.UI.Page page, string message)
+        {
+            string key = "jsAlert";
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("alert('");
+            sb.Append(message);
+            sb.Append("');");
+
+            if (page.ClientScript.IsClientScriptBlockRegistered(key) == false)
+                page.ClientScript.RegisterClientScriptBlock(page.GetType(), key, sb.ToString(), true);
+        }
+
+        /// <summary>
+        /// Truncate a string by word boundary. 지정된 길이로 문자열을 자르되, 단어 가운데에서 잘리지 않도록 한다.
+        /// </summary>
+        /// <param name="str">잘라질 문자열</param>
+        /// <param name="length">길이</param>
+        /// <returns>잘라진 문자열. 마지막에 ... 이 덧붙여진다</returns>
+        public static string TruncateStringByWord(string str, int length)
+        {
+            int lowerBound, upperBound;
+
+            if (str.Length <= length)
+                return str;
+
+            lowerBound = length / 2;
+            upperBound = length + length / 4;
+
+            for (int i = length - 1; i > lowerBound; i--)
+            {
+                if (char.IsWhiteSpace(str[i]))
+                    return str.Substring(0, i) + "...";
+            }
+
+            for (int i = length; i < upperBound; i++)
+            {
+                if (char.IsWhiteSpace(str[i]))
+                    return str.Substring(0, i) + "...";
+            }
+
+            return str.Substring(0, length) + "...";
+
+        }
+
+        /// <summary>
+        /// 안전한 파일 저장을 위해 중복되지 않은 파일명을 얻는다. 
+        /// </summary>
+        /// <param name="filePath">저장할 파일명</param>
+        /// <returns>해당 파일이 존재하지 않으면 filePath 와 같은 내용의 문자열을 리턴한다. 
+        /// 해당 파일이 존재하면존재한다면 '경로/파일명_숫자.확장자' 형식의 이름을 리턴한다.</returns>
+        public static string GetSafeFileName(string filePath)
+        {
+            int i = 1;
+            string newName = filePath;
+            while (File.Exists(newName))
+            {
+                newName = Path.GetDirectoryName(filePath) + "\\" +
+                           Path.GetFileNameWithoutExtension(filePath) +
+                           "_" + i + Path.GetExtension(filePath);
+                i++;
+            }
+
+            return newName;
+        }
+
+        /// <summary>
+        /// 안전한 파일 저장을 위해 중복되지 않은 파일명을 얻는다. 
+        /// </summary>
+        /// <param name="directory">저장할 디렉토리명</param>
+        /// <param name="filePath">저장할 파일명</param>
+        /// <returns>해당 파일이 존재하지 않으면 fileName 와 같은 내용의 문자열을 리턴한다. 
+        /// 해당 파일이 존재하면 같은 확장자를 가진 중복되지 않는 이름을 리턴한다.</returns>
+        public static string GetSafeFileName(string directory, string fileName)
+        {
+            if (!directory.EndsWith("\\"))
+                directory = directory + "\\";
+
+            string newName = fileName;
+
+            int i = 1;
+            while (File.Exists(directory + newName))
+            {
+                newName = Path.GetFileNameWithoutExtension(fileName) +
+                           "_" + i + Path.GetExtension(fileName);
+                i++;
+            }
+
+            return newName;
+        }
+
+
+        public static string GetDefaultErrorPage()
+        {
+            return "~/Error.aspx";
+        }
+
+        /// <summary>
+        /// 사용 금지된 이름인지 확인한다. 게시판 등의 작성자 이름 등에 사용가능한 명칭인지 확인한다.
+        /// 이 method 는 web.config 의 Application settings 에 정의된 'BlockedNames' 값을 이용한다.
+        /// </summary>
+        /// <param name="name">사용 금지된 이름이면 true, 사용 가능한 이름이면 false를 리턴한다.</param>
+        /// <returns></returns>
+        public static bool IsBlockedName(string name)
+        {
+            char[] dels = { ';' };
+
+            string[] blockedNames = ConfigurationManager.AppSettings["BlockedNames"].Split(dels);
+
+            foreach (string s in blockedNames)
+            {
+                if (name.ToLower().IndexOf(s.ToLower()) >= 0)
+                    return true;
+            }
+
+            return false;
+        }
+
+        public static bool TestTest()
+        {
+            return true;
+        }
+
+    }
+
+}
+

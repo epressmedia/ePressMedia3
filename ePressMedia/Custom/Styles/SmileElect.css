@@ -1,0 +1,204 @@
+body
+{
+background:#0071bb;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  #contentWrap, #frm, .menuPnl,#mainPnl,.footer  {
+    Width: 600px !important;
+  }
+  #Menu_ascx_2_Container
+{
+width: 100%;
+
+}
+#Head_Img_3_Container
+{
+    width:auto;
+    height:128px;
+}
+
+
+
+}
+
+@media screen and (min-width: 900px) {
+    #contentWrap, #frm, .menuPnl,#mainPnl  {
+    Width: 950px;
+  }
+  #Menu_ascx_2_Container
+{
+width: 575px;
+margin-left: 379px;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+  #contentWrap, #frm, .menuPnl,#mainPnl,.footer  {
+    Width: 300px !important;
+  }
+  #Menu_ascx_2_Container
+{
+width: 100%;
+
+}
+#Head_Img_3_Container
+{
+    width:auto;
+    height:128px;
+}
+}
+
+
+#contentWrap
+{
+background: url(/Pics/image/background.png) repeat-y center;
+/*width: 950px;*/
+box-shadow: none;
+padding: 0px;
+}
+
+#mainMenu
+{
+background:#333;
+
+}
+
+#subMenu a,#subMenu
+{
+color:white;
+height: 35px;
+line-height: 40px;
+
+}
+
+th.label
+{
+background-color: #333 ;
+}
+
+#mainPnl
+{
+/*width: 950px;*/
+}
+
+#Menu_ascx_2_Container
+{
+/*width: 575px;
+margin-left: 379px;*/
+}
+
+.menuPnl, #subMenu .menuPnl
+{
+width: 575px;
+font-family: Gulim;
+}
+
+#mainMenu a:hover, #subMenu a:hover
+{
+color:#f7941d;
+}
+
+#Head_ascx_2_Container
+{
+text-align: right;
+padding: 20px;
+margin-right: 10px;
+}
+
+#ctl00_Head_Head_ascx_2_user_name, #ctl00_Head_Head_ascx_2_btn_logout
+{
+color:white;
+}
+
+#menuBar
+{
+margin-top: -43px;
+}
+
+.MasterPage_1121_mainPnl
+{
+width:700px !important;
+background: white;
+}
+
+
+.brdCrmb
+{
+line-height: none !important;
+border-bottom: none !important;
+dotted none !important;
+margin-bottom:none !important;
+padding:15px;
+}
+
+.leftMenu {
+border: none !important;
+background: none 
+}
+
+.leftMenu li a
+{
+color:#fff
+}
+
+.KNNDefaultSideSubMenu_Header {
+border-bottom: none !important;
+margin-bottom: 5px;
+color: #f7941d;
+}
+
+.leftMenu a:hover
+{
+color:#999
+}
+
+.leftMenu li
+{
+border-top: 1px dotted #dbdbdb;
+}
+
+ul
+{
+width:175px;
+}
+
+.KNNDefaultSideSubMenu_Header span
+{
+font-size: 20px;
+font-family: Gulim;
+
+}
+
+
+.brdCrmb a, .brdCrmb
+{
+color: white;
+}
+
+#menuBar *, #leftPnl *
+{
+font-family: Gulim;
+}
+
+#ctl00_Content_page_Content_ascx_6_lbl_title, #ctl00_Content_page_Content_ascx_7_lbl_title
+{
+padding: 0 0 0 10px;
+font-family: gulim;
+font-size: 10pt;
+color: white;
+background: #333;
+width: 440px;
+}
+
+.RecentMultiArticles_itemcontainer {
+border: none;
+
+#ctl00_Content_page_Content_ascx_7_Repeater2_ctl01_lbl_contents
+{
+color: white;
+}
+
+
+

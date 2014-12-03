@@ -1,0 +1,36 @@
+﻿<root>
+  <tools name="MainToolbar" enabled="true">
+    <tool name="ToggleScreenMode" shortcut="F11"/>
+    <tool name="Cut" shortcut="CTRL+X"/>
+    <tool name="Copy" shortcut="CTRL+C"/>
+    <tool name="Paste" shortcut="CTRL+V"/>
+    <tool name="Undo" shortcut="CTRL+Z"/>
+    <tool name="Redo" shortcut="CTRL+Y"/>
+    <tool separator="true" />
+    <tool name="InsertTable" />
+    <tool name="InsertLink" />
+    <tool name="Unlink" shortcut="CTRL+SHIFT+K"/>
+  </tools>
+    <tools name="MainToolbar" enabled="true">
+      <tool name="Outdent" />
+      <tool name="Indent" />
+      <tool name="JustifyLeft" />
+    <tool name="JustifyRight" />
+    <tool name="JustifyFull" />
+      <tool name="JustifyCenter" />
+    
+    <tool separator="true" />
+    <tool name="Bold" shortcut="CTRL+B"/>
+    <tool name="Italic" shortcut="CTRL+I"/>
+    <tool name="Underline" shortcut="CTRL+U"/>
+    <tool name="StrikeThrough" />
+    <tool name="FontName"/>
+    <tool name="FontSize"/>
+    <tool name="ForeColor"/>
+  </tools>
+  <tools name="MediaToolbar" enable="true">
+    <tool name="InsertExternalVideo" text="Insert External Video"></tool>
+    <!--<tool name="ImageManager" text="Insert Image"></tool>-->
+    
+  </tools>
+</root>

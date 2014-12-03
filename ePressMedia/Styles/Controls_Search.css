@@ -1,0 +1,17 @@
+﻿.Search_srchMenu li { position:relative; background-color:#0155A7; width:100%; line-height:30pt; border:1px solid #fff; color:#fff; font-size:10pt; font-weight:bold; }
+.Search_srchMenu li.sel { background-color:#fff; color:#0155A7; }
+.Search_srchMenu li.sel a { color:#0155A7; } 
+.Search_srchMenu li.tsel { background-color:#ee0060; color:#fff; }
+.Search_srchMenu li a { color:#fff; margin-left:16px; font-size:10pt; }
+.Search_srchMenu li.tsel a { color:#fff; }
+.Search_srchMenu span { position:absolute; right:16px; }
+
+.Search_srchPnl { margin-left:16px; }
+a.Search_ttlLnk { font-size: 12pt;  color: #0155A7; display: block; text-decoration: underline;  } 
+.Search_srchRslt { margin: 6px; clear:both; height:1%; overflow:hidden; line-height:14pt;margin-bottom:15px; }
+.Search_srchRslt img { float:left; margin-right:6px; }
+.Search_srchDesc { line-height:16pt; }
+.Search_srchSec {  padding: 12px 0px 12px 0px; border-bottom: 1px dotted #0155A7; }
+.Search_srchSec h2 { font-size: 16pt; font-weight: bold; color: #0155A7; }
+.Search_ritePnl { text-align:right; }
+.Search_srchItem { padding-bottom:6px; border-bottom:1px dotted #dbdbdb; }

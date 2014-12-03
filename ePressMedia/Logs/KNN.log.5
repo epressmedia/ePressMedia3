@@ -1,0 +1,1061 @@
+2014-05-20 20:59:15,687 [17] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.0pjeotj-.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Delete failed: Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Row: GenericOID@6b057236 UDFGroup udf_group_id=3
+DELETE FROM [UDF].[UDFGroup] WHERE [udf_group_id] = ?
+(set event logging to all to see parameter values) Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.UDF.UDFGroupController.DeleteUDFGroup(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\UDF\UDFGroupController.cs:line 79
+   at ePressMedia.Cp.UDF.UDFGroup.btn_delete_group_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 116
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Exception Throw()
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-05-20 21:21:31,103 [5] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.mofuqxmn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Delete failed: Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Row: GenericOID@6b057236 UDFGroup udf_group_id=3
+DELETE FROM [UDF].[UDFGroup] WHERE [udf_group_id] = ?
+(set event logging to all to see parameter values) Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.UDF.UDFGroupController.DeleteUDFGroup(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\UDF\UDFGroupController.cs:line 79
+   at ePressMedia.Cp.UDF.UDFGroup.btn_delete_group_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 116
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Exception Throw()
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-05-20 21:21:32,854 [31] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.mofuqxmn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Delete failed: Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Row: GenericOID@6b057236 UDFGroup udf_group_id=3
+DELETE FROM [UDF].[UDFGroup] WHERE [udf_group_id] = ?
+(set event logging to all to see parameter values) Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.UDF.UDFGroupController.DeleteUDFGroup(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\UDF\UDFGroupController.cs:line 79
+   at ePressMedia.Cp.UDF.UDFGroup.btn_delete_group_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 116
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Exception Throw()
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-05-20 21:21:36,210 [35] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.mofuqxmn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Delete failed: Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Row: GenericOID@6b057236 UDFGroup udf_group_id=3
+DELETE FROM [UDF].[UDFGroup] WHERE [udf_group_id] = ?
+(set event logging to all to see parameter values) Telerik.OpenAccess.RT.sql.SQLException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.UDF.UDFGroupController.DeleteUDFGroup(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\EPM.Business.Model\UDF\UDFGroupController.cs:line 79
+   at ePressMedia.Cp.UDF.UDFGroup.btn_delete_group_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 116
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Exception Throw()
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.deleteRow(PreparedStatement ps, RelationalOID oid, String sql)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+Message : The DELETE statement conflicted with the REFERENCE constraint "ref_UDFAttachment_UDFGroup". The conflict occurred in database "seattlekcr_3_5", table "UDF.UDFAttachment", column 'udf_group_Id'.
+The statement has been terminated.
+Source : .Net SqlClient Data Provider
+StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+ 2014-05-21 20:03:42,966 [71] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:03:43,890 [68] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:03:44,697 [16] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:03:50,757 [18] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:04:28,685 [63] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:04:31,575 [16] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:05:15,546 [16] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:05:16,193 [57] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:05:16,634 [18] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:05:17,136 [63] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-21 20:05:17,290 [25] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-22 17:16:16,558 [14] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ai0npris.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_member_ItemDataBound(Object sender, RepeaterItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 74
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 41
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_member_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
+
+ 2014-05-22 17:16:45,972 [23] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.wt5k2bgx.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_members_ItemDataBound(Object sender, RadListViewItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 151
+   at Telerik.Web.UI.RadListView.OnItemDataBound(RadListViewItemEventArgs e)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.RadListView.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 45
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_members_ItemDataBound(System.Object, Telerik.Web.UI.RadListViewItemEventArgs)
+
+ 2014-05-22 17:18:10,199 [18] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ssaseogc.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_members_ItemDataBound(Object sender, RadListViewItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 151
+   at Telerik.Web.UI.RadListView.OnItemDataBound(RadListViewItemEventArgs e)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.RadListView.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 45
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_members_ItemDataBound(System.Object, Telerik.Web.UI.RadListViewItemEventArgs)
+
+ 2014-05-22 17:18:10,958 [21] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.ssaseogc.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_members_ItemDataBound(Object sender, RadListViewItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 151
+   at Telerik.Web.UI.RadListView.OnItemDataBound(RadListViewItemEventArgs e)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.RadListView.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 45
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_members_ItemDataBound(System.Object, Telerik.Web.UI.RadListViewItemEventArgs)
+
+ 2014-05-22 17:25:38,572 [6] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Object reference not set to an instance of an object.
+Source : ePressMedia
+StackTrace :    at ePressMedia.Cp.UDF.UDFGroup.rpt_members_ItemDataBound(Object sender, RadListViewItemEventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 151
+   at Telerik.Web.UI.RadListView.OnItemDataBound(RadListViewItemEventArgs e)
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.RadListView.DataBind()
+   at ePressMedia.Cp.UDF.UDFGroup.GetMemebers(Int32 UDFGroupId) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 45
+   at ePressMedia.Cp.UDF.UDFGroup.lbl_groupname_Click(Object sender, EventArgs e) in d:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx.cs:line 94
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void rpt_members_ItemDataBound(System.Object, Telerik.Web.UI.RadListViewItemEventArgs)
+
+ 2014-05-22 17:29:39,558 [5] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.b8k5hbpj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Please, see whether wrapping the code block, generating the exception, within RadCodeBlock resolves the error.
+Source : Telerik.Web.UI
+StackTrace :    at Telerik.Web.UI.RadAjaxControl.MoveUpdatePanel(Control initiator, Control updated)
+   at Telerik.Web.UI.RadAjaxControl.PerformRender()
+   at Telerik.Web.UI.RadAjaxControl.OnPageRender(HtmlTextWriter writer, Control page)
+   at Telerik.Web.UI.RadAjaxControl.RenderPageInAjaxMode(HtmlTextWriter writer, Control page)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void MoveUpdatePanel(System.Web.UI.Control, System.Web.UI.Control)
+Message : The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+Source : System.Web
+StackTrace :    at System.Web.UI.ControlCollection.AddAt(Int32 index, Control child)
+   at Telerik.Web.UI.RadAjaxControl.MoveUpdatePanel(Control initiator, Control updated)
+TargetSite : Void AddAt(Int32, System.Web.UI.Control)
+
+ 2014-05-22 17:30:29,013 [22] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5_1\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9351/Cp/UDF/UDFGroup.aspx
+Raw Url : /Cp/UDF/UDFGroup.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_udf_udfgroup_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c1692077\ab7610dd\App_Web_udfgroup.aspx.639b05d6.tksvhg8b.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Please, see whether wrapping the code block, generating the exception, within RadCodeBlock resolves the error.
+Source : Telerik.Web.UI
+StackTrace :    at Telerik.Web.UI.RadAjaxControl.MoveUpdatePanel(Control initiator, Control updated)
+   at Telerik.Web.UI.RadAjaxControl.PerformRender()
+   at Telerik.Web.UI.RadAjaxControl.OnPageRender(HtmlTextWriter writer, Control page)
+   at Telerik.Web.UI.RadAjaxControl.RenderPageInAjaxMode(HtmlTextWriter writer, Control page)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void MoveUpdatePanel(System.Web.UI.Control, System.Web.UI.Control)
+Message : The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+Source : System.Web
+StackTrace :    at System.Web.UI.ControlCollection.AddAt(Int32 index, Control child)
+   at Telerik.Web.UI.RadAjaxControl.MoveUpdatePanel(Control initiator, Control updated)
+TargetSite : Void AddAt(Int32, System.Web.UI.Control)
+
+ 

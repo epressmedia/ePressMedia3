@@ -1,0 +1,599 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.Text;
+using System.Web;
+
+using Knn;
+using Knn.Data;
+
+namespace Knn.Article
+{
+    //public enum ArticleFilter
+    //{
+    //    None = 0,
+    //    Title,
+    //    Body,
+    //    Reporter
+    //}
+
+    //public enum ArticleSort
+    //{
+    //    Title = 0,
+    //    IssueDate,
+    //    ViewCount,
+    //    Suspended,
+    //}
+
+    public class Article
+    {
+        //public string EmptyFilterValue { get { return string.Empty; } }
+
+        //static string[] filterFormat = 
+        //{ 
+        //    " {0}", 
+        //    " AND Title LIKE N'%{0}%'", 
+        //    " AND Body LIKE N'%{0}%'", 
+        //    " AND Reporter LIKE N'%{0}%'"
+        //};
+
+        //static string[] sortFormat = { "Title {0}", "Issudate {0}", "ViewCount {0}", "Suspended {0}" };
+
+        #region props
+
+        public string ShortTitle
+        {
+            get { return Utility.TruncateStringByWord(title, 16); }
+        }
+
+        public string ShortAbstract
+        {
+            get { return Utility.TruncateStringByWord(abstrac, 32); }
+        }
+
+        public string GetShortTitle(int maxLen)
+        {
+            if (title.Length <= maxLen)
+                return title;
+            else
+                return title.Substring(0, maxLen) + "...";
+        }
+
+        public string GetShortAbstract(int maxLen)
+        {
+            if (abstrac.Length <= maxLen)
+                return abstrac;
+            else
+                return abstrac.Substring(0, maxLen) + "...";
+        }
+
+        int articleId;
+        public int ArticleId
+        {
+            get { return articleId; }
+            set { articleId = value; }
+        }
+
+        string title;
+        public string Title
+        {
+            get { return title; }
+            set { title = value; }
+        }
+
+        string subTitle;
+        public string SubTitle
+        {
+            get { return subTitle; }
+            set { subTitle = value; }
+        }
+
+        string abstrac;
+        public string Abstract
+        {
+            get { return abstrac; }
+            set { abstrac = value; }
+        }
+
+        string body;
+        public string Body
+        {
+            get { return body; }
+            set { body = value; }
+        }
+
+        DateTime postDate;
+        public DateTime PostDate
+        {
+            get { return postDate; }
+            set { postDate = value; }
+        }
+
+        DateTime issueDate;
+        public DateTime IssueDate
+        {
+            get { return issueDate; }
+            set { issueDate = value; }
+        }
+
+        int categoryId;
+        public int CategoryId
+        {
+            get { return categoryId; }
+            set { categoryId = value; }
+        }
+
+        int viewCount;
+        public int ViewCount
+        {
+            get { return viewCount; }
+            set { viewCount = value; }
+        }
+
+        string postBy;
+        public string PostBy
+        {
+            get { return postBy; }
+            set { postBy = value; }
+        }
+
+        string reporter;
+        public string Reporter
+        {
+            get { return reporter; }
+            set { reporter = value; }
+        }
+
+        bool suspended;
+        public bool Suspended
+        {
+            get { return suspended; }
+            set { suspended = value; }
+        }
+
+        bool hilighted;
+        public bool Hilighted
+        {
+            get { return hilighted; }
+            set { hilighted = value; }
+        }
+
+        string thumbnail;
+        public string Thumbnail
+        {
+            get { return thumbnail; }
+            set { thumbnail = value; }
+        }
+
+        bool allowComment;
+        public bool AllowComment
+        {
+            get { return allowComment; }
+            set { allowComment = value; }
+        }
+
+        string videoId;
+        public string VideoId
+        {
+            get { return videoId; }
+            set { videoId = value; }
+        }
+
+        string catName;
+        public string CatName
+        {
+            get { return catName; }
+            set { catName = value; }
+        }
+
+        public string FirstImageURL
+        {
+            get { return GetFirstImageUrlFromArticle(this.body); }
+        }
+
+        public int CommentCount { get; private set; }
+
+        #endregion
+
+        #region queries
+
+        static string selectCountFormat = "SELECT COUNT(*) FROM Articles WHERE {0}";
+        
+        static string selectPageFormat =
+        @"SELECT * FROM
+        (SELECT ArticleId, CategoryId, Title, SubTitle, Abstract, PostDate, IssueDate, 
+        ViewCount, Reporter, Suspended, Hilighted, Thumbnail, VideoId, CatName,
+        (SELECT count(*) FROM ArticleComments WHERE SrcId = Articles.ArticleId AND Blocked=0) 
+        AS CommCount, 
+        ROW_NUMBER() OVER (ORDER BY {0}) AS RowNum FROM
+        Articles JOIN ArticleCategories ON CategoryId=CatId
+        WHERE {1}) Tbl 
+        WHERE RowNum BETWEEN {2} AND {3}";
+
+        static string selectPreviewFormat =
+        @"SELECT TOP {0} ArticleId, CategoryId, CatName, Title, IssueDate, ViewCount, VideoId, Body,Reporter, Thumbnail, Abstract
+        FROM Articles
+        JOIN ArticleCategories ON CategoryId=CatId 
+        WHERE Suspended=0 AND IssueDate < GETDATE() AND ({1}) 
+        ORDER BY IssueDate DESC";
+
+        static string selectPreviewFormatForum =
+        @" select top  {0}  ThreadId as 'ArticleId',f.ForumId as 'CategoryId' ,ForumName as 'CatName' ,Subject as 'Title', PostDate as 'IssueDate' ,ViewCount,NULL as 'VideoId',Body,PostBy as 'Reporter', null as 'Thumbnail','' as 'Abstract'
+        from Forums f
+        Inner join ForumThreads t ON f.forumId = t.forumId
+        WHERE suspended =0 AND postdate < getDate()  AND ({1}) 
+        ORDER by Postdate desc";
+
+
+        static string selectPreviewFormatClassified =
+        @" select top {0} AdId as 'ArticleId',CatId as 'CategoryId' ,CatName as 'CatName' ,Subject as 'Title', RegDate as 'IssueDate' ,ViewCount,NULL as 'VideoId',Description as 'Body',PostBy as 'Reporter', null as 'Thumbnail',Abstract
+        from ClassifiedCategories c
+        Inner join ClassifiedAds a ON c.catId = a.category
+        WHERE suspended =0 AND RegDate < getDate()  AND ({1}) 
+        ORDER by RegDate desc";
+
+       
+        static string selectArticleFormat =
+        @"SELECT *, (SELECT count(*) FROM ArticleComments WHERE SrcId = Articles.ArticleId AND Blocked=0)
+        AS CommCount
+        FROM Articles JOIN ArticleCategories ON CategoryId=CatId WHERE ArticleId=";
+
+        static string insertCommand =
+            @"INSERT INTO Articles 
+        (Title, SubTitle, Abstract, Body, IssueDate, CategoryId, 
+        PostBy, Reporter, Suspended, Hilighted, Thumbnail, VideoId, AllowComment) 
+        VALUES 
+        (@Title, @SubTitle, @Abstract, @Body, @IssueDate, @CategoryId, 
+        @PostBy, @Reporter, @Suspended, @Hilighted, @Thumbnail, @VideoId, @AllowComment);
+        SET @NewId=SCOPE_IDENTITY();";
+
+        static string updateCommand =
+            @"UPDATE Articles SET 
+        Title=@Title, SubTitle=@SubTitle, Abstract=@Abstract, Body=@Body,  
+        IssueDate=@IssueDate, Reporter=@Reporter, Suspended=@Suspended, 
+        Hilighted=@Hilighted, VideoId=@VideoId, AllowComment=@AllowComment 
+        WHERE ArticleId=@ArticleId";
+
+        static string moveCommand =
+            "UPDATE Articles SET CategoryId=@CategoryId WHERE ArticleId=@ArticleId";
+
+        static string setThumbCommand = "UPDATE Articles SET Thumbnail=@Thumbnail WHERE ArticleId=@ArticleId";
+
+        static string increaseViewCountCommand = "UPDATE Articles SET ViewCount=ViewCount+1 WHERE ArticleId={0}";
+
+        static string setViewCountCommand = "UPDATE Articles SET ViewCount={0} WHERE ArticleId={1}";
+
+        #endregion
+
+        #region util
+        public static string GetFirstImageUrlFromArticle(string body)
+        {
+            string lowerBody = body.ToLower();
+
+            int i = lowerBody.IndexOf("<img");
+            if (i < 0)              // couldn't find img tag
+                return "";
+
+            int j = lowerBody.IndexOf("src", i);
+            if (j < 0)              // no src attr
+                return "";
+
+            char attrQuote;
+            i = lowerBody.IndexOf("\"", j);
+            if (i < 0)
+            {
+                attrQuote = '\'';
+                i = lowerBody.IndexOf("'", j);
+            }
+            else
+            {
+                attrQuote = '"';
+            }
+
+            if (i < 0)          // coudn't find the value of src attribute
+                return "";
+
+            i++;
+
+            j = lowerBody.IndexOf(attrQuote, i);
+
+            if (j < 0)          // no matching value closer
+                return "";
+
+            return body.Substring(i, j - i);
+        }
+        public string GetTitle(int maxLength)
+        {
+            return Utility.TruncateStringByWord(title, maxLength);
+        }
+        public string GetPreview(int maxLength)
+        {
+            return Utility.TruncateStringByWord(abstrac, maxLength);
+        }
+
+        #endregion
+
+        #region pubmethods
+
+        public static int GetArticleCount(DataFilterCollection filters)
+        {
+            return DataAccess.ExecuteScalar(string.Format(selectCountFormat,
+                filters.FilterExpression));
+        }
+
+        /// <summary>
+        /// 특정카테고리의 최신 기사 목록을 얻는다. 
+        /// 얻어진 Article 컬렉션에서 유효한 속성은 CatName, ArticleId, CategoryId, 
+        /// Title, IssueDate, ViewCount 뿐이므로 이 속성들만 사용해야 한다.
+        /// </summary>
+        /// <param name="categoryId">기사 카테고리</param>
+        /// <param name="count">가져올 갯수</param>
+        /// <returns>Article 컬렉션</returns>
+        public static List<Article> SelectPreviewArticles(int categoryId, int count)
+        {
+            string query = string.Format(selectPreviewFormat, count, "CategoryId=" + categoryId);
+            return DataAccess.SelectCollection<Article>(query, getPreviewArticleFromReader);
+        }
+
+        // categoryIds : "1,2,3,4"
+        public static List<Article> SelectPreviewArticles(string categoryIds, int count)
+        {
+            char[] dels = { ',' };
+            string[] catIds = categoryIds.Split(dels);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (string catId in catIds)
+            {
+                if (sb.Length > 0)
+                    sb.Append(" OR ");
+                sb.Append("CategoryId=" + catId);
+            }
+
+            string query = string.Format(selectPreviewFormat, count, sb.ToString());
+            return DataAccess.SelectCollection<Article>(query, getPreviewArticleFromReader);
+        }
+        public static List<Article> SelectPreviewForums(int categoryId, int count)
+        {
+            string query = string.Format(selectPreviewFormatForum, count, "f.ForumId=" + categoryId);
+            return DataAccess.SelectCollection<Article>(query, getPreviewArticleFromReader);
+        }
+
+        public static List<Article> SelectPreviewForums(string categoryIds, int count)
+        {
+            char[] dels = { ',' };
+            string[] catIds = categoryIds.Split(dels);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (string catId in catIds)
+            {
+                if (sb.Length > 0)
+                    sb.Append(" OR ");
+                sb.Append("f.ForumId=" + catId);
+            }
+
+            string query = string.Format(selectPreviewFormatForum, count, sb.ToString());
+            return DataAccess.SelectCollection<Article>(query, getPreviewArticleFromReader);
+        }
+
+        public static List<Article> SelectPreviewClassified(int categoryId, int count)
+        {
+            string query = string.Format(selectPreviewFormatClassified, count, "CatId=" + categoryId);
+            return DataAccess.SelectCollection<Article>(query, getPreviewArticleFromReader);
+        }
+
+        public static List<Article> SelectPreviewClassified(string categoryIds, int count)
+        {
+            char[] dels = { ',' };
+            string[] catIds = categoryIds.Split(dels);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (string catId in catIds)
+            {
+                if (sb.Length > 0)
+                    sb.Append(" OR ");
+                sb.Append("CatId=" + catId);
+            }
+
+            string query = string.Format(selectPreviewFormatClassified, count, sb.ToString());
+            return DataAccess.SelectCollection<Article>(query, getPreviewArticleFromReader);
+        }
+
+
+        public static List<Article> SelectArticles(DataFilterCollection filters, 
+            int offset, int pageNum, int rowsPerPage)
+        {
+            int startRowIndex = (pageNum - 1) * rowsPerPage + 1 + offset;
+            string query = string.Format(selectPageFormat, "IssueDate DESC, postDate DESC", filters.FilterExpression,
+                                         startRowIndex, startRowIndex + rowsPerPage - 1);
+
+            return DataAccess.SelectCollection<Article>(query, getArticleFromReader);
+        }
+
+        public static Article SelectArticleById(int articleId)
+        {
+            return DataAccess.SelectInstanceById<Article>(
+                selectArticleFormat + articleId, getArticleDetailFromReader);
+        }
+
+        public static int InsertArticle(string title, string subTitle, string abstrac, string body,
+                        DateTime issueDate, int categoryId, string postBy, string reporter,
+                        bool suspended, bool hilighted, string thumbnail, string videoId, bool allowComment)
+        {
+            SqlCommand cmd = new SqlCommand(insertCommand);
+
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Title", title));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@SubTitle", subTitle));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Abstract", abstrac));
+            cmd.Parameters.Add(DataAccess.GetNTextParam("@Body", body));
+            cmd.Parameters.Add(new SqlParameter("@IssueDate", issueDate));
+            cmd.Parameters.Add(new SqlParameter("@CategoryId", categoryId));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@PostBy", postBy));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Reporter", reporter));
+            cmd.Parameters.Add(new SqlParameter("@Suspended", suspended));
+            cmd.Parameters.Add(new SqlParameter("@Hilighted", hilighted));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Thumbnail", thumbnail));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@VideoId", videoId));
+            cmd.Parameters.Add(new SqlParameter("@AllowComment", allowComment));
+
+            SqlParameter outParam = new SqlParameter("@NewId", SqlDbType.Int);
+            outParam.Direction = ParameterDirection.Output;
+            cmd.Parameters.Add(outParam);
+
+            if (1 == DataAccess.ExecuteCommand(cmd))
+                return (int)outParam.Value;
+            else
+                return 0;
+        }
+
+        public static bool UpdateArticle(int id, string title, string subTitle, string abstrac,
+                        string body, DateTime issueDate, string reporter,
+                        bool suspended, bool hilighted, string videoId, bool allowComment)
+        {
+            SqlCommand cmd = new SqlCommand(updateCommand);
+
+            cmd.Parameters.Add(new SqlParameter("@ArticleId", id));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Title", title));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@SubTitle", subTitle));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Abstract", abstrac));
+            cmd.Parameters.Add(DataAccess.GetNTextParam("@Body", body));
+            cmd.Parameters.Add(new SqlParameter("@IssueDate", issueDate));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Reporter", reporter));
+            cmd.Parameters.Add(new SqlParameter("@Suspended", suspended));
+            cmd.Parameters.Add(new SqlParameter("@Hilighted", hilighted));
+            //cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Thumbnail", thumbnail));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@VideoId", videoId));
+            cmd.Parameters.Add(new SqlParameter("@AllowComment", allowComment));
+
+            return (1 == DataAccess.ExecuteCommand(cmd));
+        }
+
+        public static bool SetArticleThumbnail(int id, string thumbUrl)
+        {
+            SqlCommand cmd = new SqlCommand(setThumbCommand);
+
+            cmd.Parameters.Add(new SqlParameter("@ArticleId", id));
+            cmd.Parameters.Add(DataAccess.GetNVarCharParam("@Thumbnail", thumbUrl));
+
+            return (1 == DataAccess.ExecuteCommand(cmd));
+        }
+
+        public static bool MoveArticle(int id, int catId)
+        {
+            SqlCommand cmd = new SqlCommand(moveCommand);
+
+            cmd.Parameters.Add(new SqlParameter("@ArticleId", id));
+            cmd.Parameters.Add(new SqlParameter("@CategoryId", catId));
+
+            return (1 == DataAccess.ExecuteCommand(cmd));
+        }
+
+        public static bool IncreaseViewCount(int id, HttpRequest req, HttpResponse res)
+        {
+            if (req.Cookies["art" + id.ToString()] != null)
+                return false;
+
+            HttpCookie cookie = new HttpCookie("art" + id.ToString(), "1");
+            cookie.Expires = DateTime.Now.AddHours(1);
+            res.Cookies.Add(cookie);
+
+            increaseViewCount(id);
+
+            return true;
+        }
+
+        static bool increaseViewCount(int articleId)
+        {
+            SqlCommand cmd = new SqlCommand(string.Format(increaseViewCountCommand, articleId));
+            return (1 == DataAccess.ExecuteCommand(cmd));
+        }
+
+        public static bool SetViewCount(int articleId, int count)
+        {
+            SqlCommand cmd = new SqlCommand(string.Format(setViewCountCommand, count, articleId));
+            return (1 == DataAccess.ExecuteCommand(cmd));
+        }
+
+        #endregion
+
+        #region prvmethods
+
+        static Article getArticleFromReader(SqlDataReader reader)
+        {
+            Article a = new Article();
+
+            a.ArticleId = (int)reader["ArticleId"];
+            a.CategoryId = (int)reader["CategoryId"];
+            a.Title = reader["Title"].ToString();
+            a.SubTitle = reader["SubTitle"].ToString();
+            a.Abstract = reader["Abstract"].ToString();
+            a.PostDate = (DateTime)reader["PostDate"];
+            a.IssueDate = (DateTime)reader["IssueDate"];
+            a.Reporter = reader["Reporter"].ToString();
+            a.ViewCount = (int)reader["ViewCount"];
+            a.Suspended = (bool)reader["Suspended"];
+            a.Hilighted = (bool)reader["Hilighted"];
+            a.Thumbnail = reader["Thumbnail"].ToString();
+            a.VideoId = reader["VideoId"].ToString();
+            a.CatName = reader["CatName"].ToString();
+            a.CommentCount = (int)reader["CommCount"];
+
+            return a;
+        }
+
+        static Article getArticleDetailFromReader(SqlDataReader reader)
+        {
+            Article a = getArticleFromReader(reader);
+
+            //a.ArticleId = (int)reader["ArticleId"];
+            //a.Title = reader["Title"].ToString();
+            //a.SubTitle = reader["SubTitle"].ToString();
+            //a.Abstract = reader["Abstract"].ToString();
+            a.Body = reader["Body"].ToString();
+            //a.PostDate = (DateTime)reader["PostDate"];
+            //a.IssueDate = (DateTime)reader["IssueDate"];
+            //a.ViewCount = (int)reader["ViewCount"];
+            a.PostBy = reader["PostBy"].ToString();
+            //a.Reporter = reader["Reporter"].ToString();
+            //a.Suspended = (bool)reader["Suspended"];
+            //a.Hilighted = (bool)reader["Hilighted"];
+            //a.Thumbnail = reader["Thumbnail"].ToString();
+            a.AllowComment = (bool)reader["AllowComment"];
+            a.VideoId = reader["VideoId"].ToString();
+            
+            return a;
+        }
+
+        static Article getPreviewArticleFromReader(SqlDataReader reader)
+        {
+            Article a = new Article();
+
+            a.CatName = reader["CatName"].ToString();
+            a.ArticleId = (int)reader["ArticleId"];
+            a.CategoryId = (int)reader["CategoryId"];
+            a.Title = reader["Title"].ToString();
+            a.IssueDate = (DateTime)reader["IssueDate"];
+            a.ViewCount = (int)reader["ViewCount"];
+            a.VideoId = reader["VideoId"].ToString();
+            a.Body = reader["Body"].ToString();
+            a.Reporter = reader["Reporter"].ToString();
+            a.Thumbnail = reader["Thumbnail"].ToString();
+            a.Abstract = reader["Abstract"].ToString();
+
+            return a;
+        }
+
+
+        //static string getSortExpression(ArticleSort sort, bool isAscending)
+        //{
+        //    return string.Format(sortFormat[(int)sort], isAscending ? "" : "DESC");
+        //}
+
+        #endregion
+
+    }
+}

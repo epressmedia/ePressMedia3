@@ -1,0 +1,103 @@
+
+
+#gboardPrayer #accordion1 h3, #gboardPrayer #accordion2 h3, #gboardPrayer #accordion3 h3, #gboardPrayer #accordion4 h3
+{
+padding-left: 10px;
+background: url(/pics/design/dot_underline.gif) bottom left repeat-x;
+line-height: 30px;
+margin: 0;
+font-size: 16px;
+}
+
+#accordion1 div, #accordion2 div,#accordion3 div,#prayer_kr_confession,#Prayer_kr_rosary,#Prayer_kr_stationOfTheCross,#Prayer_kr_allSouls,#Prayer_kr_legio
+{
+margin:10px 20px;
+}
+
+#gboardPrayer #accordion1 a:hover, #gboardPrayer #accordion2 a:hover, #gboardPrayer #accordion3 a:hover, #gboardPrayer #accordion4 a:hover
+{
+text-decoration: none;
+color: #0079c1;
+}
+
+.tab {
+display: none;
+width: initial;
+height: initial;
+line-height: 20px;
+margin-left: initial;
+background-image: none;
+background-repeat: initial;
+text-align: left;
+cursor: pointer;
+}
+#tabs
+{
+line-height: 20px;
+margin: 0 15px;
+}
+
+    /*
+    * jQuery UI CSS Framework
+    * Copyright (c) 2010 AUTHORS.txt (http://jqueryui.com/about)
+    * Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+    */
+    /* Layout helpers
+    ----------------------------------*/
+    .ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+    .ui-helper-clearfix { display: inline-block; }
+    /* required comment for clearfix to work in Opera \*/
+    .ui-tabs { position: relative; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+    .ui-tabs .ui-tabs-nav { margin:0; }
+    .ui-tabs .ui-tabs-nav li {}
+    .ui-tabs .ui-tabs-nav li a {  }
+    .ui-tabs .ui-tabs-nav li.ui-tabs-selected {}
+    .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+    .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+    .ui-tabs .ui-tabs-panel { display: block;}
+    .ui-tabs .ui-tabs-hide { display: none !important; }
+    /*
+
+    /* GLOBALHEADER */
+    /*    #gboardPrayer { height: 29px; z-index: 9998;}*/
+    #gboardPrayer #tabnav { margin: 0 0 10px 20px; padding: 0;width: 660px; }
+    #gboardPrayer #tabnav li { display: inline;}
+    #gboardPrayer #tabnav li a { float: left; height: 0; padding-top: 29px; overflow: hidden;background-image: url(/pics/design/prayer_kr_tab.png); background-repeat: no-repeat;}
+    /* BUTTONS */
+    #gboardPrayer #tabnav li#primary a { background-position: 0 0;width: 73px;}
+    #gboardPrayer #tabnav li#holyMonth a { background-position: -73px 0;width: 69px; }
+    #gboardPrayer #tabnav li#confession a { background-position: -238px 0;width:69px; }
+    #gboardPrayer #tabnav li#Prayers a { background-position: -142px 0;width:96px; }
+    #gboardPrayer #tabnav li#rosary a { background-position: -307px 0;width:65px; }
+    #gboardPrayer #tabnav li#stationOfTheCross a { background-position: -372px 0;width:86px; }
+    #gboardPrayer #tabnav li#allSouls a { background-position: -458px 0;width:41px; }
+    #gboardPrayer #tabnav li#legio a { background-position: -499px 0;width:81px; }
+    /* OVER STATES */
+    #gboardPrayer #tabnav li#primary a:hover { background-position: 0 -29px; }
+    #gboardPrayer #tabnav li#holyMonth a:hover { background-position: -73px -29px;}
+    #gboardPrayer #tabnav li#confession a:hover { background-position: -238px -29px;}
+    #gboardPrayer #tabnav li#Prayers a:hover { background-position: -142px -29px;}
+    #gboardPrayer #tabnav li#rosary a:hover { background-position: -307px -29px;}
+    #gboardPrayer #tabnav li#stationOfTheCross a:hover { background-position: -372px -29px;}
+    #gboardPrayer #tabnav li#allSouls a:hover { background-position: -458px -29px;}
+    #gboardPrayer #tabnav li#legio a:hover { background-position: -499px -29px;}
+    /* PRESSED STATES */
+    #gboardPrayer #tabnav li#primary a:active { background-position: 0 -58px; }
+    #gboardPrayer #tabnav li#holyMonth a:active { background-position: -73px -58px;}
+    #gboardPrayer #tabnav li#confession a:active { background-position: -238px -58px; }
+    #gboardPrayer #tabnav li#Prayers a:active { background-position: -142px -58px;}
+    #gboardPrayer #tabnav li#rosary a:active { background-position: -307px -58px;}
+    #gboardPrayer #tabnav li#stationOfTheCross a:active { background-position: -372px -58px;}
+    #gboardPrayer #tabnav li#allSouls a:active { background-position: -458px -58px;}
+    #gboardPrayer #tabnav li#legio a:active { background-position: -499px -58px;}
+    /* ON STATES */
+    #gboardPrayer #tabnav li#primary.ui-tabs-selected a{ background-position: 0 0 !important ;}
+    #gboardPrayer #tabnav li#primary.ui-tabs-selected a { background-position: 0 -58px !important ;}
+    #gboardPrayer #tabnav li#holyMonth.ui-tabs-selected a { background-position: -73px -58px !important; }
+    #gboardPrayer #tabnav li#confession.ui-tabs-selected a { background-position: -238px -58px !important; }
+    #gboardPrayer #tabnav li#Prayers.ui-tabs-selected a { background-position: -142px -58px !important; }
+    #gboardPrayer #tabnav li#rosary.ui-tabs-selected a { background-position: -307px -58px !important;}
+    #gboardPrayer #tabnav li#stationOfTheCross.ui-tabs-selected a { background-position: -372px -58px !important; }
+    #gboardPrayer #tabnav li#allSouls.ui-tabs-selected a { background-position: -458px -58px !important; }
+    #gboardPrayer #tabnav li#legio.ui-tabs-selected a { background-position: -499px -58px !important;}
+

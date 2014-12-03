@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <menuSettings>
+    <banners>
+      <banner SourceURL="http://seakcr.epressmedia.com/Custom/Configs/MobileAppDefaultAd.htm" />
+    </banners>
+    <shortCuts rootURL="http://seaKcr.epressmedia.com">
+      <shortCut sequence="1" iconURL="/img/mobile/bt1_1.png" name="뒤로가기" linkURL="" />
+      <shortCut sequence="2" iconURL="/img/mobile/bt2_1.png" name="홈" linkURL="/" />
+      <shortCut sequence="3" iconURL="/img/mobile/bt3_1.png" name="구인구직" linkURL="/Classified/Classified.aspx?p=2" />
+      <shortCut sequence="4" iconURL="/img/mobile/bt4_1.png" name="칼럼" linkURL="/Page/ColumnMainpage.aspx" />
+      <shortCut sequence="5" iconURL="/img/mobile/bt5_1.png" name="근교뉴스" linkURL="/Article/list.aspx?p=37" />
+      <shortCut sequence="6" iconURL="/img/mobile/bt6_1.png" name="씨애틀뉴스" linkURL="/Article/list.aspx?p=1" />
+    </shortCuts>
+  </menuSettings>
+</configuration>

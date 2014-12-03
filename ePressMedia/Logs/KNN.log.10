@@ -1,0 +1,1075 @@
+2013-11-12 21:54:11,263 [44] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/CP/Ad/BannerEntry.aspx?mode=add
+Raw Url : /CP/Ad/BannerEntry.aspx?mode=add
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_ad_bannerentry_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bannerentry.aspx.14ad05d6.fuzaq9ky.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Could not find a part of the path.
+Source : mscorlib
+StackTrace :    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Telerik.Web.UI.UploadedFile.SaveAs(String fileName)
+   at ePressMedia.Cp.Ad.BannerEntry.RadAsyncUpload1_FileUploaded(Object sender, FileUploadedEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Ad\BannerEntry.aspx.cs:line 130
+   at Telerik.Web.UI.RadAsyncUpload.OnFileUploaded(FileUploadedEventArgs e)
+   at Telerik.Web.UI.RadAsyncUpload.RaisePostDataChangedEvent()
+   at Telerik.Web.UI.RadWebControl.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void WinIOError(Int32, System.String)
+
+ 2013-11-12 21:56:13,198 [16] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/CP/Ad/BannerEntry.aspx?mode=add
+Raw Url : /CP/Ad/BannerEntry.aspx?mode=add
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_ad_bannerentry_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bannerentry.aspx.14ad05d6.ghospfyv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Could not find a part of the path.
+Source : mscorlib
+StackTrace :    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Telerik.Web.UI.UploadedFile.SaveAs(String fileName)
+   at ePressMedia.Cp.Ad.BannerEntry.RadAsyncUpload1_FileUploaded(Object sender, FileUploadedEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Ad\BannerEntry.aspx.cs:line 130
+   at Telerik.Web.UI.RadAsyncUpload.OnFileUploaded(FileUploadedEventArgs e)
+   at Telerik.Web.UI.RadAsyncUpload.RaisePostDataChangedEvent()
+   at Telerik.Web.UI.RadWebControl.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void WinIOError(Int32, System.String)
+
+ 2013-11-13 16:36:42,827 [48] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://192.168.1.101:8088/cp/MasterPage/default.aspx
+Raw Url : /cp/MasterPage/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_masterpage_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\49b4d0cd\50d858b7\App_Web_default.aspx.e8d4610e.wu2mxr8b.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Root element is missing.
+Source : System.Xml
+StackTrace :    at System.Xml.XmlTextReaderImpl.ThrowWithoutLineInfo(String res)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at EPM.Business.Model.Admin.MasterPageContoller.InspectXML(String xml_string, String path, String name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 67
+   at EPM.Business.Model.Admin.MasterPageContoller.CheckBeingUsed(String master_path, String master_name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 29
+   at ePressMedia.Cp.Pages.MasterPages.DeleteMasterPage(Int32 catid) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 98
+   at ePressMedia.Cp.Pages.MasterPages.RadGrid1_ItemCommand(Object sender, GridCommandEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 121
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void ThrowWithoutLineInfo(System.String)
+
+ 2013-11-18 22:53:57,991 [14] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:113 [(null)] - Syntax error near 'Hi' in the full-text search condition 'lee Hi'.
+ 2013-11-18 22:57:46,415 [12] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:113 [(null)] - Syntax error near 'Dear' in the full-text search condition 'Beloved Dear'.
+Syntax error near 'Dear' in the full-text search condition 'Beloved Dear'.
+ 2013-11-19 20:31:15,895 [13] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Biz/Biz.aspx
+Raw Url : /Biz/Biz.aspx
+Message : Could not load type 'Biz_Biz'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+Message : Could not load type 'Biz_Biz'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+TargetSite : Void ProcessException(System.Exception)
+Message : Could not load type 'Biz_Biz'.
+Source : System.Web
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+
+ 2013-11-20 16:36:27,310 [10] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 16:36:35,066 [10] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 16:37:25,947 [6] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 16:37:28,809 [6] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 16:42:57,469 [6] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 16:43:00,979 [6] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 16:43:15,953 [6] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 16:43:19,906 [6] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 16:43:33,540 [11] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 16:43:45,281 [11] ERROR ePressMedia.Cp.Controls.PageBuilder D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Controls\PageBuilder.ascx.cs:332 [(null)] - Query execution did not find a matching element.
+ 2013-11-20 17:00:32,390 [9] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/MasterPage/default.aspx
+Raw Url : /Cp/MasterPage/default.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_masterpage_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.e8d4610e.fh_05mix.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Root element is missing.
+Source : System.Xml
+StackTrace :    at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at EPM.Business.Model.Admin.MasterPageContoller.InspectXML(String xml_string, String path, String name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 67
+   at EPM.Business.Model.Admin.MasterPageContoller.CheckBeingUsed(String master_path, String master_name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 29
+   at ePressMedia.Cp.Pages.MasterPages.DeleteMasterPage(Int32 catid) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 98
+   at ePressMedia.Cp.Pages.MasterPages.RadGrid1_ItemCommand(Object sender, GridCommandEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 121
+   at Telerik.Web.UI.RadGrid.OnItemCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Throw(System.Exception)
+
+ 2013-11-20 17:01:09,356 [26] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Cp/MasterPage/default.aspx
+Raw Url : /Cp/MasterPage/default.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_masterpage_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.e8d4610e.fh_05mix.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Root element is missing.
+Source : System.Xml
+StackTrace :    at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at EPM.Business.Model.Admin.MasterPageContoller.InspectXML(String xml_string, String path, String name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 67
+   at EPM.Business.Model.Admin.MasterPageContoller.CheckBeingUsed(String master_path, String master_name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 29
+   at ePressMedia.Cp.Pages.MasterPages.DeleteMasterPage(Int32 catid) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 98
+   at ePressMedia.Cp.Pages.MasterPages.RadGrid1_ItemCommand(Object sender, GridCommandEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 121
+   at Telerik.Web.UI.RadGrid.OnItemCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Throw(System.Exception)
+
+ 2013-11-20 17:27:32,509 [35] ERROR Article_DetailView_ArticleDetail D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\ArticleDetail.ascx.cs:157 [(null)] - Row is locked: Update failed: Telerik.OpenAccess.RT.sql.SQLException: Lock request time out period exceeded.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Lock request time out period exceeded.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Row: GenericOID@e1c6de84 Article ArticleId=27498
+UPDATE [Article].[Articles] SET [ViewCount]=? WHERE [ArticleId] = ? AND [ViewCount]=?
+(set event logging to all to see parameter values)
+ 2013-11-20 17:29:53,378 [36] ERROR Article_DetailView_ArticleDetail D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\ArticleDetail.ascx.cs:157 [(null)] - Row is locked: Update failed: Telerik.OpenAccess.RT.sql.SQLException: Lock request time out period exceeded.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Lock request time out period exceeded.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Row: GenericOID@e1c6de84 Article ArticleId=27498
+UPDATE [Article].[Articles] SET [ViewCount]=? WHERE [ArticleId] = ? AND [ViewCount]=?
+(set event logging to all to see parameter values)
+ 2013-11-20 19:47:20,654 [46] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/default.aspx
+Raw Url : /default.aspx?
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.cdcab7d2.wzepejrg.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'myID' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at EPM.Core.EPMPageRender.PageRender(String xml_setting, Boolean preview, Boolean adminMode, Boolean master) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMPageRender.cs:line 80
+   at EPM.Core.EPMBasePage.LoadPageControls(Int32 cat, ContentTypes contentType, UseForTypes useForType) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMBasePage.cs:line 241
+   at _Default.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Default.aspx.cs:line 27
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 2013-11-20 19:47:24,470 [46] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/default.aspx
+Raw Url : /default.aspx?
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.cdcab7d2.wzepejrg.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'myID' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at EPM.Core.EPMPageRender.PageRender(String xml_setting, Boolean preview, Boolean adminMode, Boolean master) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMPageRender.cs:line 80
+   at EPM.Core.EPMBasePage.LoadPageControls(Int32 cat, ContentTypes contentType, UseForTypes useForType) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMBasePage.cs:line 241
+   at _Default.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Default.aspx.cs:line 27
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 2013-11-20 19:47:26,851 [12] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/default.aspx
+Raw Url : /default.aspx?
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.cdcab7d2.wzepejrg.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'myID' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at EPM.Core.EPMPageRender.PageRender(String xml_setting, Boolean preview, Boolean adminMode, Boolean master) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMPageRender.cs:line 80
+   at EPM.Core.EPMBasePage.LoadPageControls(Int32 cat, ContentTypes contentType, UseForTypes useForType) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMBasePage.cs:line 241
+   at _Default.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Default.aspx.cs:line 27
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 2013-11-20 19:47:28,365 [28] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/default.aspx
+Raw Url : /default.aspx?
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.cdcab7d2.wzepejrg.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'myID' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at EPM.Core.EPMPageRender.PageRender(String xml_setting, Boolean preview, Boolean adminMode, Boolean master) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMPageRender.cs:line 80
+   at EPM.Core.EPMBasePage.LoadPageControls(Int32 cat, ContentTypes contentType, UseForTypes useForType) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMBasePage.cs:line 241
+   at _Default.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Default.aspx.cs:line 27
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 2013-11-20 19:47:29,339 [48] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/default.aspx
+Raw Url : /default.aspx?
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.cdcab7d2.wzepejrg.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'myID' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at EPM.Core.EPMPageRender.PageRender(String xml_setting, Boolean preview, Boolean adminMode, Boolean master) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMPageRender.cs:line 80
+   at EPM.Core.EPMBasePage.LoadPageControls(Int32 cat, ContentTypes contentType, UseForTypes useForType) in D:\EPM\ePressMedia 3_5\KNN.Core\EPMBasePage.cs:line 241
+   at _Default.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Default.aspx.cs:line 27
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 2013-11-20 21:56:26,222 [43] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Article/list.aspx?p=54&
+Raw Url : /Article/list.aspx?p=54&
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_list_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_list.aspx.c7c2cb9d.aycq2_rx.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'editButton_LeftBarContent_LeftBarContent_ascx_14' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at Telerik.Web.ChildControlHelper.FindControlRecursive(Control searcher, String ID)
+   at Telerik.Web.UI.RadAjaxControl.FindControlRecursive(String ID)
+   at Telerik.Web.UI.RadAjaxControl.OnPagePreRender(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 2013-11-20 21:56:34,204 [43] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Article/list.aspx?p=54&
+Raw Url : /Article/list.aspx?p=54&
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_list_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_list.aspx.c7c2cb9d.aycq2_rx.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'editButton_LeftBarContent_LeftBarContent_ascx_14' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at Telerik.Web.ChildControlHelper.FindControlRecursive(Control searcher, String ID)
+   at Telerik.Web.UI.RadAjaxControl.FindControlRecursive(String ID)
+   at Telerik.Web.UI.RadAjaxControl.OnPagePreRender(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 2013-11-20 21:56:45,468 [17] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Article/list.aspx?p=54
+Raw Url : /Article/list.aspx?p=54
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_list_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_list.aspx.c7c2cb9d.aycq2_rx.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'editButton_LeftBarContent_LeftBarContent_ascx_14' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at Telerik.Web.ChildControlHelper.FindControlRecursive(Control searcher, String ID)
+   at Telerik.Web.UI.RadAjaxControl.FindControlRecursive(String ID)
+   at Telerik.Web.UI.RadAjaxControl.OnPagePreRender(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 2013-11-21 00:14:43,925 [12] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Article/view.aspx?p=14&aid=28492
+Raw Url : /Article/view.aspx?p=14&aid=28492
+Message : The state information is invalid for this page and might be corrupted.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_view_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_view.aspx.c7c2cb9d.pggz8edh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9935/Article/view.aspx?p=14&aid=28492
+	Path: /Article/view.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+	ViewState: /wEPDwUENTM4MQ9kFgJmD2QWAgIDD2QWCAIBDxYCHgVjbGFzcwUsY29udGVudFdyYXAgTWFzdGVyUGFnZV8xMTMxX2NvbnRlbnRXcmFwIDExMzEWCgICD2QWAgIOD2QWAgIBD2QWBAIBDxYCHgdWaXNpYmxlaGQCAw9kFgICAQ8PFgIeBFRleHQFD1dlbGNvbWUsIGp1c3RpbmRkAgYPZBYCAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgoWFGYPZBYCAgEPFgQeBGhyZWYFHX4vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9MTI2HgZ0YXJnZXQFBV9zZWxmFgJmDxUBCeudvOydtO2UhGQCAQ9kFgICAQ8WBB8EBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTU0HwUFBV9zZWxmFgJmDxUBBuuJtOyKpGQCAg9kFgICAQ8WBB8EBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTE5HwUFBV9zZWxmFgJmDxUBBkUuTmV3c2QCAw9kFgICAQ8WBB8EBRt+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTcfBQUFX3NlbGYWAmYPFQEf7Jew7JiIL+yKpO2PrOy4oChFbnRlcnRhaW5tZW50KWQCBA9kFgICAQ8WBB8EBR1+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTExNx8FBQVfc2VsZhYCZg8VAQ3tj6zthqAoUGhvdG8pZAIFD2QWAgIBD...
+Source : 
+StackTrace : 
+TargetSite : 
+Message : Invalid length for a Base-64 char array or string.
+Source : mscorlib
+StackTrace :    at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+TargetSite : Int32 FromBase64_Decode(Char*, Int32, Byte*, Int32)
+
+ 2013-11-21 20:49:15,690 [7] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/MasterPage/default.aspx
+Raw Url : /cp/MasterPage/default.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_masterpage_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.e8d4610e.h3agbgfh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Root element is missing.
+Source : System.Xml
+StackTrace :    at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at EPM.Business.Model.Admin.MasterPageContoller.InspectXML(String xml_string, String path, String name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 67
+   at EPM.Business.Model.Admin.MasterPageContoller.CheckBeingUsed(String master_path, String master_name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 29
+   at ePressMedia.Cp.Pages.MasterPages.DeleteMasterPage(Int32 catid) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 98
+   at ePressMedia.Cp.Pages.MasterPages.RadGrid1_ItemCommand(Object sender, GridCommandEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 121
+   at Telerik.Web.UI.RadGrid.OnItemCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Throw(System.Exception)
+
+ 2013-11-21 20:50:03,468 [21] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/MasterPage/default.aspx
+Raw Url : /cp/MasterPage/default.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_masterpage_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.e8d4610e.pzd9qd3q.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Root element is missing.
+Source : System.Xml
+StackTrace :    at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at EPM.Business.Model.Admin.MasterPageContoller.InspectXML(String xml_string, String path, String name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 67
+   at EPM.Business.Model.Admin.MasterPageContoller.CheckBeingUsed(String master_path, String master_name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 29
+   at ePressMedia.Cp.Pages.MasterPages.DeleteMasterPage(Int32 catid) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 98
+   at ePressMedia.Cp.Pages.MasterPages.RadGrid1_ItemCommand(Object sender, GridCommandEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 121
+   at Telerik.Web.UI.RadGrid.OnItemCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Throw(System.Exception)
+
+ 2013-11-21 20:53:11,964 [18] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/MasterPage/default.aspx
+Raw Url : /cp/MasterPage/default.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_masterpage_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.e8d4610e.hf8ey1sb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Root element is missing.
+Source : System.Xml
+StackTrace :    at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at EPM.Business.Model.Admin.MasterPageContoller.InspectXML(String xml_string, String path, String name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 67
+   at EPM.Business.Model.Admin.MasterPageContoller.CheckBeingUsed(String master_path, String master_name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 29
+   at ePressMedia.Cp.Pages.MasterPages.DeleteMasterPage(Int32 catid) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 98
+   at ePressMedia.Cp.Pages.MasterPages.RadGrid1_ItemCommand(Object sender, GridCommandEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 121
+   at Telerik.Web.UI.RadGrid.OnItemCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Throw(System.Exception)
+
+ 2013-11-21 20:58:36,930 [15] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/MasterPage/default.aspx
+Raw Url : /cp/MasterPage/default.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_masterpage_default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_default.aspx.e8d4610e.hf8ey1sb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Root element is missing.
+Source : System.Xml
+StackTrace :    at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at EPM.Business.Model.Admin.MasterPageContoller.InspectXML(String xml_string, String path, String name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 67
+   at EPM.Business.Model.Admin.MasterPageContoller.CheckBeingUsed(String master_path, String master_name) in D:\EPM\ePressMedia 3_5\EPM.Business.Model\Admin\MasterPageContoller.cs:line 29
+   at ePressMedia.Cp.Pages.MasterPages.DeleteMasterPage(Int32 catid) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 98
+   at ePressMedia.Cp.Pages.MasterPages.RadGrid1_ItemCommand(Object sender, GridCommandEventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\MasterPage\default.aspx.cs:line 121
+   at Telerik.Web.UI.RadGrid.OnItemCommand(GridCommandEventArgs e)
+   at Telerik.Web.UI.RadGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at Telerik.Web.UI.GridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void Throw(System.Exception)
+
+ 2013-11-21 21:05:38,602 [42] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Article/list.aspx?p=117&
+Raw Url : /Article/list.aspx?p=117&
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_list_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_list.aspx.c7c2cb9d.sbf8hysq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Multiple controls with the same ID 'editButton_LeftBarContent_LeftBarContent_ascx_14' were found. FindControl requires that controls have unique IDs.
+Source : System.Web
+StackTrace :    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at Telerik.Web.ChildControlHelper.FindControlRecursive(Control searcher, String ID)
+   at Telerik.Web.UI.RadAjaxControl.FindControlRecursive(String ID)
+   at Telerik.Web.UI.RadAjaxControl.OnPagePreRender(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+
+ 2013-11-21 21:11:44,944 [50] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Article/list.aspx?p=117&
+Raw Url : /Article/list.aspx?p=117&
+Message : The state information is invalid for this page and might be corrupted.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_list_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_list.aspx.c7c2cb9d.sbf8hysq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9935/Article/list.aspx?p=117&
+	Path: /Article/list.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+	ViewState: /wEPDwUKMTY1NDU2MTA1Mg9kFgJmD2QWAgIDD2QWCAIBDxYCHgVjbGFzcwUsY29udGVudFdyYXAgTWFzdGVyUGFnZV8xMTQxX2NvbnRlbnRXcmFwIDExNDEWCgIBD2QWAgIOD2QWAgIBD2QWBAIBDxYCHgdWaXNpYmxlaGQCAw9kFgICAQ8PFgIeBFRleHQFD1dlbGNvbWUsIGp1c3RpbmRkAgUPZBYCAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgoWFGYPZBYCAgEPFgQeBGhyZWYFHX4vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9MTI2HgZ0YXJnZXQFBV9zZWxmFgJmDxUBCeudvOydtO2UhGQCAQ9kFgICAQ8WBB8EBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTU0HwUFBV9zZWxmFgJmDxUBBuuJtOyKpGQCAg9kFgICAQ8WBB8EBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTE5HwUFBV9zZWxmFgJmDxUBBkUuTmV3c2QCAw9kFgICAQ8WBB8EBRt+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTcfBQUFX3NlbGYWAmYPFQEf7Jew7JiIL+yKpO2PrOy4oChFbnRlcnRhaW5tZW50KWQCBA9kFgICAQ8WBB8EBR1+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTExNx8FBQVfc2VsZhYCZg8VAQ3tj6zthqAoUGhvdG8pZAIFD2QWAgIBD...
+Source : 
+StackTrace : 
+TargetSite : 
+Message : Invalid length for a Base-64 char array or string.
+Source : mscorlib
+StackTrace :    at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+TargetSite : Int32 FromBase64_Decode(Char*, Int32, Byte*, Int32)
+
+ 2013-11-21 21:17:29,057 [14] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Article/list.aspx?p=117&
+Raw Url : /Article/list.aspx?p=117&
+Message : The state information is invalid for this page and might be corrupted.
+Source : System.Web
+StackTrace :    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_list_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_list.aspx.c7c2cb9d.vqhlsufe.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void ThrowError(System.Exception, System.String, System.String, Boolean)
+Message : Invalid viewstate. 
+	Client IP: ::1
+	Port: 
+	Referer: http://localhost:9935/Article/list.aspx?p=117&
+	Path: /Article/list.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+	ViewState: /wEPDwUKMTY1NDU2MTA1Mg9kFgJmD2QWAgIDD2QWCAIBDxYCHgVjbGFzcwUsY29udGVudFdyYXAgTWFzdGVyUGFnZV8xMTQxX2NvbnRlbnRXcmFwIDExNDEWCgIBD2QWAgIOD2QWAgIBD2QWBAIBDxYCHgdWaXNpYmxlaGQCAw9kFgICAQ8PFgIeBFRleHQFD1dlbGNvbWUsIGp1c3RpbmRkAgUPZBYCAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgoWFGYPZBYCAgEPFgQeBGhyZWYFHX4vQXJ0aWNsZS9BcnRpY2xlcy5hc3B4P3A9MTI2HgZ0YXJnZXQFBV9zZWxmFgJmDxUBCeudvOydtO2UhGQCAQ9kFgICAQ8WBB8EBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTU0HwUFBV9zZWxmFgJmDxUBBuuJtOyKpGQCAg9kFgICAQ8WBB8EBRx+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTE5HwUFBV9zZWxmFgJmDxUBBkUuTmV3c2QCAw9kFgICAQ8WBB8EBRt+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTcfBQUFX3NlbGYWAmYPFQEf7Jew7JiIL+yKpO2PrOy4oChFbnRlcnRhaW5tZW50KWQCBA9kFgICAQ8WBB8EBR1+L0FydGljbGUvQXJ0aWNsZXMuYXNweD9wPTExNx8FBQVfc2VsZhYCZg8VAQ3tj6zthqAoUGhvdG8pZAIFD2QWAgIBD...
+Source : 
+StackTrace : 
+TargetSite : 
+Message : Invalid length for a Base-64 char array or string.
+Source : mscorlib
+StackTrace :    at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+TargetSite : Int32 FromBase64_Decode(Char*, Int32, Byte*, Int32)
+
+ 2013-11-21 21:48:37,671 [24] ERROR ePressMedia.Article.ArticleEntryUC D:\EPM\ePressMedia 3_5\ePressMedia\Article\Entry.ascx.cs:401 [(null)] - Thread was being aborted.
+ 2013-12-30 21:54:33,440 [13] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:113 [(null)] - Syntax error near 'Singer' in the full-text search condition 'Hidden Singer'.
+Syntax error near 'Singer' in the full-text search condition 'Hidden Singer'.
+ 2013-12-30 21:55:16,717 [14] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:113 [(null)] - Syntax error near 'Singer' in the full-text search condition 'Hidden Singer'.
+Syntax error near 'Singer' in the full-text search condition 'Hidden Singer'.
+ 2013-12-30 21:55:33,094 [5] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:113 [(null)] - Syntax error near 'Singer' in the full-text search condition 'Hidden Singer'.
+Syntax error near 'Singer' in the full-text search condition 'Hidden Singer'.
+ 2014-01-13 19:52:55,232 [8] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:113 [(null)] - Null or empty full-text predicate.
+Null or empty full-text predicate.
+ 2014-01-13 20:03:03,376 [8] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:113 [(null)] - Null or empty full-text predicate.
+Null or empty full-text predicate.
+ 2014-01-13 20:05:07,903 [8] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - Null or empty full-text predicate.
+Null or empty full-text predicate.
+ 2014-01-13 20:06:59,659 [13] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - Null or empty full-text predicate.
+Null or empty full-text predicate.
+ 2014-01-14 18:00:16,175 [20] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - Null or empty full-text predicate.
+ 2014-01-14 18:00:30,870 [20] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - Null or empty full-text predicate.
+ 2014-01-14 18:00:37,740 [23] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - Null or empty full-text predicate.
+ 2014-01-14 18:00:43,963 [22] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - Null or empty full-text predicate.
+ 2014-01-14 18:00:49,824 [19] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - A cursor with the name 'TagLoop' already exists.
+The cursor is already open.
+ 2014-01-14 18:01:33,979 [10] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - Null or empty full-text predicate.
+ 2014-01-14 18:01:45,393 [5] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - A cursor with the name 'TagLoop' already exists.
+The cursor is already open.
+ 2014-01-14 18:07:27,799 [36] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - A cursor with the name 'TagLoop' already exists.
+The cursor is already open.
+ 2014-01-14 18:07:36,904 [37] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:117 [(null)] - A cursor with the name 'TagLoop' already exists.
+The cursor is already open.
+ 2014-01-14 18:13:33,220 [16] ERROR Controls_Article_ArticleSummaryList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\ArticleSummaryList.ascx.cs:105 [(null)] - Error executing query: Telerik.OpenAccess.RT.sql.SQLException: Could not find prepared statement with handle 26. ---> System.Data.SqlClient.SqlException: Could not find prepared statement with handle 26.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[ArticleId] AS COL1, a.[Abstract] AS COL2, a.[AllowComment] AS COL3, a.[CategoryId] AS COL4, a.[Body] AS COL5, a.[CategoryId] AS COL6, a.[Hilighted] AS COL7, a.[IssueDate] AS COL8, a.[LinkArticle_URL] AS COL9, a.[PostBy] AS COL10, a.[PostDate] AS COL11, a.[Reporter] AS COL12, a.[SubTitle] AS COL13, a.[Suspended] AS COL14, a.[Thumb_Path] AS COL15, a.[Title] AS COL16, a.[UrlSlug] AS COL17, a.[VideoId] AS COL18, a.[ViewCount] AS COL19 FROM [Article].[Articles] a JOIN [Article].[VirtualCategoryLink] AS b ON (a.[ArticleId] = b.[article_id]) WHERE (CAST(b.[cat_id] AS VARCHAR(60)) IN (?)) ORDER BY COL8 DESC, COL1  Telerik.OpenAccess.RT.sql.SQLException: Could not find prepared statement with handle 26. ---> System.Data.SqlClient.SqlException: Could not find prepared statement with handle 26.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+ 2014-01-14 22:08:56,580 [27] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:119 [(null)] - Null or empty full-text predicate.
+ 2014-01-14 22:10:00,834 [12] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:119 [(null)] - Null or empty full-text predicate.
+ 2014-01-14 22:10:04,412 [22] ERROR Controls_Article_RelatedArticleList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx.cs:119 [(null)] - Null or empty full-text predicate.
+ 2014-01-14 22:37:53,276 [5] ERROR Controls_Article_ArticleSummaryList D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Article\ArticleSummaryList.ascx.cs:105 [(null)] - Error executing query: Telerik.OpenAccess.RT.sql.SQLException: Could not find prepared statement with handle 39. ---> System.Data.SqlClient.SqlException: Could not find prepared statement with handle 39.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[ArticleId] AS COL1, a.[Abstract] AS COL2, a.[AllowComment] AS COL3, a.[CategoryId] AS COL4, a.[Body] AS COL5, a.[CategoryId] AS COL6, a.[Hilighted] AS COL7, a.[IssueDate] AS COL8, a.[LinkArticle_URL] AS COL9, a.[PostBy] AS COL10, a.[PostDate] AS COL11, a.[Reporter] AS COL12, a.[SubTitle] AS COL13, a.[Suspended] AS COL14, a.[Thumb_Path] AS COL15, a.[Title] AS COL16, a.[UrlSlug] AS COL17, a.[VideoId] AS COL18, a.[ViewCount] AS COL19 FROM [Article].[Articles] a JOIN [Article].[VirtualCategoryLink] AS b ON (a.[ArticleId] = b.[article_id]) WHERE (CAST(b.[cat_id] AS VARCHAR(60)) IN (?)) ORDER BY COL8 DESC, COL1  Telerik.OpenAccess.RT.sql.SQLException: Could not find prepared statement with handle 39. ---> System.Data.SqlClient.SqlException: Could not find prepared statement with handle 39.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+ 2014-03-13 23:30:56,184 [30] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/page/page.aspx?pg=14
+Raw Url : /Page/Calendar.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.page_page_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_page.aspx.a003eb5b.vf0ixghb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Input string was not in a correct format.
+Source : mscorlib
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at FullCalendarView.ConfirmButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Calendar\FullCalendarView.ascx.cs:line 198
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+
+ 2014-03-13 23:41:26,653 [8] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/page/page.aspx?pg=14
+Raw Url : /Page/Calendar.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.page_page_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_page.aspx.a003eb5b.14ayehjs.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Input string was not in a correct format.
+Source : mscorlib
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at FullCalendarView.ConfirmButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Controls\Calendar\FullCalendarView.ascx.cs:line 200
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+
+ 2014-03-17 22:10:55,995 [13] ERROR ePressMedia.Article.ArticleEntryUC D:\EPM\ePressMedia 3_5\ePressMedia\Article\Entry.ascx.cs:401 [(null)] - Thread was being aborted.
+ 2014-03-19 18:04:54,062 [22] ERROR ePressMedia.Article.ArticleEntryUC D:\EPM\ePressMedia 3_5\ePressMedia\Article\Entry.ascx.cs:85 [(null)] - Query execution did not find a matching element.
+ 2014-03-19 18:04:57,789 [22] ERROR EPM.Core.EPMBasePage D:\EPM\ePressMedia 3_5\ePressMedia\Article\View.aspx.cs:39 [(null)] - Query execution did not find a matching element.
+ 2014-03-19 18:04:57,873 [22] ERROR ePressMedia.Global D:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/Article/view.aspx?p=58&q=&page=1&aid=6292
+Raw Url : /Article/view.aspx?p=58&q=&page=1&aid=6292
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.article_view_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_view.aspx.c7c2cb9d.m7q7a7a0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Query execution did not find a matching element.
+Source : Telerik.OpenAccess.35.Extensions
+StackTrace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute[TResult](Expression expr)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ePressMedia.Admin.PageConfig.LoadBasicInfo() in D:\EPM\ePressMedia 3_5\ePressMedia\Admin\PageConfig.ascx.cs:line 38
+   at ePressMedia.Admin.PageConfig.Page_Load(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Admin\PageConfig.ascx.cs:line 25
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+
+ 2014-03-24 22:42:05,042 [24] ERROR ePressMedia.Global d:\EPM\ePressMedia 3_5\ePressMedia\Global.asax.cs:112 [(null)] - Url : http://localhost:9935/cp/Biz/BizInfo.aspx?id=10834
+Raw Url : /cp/Biz/BizInfo.aspx?id=10834
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.cp_biz_bizinfo_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\57e5bed6\af09138b\App_Web_bizinfo.aspx.e99c087f.4nvpcjqk.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : Update failed: System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Row: GenericOID@7d4237fd BusinessEntity business_entity_id=10834
+UPDATE [Biz].[BusinessEntity] SET [fax]=?, [modified_by]=?, [modified_date]=?, [phone1]=?, [phone2]=? WHERE [business_entity_id] = ? AND [fax]=? AND [modified_by]=? AND [modified_date]=? AND [phone1]=? AND [phone2]=?
+(set event logging to all to see parameter values) System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.handleException(Exception x, Boolean needsRollback)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.internalCommit(Boolean phase)
+   at OpenAccessRuntime.DataObjects.OpenAccessPersistenceManagerImp.commit()
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.commit()
+   at OpenAccessRuntime.EnlistableObjectScope.CommitChanges()
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges(ConcurrencyConflictsProcessingMode failureMode)
+   at Telerik.OpenAccess.OpenAccessContextBase.SaveChanges()
+   at EPM.Business.Model.Biz.BEController.UpdateBE(Int32 BEID, String PrimaryName, String SecondaryName, Int32 CatId, Guid modified_by, String address, String city, String state, String zipcode, String videoURL, String password, String shortDesc, String Description, String phone1, String phone2, String fax, String emailaddress, Boolean adowner) in d:\EPM\ePressMedia 3_5\EPM.Business.Model\Biz\BEController.cs:line 84
+   at Cp_Biz_BizInfo.saveChanges() in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 199
+   at Cp_Biz_BizInfo.SaveButton_Click(Object sender, EventArgs e) in D:\EPM\ePressMedia 3_5\ePressMedia\Cp\Biz\BizInfo.aspx.cs:line 149
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Exception Throw()
+Message : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+Source : Telerik.OpenAccess.Runtime
+StackTrace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+
+ 

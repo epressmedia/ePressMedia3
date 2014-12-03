@@ -1,0 +1,21 @@
+﻿/*.srchMenu li { position:relative; }
+.srchMenu a { display:block; background-color:#ff0080; width:100%; line-height:30pt; border:1px solid #fff; color:#fff; font-size:10pt; font-weight:bold; }
+.srchMenu a.sel { background-color:#fff; color:#ff0080; } */
+
+.srchMenu li { position:relative; background-color:#0155A7; width:100%; line-height:30pt; border:1px solid #fff; color:#fff; font-size:10pt; font-weight:bold; }
+.srchMenu li.sel { background-color:#fff; color:#0155A7; }
+.srchMenu li.sel a { color:#0155A7; } 
+.srchMenu li.tsel { background-color:#ee0060; color:#fff; }
+.srchMenu li a { color:#fff; margin-left:16px; font-size:10pt; }
+.srchMenu li.tsel a { color:#fff; }
+.srchMenu span { position:absolute; right:16px; }
+
+.srchPnl { margin-left:16px; }
+a.ttlLnk { font-size: 10pt; font-weight: bold; color: #333; display: block;  } 
+.srchRslt { margin: 6px; clear:both; height:1%; overflow:hidden; line-height:14pt; }
+.srchRslt img { float:left; margin-right:6px; }
+.srchDesc { line-height:16pt; }
+.srchSec {  padding: 12px 0px 12px 0px; border-bottom: 1px dotted #0155A7; }
+.srchSec h2 { font-size: 10pt; font-weight: bold; color: #0155A7; }
+.ritePnl { text-align:right; }
+.srchItem { padding-bottom:6px; border-bottom:1px dotted #dbdbdb; }

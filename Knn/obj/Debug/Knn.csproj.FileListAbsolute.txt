@@ -1,0 +1,60 @@
+E:\Interup\Knn\Knn\Knn\bin\Debug\Knn.dll
+E:\Interup\Knn\Knn\Knn\bin\Debug\Knn.pdb
+E:\Interup\Knn\Knn\Knn\obj\Debug\ResolveAssemblyReference.cache
+E:\Interup\Knn\Knn\Knn\obj\Debug\Knn.dll
+E:\Interup\Knn\Knn\Knn\obj\Debug\Knn.pdb
+E:\Interup\Atlanta1004\Knn\bin\Debug\Knn.dll
+E:\Interup\Atlanta1004\Knn\bin\Debug\Knn.pdb
+E:\Interup\Atlanta1004\Knn\obj\Debug\ResolveAssemblyReference.cache
+E:\Interup\Atlanta1004\Knn\obj\Debug\Knn.dll
+E:\Interup\Atlanta1004\Knn\obj\Debug\Knn.pdb
+D:\Interup\Atlanta1004\Knn\bin\Debug\Knn.dll
+D:\Interup\Atlanta1004\Knn\bin\Debug\Knn.pdb
+D:\Interup\Atlanta1004\Knn\obj\Debug\ResolveAssemblyReference.cache
+D:\Interup\Atlanta1004\Knn\obj\Debug\Knn.dll
+D:\Interup\Atlanta1004\Knn\obj\Debug\Knn.pdb
+D:\Interup\iKoreatimes\Knn\bin\Debug\Knn.dll
+D:\Interup\iKoreatimes\Knn\bin\Debug\Knn.pdb
+D:\Interup\iKoreatimes\Knn\obj\Debug\ResolveAssemblyReference.cache
+D:\Interup\iKoreatimes\Knn\obj\Debug\Knn.dll
+D:\Interup\iKoreatimes\Knn\obj\Debug\Knn.pdb
+D:\Interup\ePressMedia\Knn\bin\Debug\Knn.dll
+D:\Interup\ePressMedia\Knn\bin\Debug\Knn.pdb
+D:\Interup\ePressMedia\Knn\obj\Debug\ResolveAssemblyReference.cache
+D:\Interup\ePressMedia\Knn\obj\Debug\Knn.dll
+D:\Interup\ePressMedia\Knn\obj\Debug\Knn.pdb
+D:\Interup\ePressMedia\Knn\bin\Debug\KNNModel.dll
+D:\Interup\ePressMedia\Knn\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Interup\ePressMedia\Knn\bin\Debug\KNNModel.pdb
+D:\Interup\ePressMedia\Knn\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Interup\ePressMedia_3_2\Knn\bin\Debug\Knn.dll
+D:\Interup\ePressMedia_3_2\Knn\bin\Debug\Knn.pdb
+D:\Interup\ePressMedia_3_2\Knn\bin\Debug\KNNModel.dll
+D:\Interup\ePressMedia_3_2\Knn\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Interup\ePressMedia_3_2\Knn\bin\Debug\KNNModel.pdb
+D:\Interup\ePressMedia_3_2\Knn\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Interup\ePressMedia_3_2\Knn\obj\Debug\Knn.dll
+D:\Interup\ePressMedia_3_2\Knn\obj\Debug\Knn.pdb
+D:\Interup\ePressMedia_3_2\Knn\obj\Debug\Knn.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia\Knn\bin\Debug\Knn.dll
+D:\EPM\ePressMedia\Knn\bin\Debug\Knn.pdb
+D:\EPM\ePressMedia\Knn\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia\Knn\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia\Knn\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia\Knn\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia\Knn\obj\Debug\Knn.dll
+D:\EPM\ePressMedia\Knn\obj\Debug\Knn.pdb
+D:\EPM\ePressMedia\Knn\bin\Debug\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia\Knn\bin\Debug\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia\Knn\obj\Debug\Knn.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_4\Knn\bin\Debug\Knn.dll
+D:\EPM\ePressMedia 3_4\Knn\bin\Debug\Knn.pdb
+D:\EPM\ePressMedia 3_4\Knn\bin\Debug\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_4\Knn\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_4\Knn\bin\Debug\Telerik.OpenAccess.dll
+D:\EPM\ePressMedia 3_4\Knn\bin\Debug\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_4\Knn\bin\Debug\Telerik.OpenAccess.xml
+D:\EPM\ePressMedia 3_4\Knn\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_4\Knn\obj\Debug\Knn.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_4\Knn\obj\Debug\Knn.dll
+D:\EPM\ePressMedia 3_4\Knn\obj\Debug\Knn.pdb

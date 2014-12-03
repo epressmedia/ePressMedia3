@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_ConvertModelWizard_Files\UpgradeReferences.xslt"?>
+<UpgradeLog>
+  <Events>
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\EPM.Data.Model.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\EPM.Data.Model.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\EPM.Data.Model.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\App.Config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\App.Config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\App.Config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\App.Config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\App.Config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\App.Config" Message="App.Config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\EPM.Data.Model.csproj" Message="EPM.Data.Model" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\EPM.Image.Library.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\EPM.Image.Library.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\EPM.Image.Library.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\EPM.Image.Library.csproj" Message="EPM.Image.Library" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\EPM.Core.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\EPM.Core.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\EPM.Core.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\app.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\app.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\app.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\app.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\app.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\app.config" Message="app.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\packages.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\packages.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\packages.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\packages.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\packages.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\packages.config" Message="packages.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\EPM.Core.csproj" Message="EPM.Core" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\ePressMedia.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\ePressMedia.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\ePressMedia.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\ChangePassword.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\ChangePassword.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\ChangePassword.aspx" Message="ChangePassword.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Controls\Login.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Controls\Login.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Controls\Login.aspx" Message="Login.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\ForgotUsername.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\ForgotUsername.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\ForgotUsername.aspx" Message="ForgotUsername.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Login.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Login.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Login.aspx" Message="Login.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\ManageAccount.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\ManageAccount.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\ManageAccount.aspx" Message="ManageAccount.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\RecoverPassword.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\RecoverPassword.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\RecoverPassword.aspx" Message="RecoverPassword.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\RecoverUserInfo.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\RecoverUserInfo.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\RecoverUserInfo.aspx" Message="RecoverUserInfo.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\SignIn.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\SignIn.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\SignIn.aspx" Message="SignIn.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\SignUp.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\SignUp.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\SignUp.aspx" Message="SignUp.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\VerifyAccount.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\VerifyAccount.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\VerifyAccount.aspx" Message="VerifyAccount.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\VerifyPassword.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\VerifyPassword.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\VerifyPassword.aspx" Message="VerifyPassword.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Web.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Web.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Web.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Web.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Web.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Account\Web.config" Message="Web.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\AddNewControl.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\AddNewControl.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\AddNewControl.aspx" Message="AddNewControl.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\AdminPanel.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\AdminPanel.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\AdminPanel.ascx" Message="AdminPanel.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\AdZoneControlEditor.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\AdZoneControlEditor.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\AdZoneControlEditor.ascx" Message="AdZoneControlEditor.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\ASCXControlEditor.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\ASCXControlEditor.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\ASCXControlEditor.ascx" Message="ASCXControlEditor.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\HtmlControlEditor.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\HtmlControlEditor.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\HtmlControlEditor.ascx" Message="HtmlControlEditor.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\ImageControlEditor.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\ImageControlEditor.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\ImageControlEditor.ascx" Message="ImageControlEditor.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\PageConfig.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\PageConfig.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\PageConfig.ascx" Message="PageConfig.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\PageControlEditor.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\PageControlEditor.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\PageControlEditor.aspx" Message="PageControlEditor.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\SelectControlType.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\SelectControlType.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\SelectControlType.ascx" Message="SelectControlType.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\SelectModuleType.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\SelectModuleType.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\SelectModuleType.ascx" Message="SelectModuleType.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\SelectWidgetType.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\SelectWidgetType.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Admin\SelectWidgetType.ascx" Message="SelectWidgetType.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\App_GlobalResources\Resources.fr-CA.resx" Message="Resources.fr-CA.resx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\App_GlobalResources\Resources.ko-KR.resx" Message="Resources.ko-KR.resx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\App_GlobalResources\Resources.resx" Message="Resources.resx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\Articles.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\Articles.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\Articles.aspx" Message="Articles.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\ArticleThumbnail.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\ArticleThumbnail.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\ArticleThumbnail.aspx" Message="ArticleThumbnail.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\Entry.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\Entry.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\Entry.ascx" Message="Entry.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\List.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\List.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\List.aspx" Message="List.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\View.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\View.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\View.aspx" Message="View.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\ViewArticle.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\ViewArticle.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Article\ViewArticle.aspx" Message="ViewArticle.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\EditBiz.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\EditBiz.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\EditBiz.aspx" Message="EditBiz.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\GalleryView.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\GalleryView.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\GalleryView.aspx" Message="GalleryView.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\MapView.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\MapView.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\MapView.aspx" Message="MapView.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\PostBiz.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\PostBiz.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\PostBiz.aspx" Message="PostBiz.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\ViewBiz.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\ViewBiz.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Biz\ViewBiz.aspx" Message="ViewBiz.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\Controls\EditEvent.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\Controls\EditEvent.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\Controls\EditEvent.ascx" Message="EditEvent.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\Controls\PostEvent.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\Controls\PostEvent.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\Controls\PostEvent.ascx" Message="PostEvent.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\EditEvent.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\EditEvent.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\EditEvent.aspx" Message="EditEvent.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\MonthlyCalendar.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\MonthlyCalendar.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\MonthlyCalendar.aspx" Message="MonthlyCalendar.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\PostEvent.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\PostEvent.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\PostEvent.aspx" Message="PostEvent.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\WeeklyCalendar.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\WeeklyCalendar.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Calendar\WeeklyCalendar.aspx" Message="WeeklyCalendar.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Classified.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Classified.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Classified.aspx" Message="Classified.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Controls\ClassifiedPost.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Controls\ClassifiedPost.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Controls\ClassifiedPost.ascx" Message="ClassifiedPost.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Controls\GalleryView.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Controls\GalleryView.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Controls\GalleryView.aspx" Message="GalleryView.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Controls\MapView.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Controls\MapView.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Controls\MapView.aspx" Message="MapView.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Entry.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Entry.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\Entry.ascx" Message="Entry.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\list.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\list.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\list.aspx" Message="list.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\PostAd.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\PostAd.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\PostAd.aspx" Message="PostAd.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\view.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\view.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\view.aspx" Message="view.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\ViewAd.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\ViewAd.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Classified\ViewAd.aspx" Message="ViewAd.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Ad\VideoAdBox.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Ad\VideoAdBox.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Ad\VideoAdBox.ascx" Message="VideoAdBox.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Ad\VideoAdBoxSmall.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Ad\VideoAdBoxSmall.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Ad\VideoAdBoxSmall.ascx" Message="VideoAdBoxSmall.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleImageSlider.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleImageSlider.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleImageSlider.ascx" Message="ArticleImageSlider.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleImageSliderNivo.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleImageSliderNivo.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleImageSliderNivo.ascx" Message="ArticleImageSliderNivo.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleSummaryList.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleSummaryList.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleSummaryList.ascx" Message="ArticleSummaryList.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleSummaryList2.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleSummaryList2.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ArticleSummaryList2.ascx" Message="ArticleSummaryList2.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\DetailView\ArticleDetail.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\DetailView\ArticleDetail.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\DetailView\ArticleDetail.ascx" Message="ArticleDetail.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\DetailView\RelatedArticleList.ascx" Message="RelatedArticleList.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ListView\ArticleList.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ListView\ArticleList.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ListView\ArticleList.ascx" Message="ArticleList.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ListView\ArticleListSummary.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ListView\ArticleListSummary.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\ListView\ArticleListSummary.ascx" Message="ArticleListSummary.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\MultiImageArticleSummary.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\MultiImageArticleSummary.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\MultiImageArticleSummary.ascx" Message="MultiImageArticleSummary.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\PageableArticleListView.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\PageableArticleListView.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\PageableArticleListView.ascx" Message="PageableArticleListView.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\TagCloud.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\TagCloud.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Article\TagCloud.ascx" Message="TagCloud.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\BizRankBox.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\BizRankBox.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\BizRankBox.ascx" Message="BizRankBox.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\DetailView\BizDetail.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\DetailView\BizDetail.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\DetailView\BizDetail.ascx" Message="BizDetail.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\ListView\BizList.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\ListView\BizList.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Biz\ListView\BizList.ascx" Message="BizList.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Calendar\FullCalendarView.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Calendar\FullCalendarView.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Calendar\FullCalendarView.ascx" Message="FullCalendarView.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Calendar\MonthViewCalendar.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Calendar\MonthViewCalendar.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Calendar\MonthViewCalendar.ascx" Message="MonthViewCalendar.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Calendar\UpCommingEvent.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Calendar\UpCommingEvent.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Calendar\UpCommingEvent.ascx" Message="UpCommingEvent.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Classified\DetailView\AdView.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Classified\DetailView\AdView.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Classified\DetailView\AdView.ascx" Message="AdView.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Classified\ListView\AdList.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Classified\ListView\AdList.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Classified\ListView\AdList.ascx" Message="AdList.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\BreadCrumb.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\BreadCrumb.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\BreadCrumb.ascx" Message="BreadCrumb.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\CommentPanel.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\CommentPanel.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\CommentPanel.ascx" Message="CommentPanel.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\ContactForm.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\ContactForm.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\ContactForm.ascx" Message="ContactForm.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\LatestImage.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\LatestImage.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\LatestImage.ascx" Message="LatestImage.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\MainPopup.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\MainPopup.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\MainPopup.ascx" Message="MainPopup.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\MultiContentSummary.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\MultiContentSummary.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\MultiContentSummary.ascx" Message="MultiContentSummary.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\RecentMultiThreads.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\RecentMultiThreads.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\RecentMultiThreads.ascx" Message="RecentMultiThreads.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\Weather.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\Weather.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Common\Weather.ascx" Message="Weather.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Form\CustomForm.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Form\CustomForm.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Form\CustomForm.ascx" Message="CustomForm.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\DetailView\ForumDetail.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\DetailView\ForumDetail.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\DetailView\ForumDetail.ascx" Message="ForumDetail.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\ListView\ListThread.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\ListView\ListThread.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\ListView\ListThread.ascx" Message="ListThread.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\MultiImageForumSummary.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\MultiImageForumSummary.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Forum\MultiImageForumSummary.ascx" Message="MultiImageForumSummary.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\JpegCaptcha.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\JpegCaptcha.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\JpegCaptcha.aspx" Message="JpegCaptcha.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\DefaultLoginPanel.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\DefaultLoginPanel.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\DefaultLoginPanel.ascx" Message="DefaultLoginPanel.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\LoginLinkLine.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\LoginLinkLine.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\LoginLinkLine.ascx" Message="LoginLinkLine.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\LoginPanelKeepSignIn.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\LoginPanelKeepSignIn.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\LoginPanelKeepSignIn.ascx" Message="LoginPanelKeepSignIn.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\PageLoginPanel.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\PageLoginPanel.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Logins\PageLoginPanel.ascx" Message="PageLoginPanel.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Menu\StandardKNNMenu.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Menu\StandardKNNMenu.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Menu\StandardKNNMenu.ascx" Message="StandardKNNMenu.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Menu\StdKNNMenu2.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Menu\StdKNNMenu2.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Menu\StdKNNMenu2.ascx" Message="StdKNNMenu2.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Pager\FitPager.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Pager\FitPager.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Pager\FitPager.ascx" Message="FitPager.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Search\Search.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Search\Search.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Search\Search.ascx" Message="Search.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Search\SearchByModule.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Search\SearchByModule.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Search\SearchByModule.ascx" Message="SearchByModule.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\SideSubMenu\KNNDefaultSideSubMenu.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\SideSubMenu\KNNDefaultSideSubMenu.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\SideSubMenu\KNNDefaultSideSubMenu.ascx" Message="KNNDefaultSideSubMenu.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Sitemap\StandardKNNSitemap.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Sitemap\StandardKNNSitemap.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Controls\Sitemap\StandardKNNSitemap.ascx" Message="StandardKNNSitemap.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\AddPopup.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\AddPopup.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\AddPopup.aspx" Message="AddPopup.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\Banner.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\Banner.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\Banner.aspx" Message="Banner.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\BannerEntry.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\BannerEntry.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\BannerEntry.aspx" Message="BannerEntry.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\EditPopup.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\EditPopup.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\EditPopup.aspx" Message="EditPopup.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\Popups.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\Popups.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\Popups.aspx" Message="Popups.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\Zone.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\Zone.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\Zone.aspx" Message="Zone.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\ZoneEntry.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\ZoneEntry.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Ad\ZoneEntry.aspx" Message="ZoneEntry.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Article\Default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Article\Default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Article\Default.aspx" Message="Default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Article\NewsLinks.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Article\NewsLinks.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Article\NewsLinks.aspx" Message="NewsLinks.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Article\Properties.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Article\Properties.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Article\Properties.aspx" Message="Properties.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\AddBiz.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\AddBiz.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\AddBiz.aspx" Message="AddBiz.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\BizCategories.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\BizCategories.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\BizCategories.aspx" Message="BizCategories.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\BizConfig.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\BizConfig.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\BizConfig.aspx" Message="BizConfig.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\BizInfo.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\BizInfo.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\BizInfo.aspx" Message="BizInfo.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Biz\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Calendar\CalendarAccessControl.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Calendar\CalendarAccessControl.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Calendar\CalendarAccessControl.aspx" Message="CalendarAccessControl.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Calendar\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Calendar\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Calendar\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Classified\CatProperties.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Classified\CatProperties.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Classified\CatProperties.aspx" Message="CatProperties.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Classified\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Classified\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Classified\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Classified\Properties.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Classified\Properties.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Classified\Properties.aspx" Message="Properties.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Comment\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Comment\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Comment\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\AccessControl.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\AccessControl.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\AccessControl.ascx" Message="AccessControl.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\GA\Visitors.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\GA\Visitors.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\GA\Visitors.ascx" Message="Visitors.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\PageBuilder.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\PageBuilder.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\PageBuilder.ascx" Message="PageBuilder.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\Toolbox.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\Toolbox.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Controls\Toolbox.ascx" Message="Toolbox.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\CustomPage\CatProperties.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\CustomPage\CatProperties.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\CustomPage\CatProperties.aspx" Message="CatProperties.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\CustomPage\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\CustomPage\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\CustomPage\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Dashboard\AdStatistic.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Dashboard\AdStatistic.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Dashboard\AdStatistic.ascx" Message="AdStatistic.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Default.aspx" Message="Default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx" Message="FormEmail.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Forum\CatProperties.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Forum\CatProperties.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Forum\CatProperties.aspx" Message="CatProperties.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Forum\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Forum\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Forum\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Forum\Properties.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Forum\Properties.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Forum\Properties.aspx" Message="Properties.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Html\Default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Html\Default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Html\Default.aspx" Message="Default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Login.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Login.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Login.aspx" Message="Login.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Master.Master" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Master.Master" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Master.Master" Message="Master.Master" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\MasterPage\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\MasterPage\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\MasterPage\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Pages\PageConfig.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Pages\PageConfig.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Pages\PageConfig.aspx" Message="PageConfig.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Pages\Permissions.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Pages\Permissions.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Pages\Permissions.aspx" Message="Permissions.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Pages\Preview.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Pages\Preview.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Pages\Preview.aspx" Message="Preview.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\PageTemplate\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\PageTemplate\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\PageTemplate\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\SetPrevIssue.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\SetPrevIssue.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\SetPrevIssue.aspx" Message="SetPrevIssue.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\Areas.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\Areas.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\Areas.aspx" Message="Areas.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EditEmailTemplate.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EditEmailTemplate.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EditEmailTemplate.aspx" Message="EditEmailTemplate.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EditStyleSheet.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EditStyleSheet.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EditStyleSheet.aspx" Message="EditStyleSheet.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\EmailTemplates.aspx" Message="EmailTemplates.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\FileManager.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\FileManager.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\FileManager.aspx" Message="FileManager.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\Geo.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\Geo.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\Geo.aspx" Message="Geo.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\GoogleAnalytics.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\GoogleAnalytics.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\GoogleAnalytics.aspx" Message="GoogleAnalytics.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\SiteMenu.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\SiteMenu.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\SiteMenu.aspx" Message="SiteMenu.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\SiteSettings.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\SiteSettings.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\SiteSettings.aspx" Message="SiteSettings.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\StyleSheetExplorer.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\StyleSheetExplorer.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\StyleSheetExplorer.aspx" Message="StyleSheetExplorer.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\StyleSheets.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\StyleSheets.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\StyleSheets.aspx" Message="StyleSheets.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\Thumbnails.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\Thumbnails.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Site\Thumbnails.aspx" Message="Thumbnails.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\EmailTester.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\EmailTester.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\EmailTester.aspx" Message="EmailTester.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\ImportUsers.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\ImportUsers.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\ImportUsers.aspx" Message="ImportUsers.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\SlugGenerator.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\SlugGenerator.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\SlugGenerator.aspx" Message="SlugGenerator.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\ThumbnailGenerator.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\ThumbnailGenerator.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Tools\ThumbnailGenerator.aspx" Message="ThumbnailGenerator.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFAttachment.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFAttachment.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFAttachment.aspx" Message="AddUDFAttachment.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFGroup.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFGroup.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFGroup.aspx" Message="AddUDFGroup.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFMember.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFMember.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\AddUDFMember.aspx" Message="AddUDFMember.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFAttachment.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFAttachment.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFAttachment.aspx" Message="UDFAttachment.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFGroup.aspx" Message="UDFGroup.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFReference.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFReference.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\UDF\UDFReference.aspx" Message="UDFReference.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\AddUser.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\AddUser.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\AddUser.aspx" Message="AddUser.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\default.aspx" Message="default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\UserDetail.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\UserDetail.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\UserDetail.aspx" Message="UserDetail.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\UserInfo.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\UserInfo.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\UserInfo.aspx" Message="UserInfo.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\UserRoles.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\UserRoles.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\User\UserRoles.aspx" Message="UserRoles.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Web.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Web.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Web.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Web.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Web.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Web.config" Message="Web.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Widget\Default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Widget\Default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Widget\Default.aspx" Message="Default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Widget\Explorer.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Widget\Explorer.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Widget\Explorer.aspx" Message="Explorer.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Default.aspx" Message="Default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\epm-admin\default.Master" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\epm-admin\default.Master" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\epm-admin\default.Master" Message="default.Master" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\epm-admin\index.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\epm-admin\index.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\epm-admin\index.aspx" Message="index.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\epm-admin\login.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\epm-admin\login.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\epm-admin\login.aspx" Message="login.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\EditThread.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\EditThread.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\EditThread.aspx" Message="EditThread.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\Entry.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\Entry.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\Entry.ascx" Message="Entry.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\Forums.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\Forums.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\Forums.aspx" Message="Forums.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\ForumThreads.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\ForumThreads.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\ForumThreads.aspx" Message="ForumThreads.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\List.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\List.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\List.aspx" Message="List.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\PostThread.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\PostThread.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\PostThread.aspx" Message="PostThread.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\ThreadEntry.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\ThreadEntry.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\ThreadEntry.aspx" Message="ThreadEntry.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\View.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\View.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\View.aspx" Message="View.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\ViewThread.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\ViewThread.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Forum\ViewThread.aspx" Message="ViewThread.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Log4Net.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Log4Net.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Log4Net.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Log4Net.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Log4Net.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Log4Net.config" Message="Log4Net.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage.master" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage.master" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage.master" Message="MasterPage.master" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1111.master" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1111.master" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1111.master" Message="MasterPage_1111.master" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_11131.master" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_11131.master" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_11131.master" Message="MasterPage_11131.master" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1121.master" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1121.master" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1121.master" Message="MasterPage_1121.master" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1131.master" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1131.master" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1131.master" Message="MasterPage_1131.master" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1141.master" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1141.master" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Master\MasterPage_1141.master" Message="MasterPage_1141.master" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Biz.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Biz.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Biz.aspx" Message="Biz.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\BizMap.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\BizMap.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\BizMap.aspx" Message="BizMap.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Classified.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Classified.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Classified.aspx" Message="Classified.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\ClassifiedDetail.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\ClassifiedDetail.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\ClassifiedDetail.aspx" Message="ClassifiedDetail.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileAdDetail1.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileAdDetail1.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileAdDetail1.ascx" Message="MobileAdDetail1.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileAdList1.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileAdList1.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileAdList1.ascx" Message="MobileAdList1.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBiz1.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBiz1.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBiz1.ascx" Message="MobileBiz1.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizDetail1.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizDetail1.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizDetail1.ascx" Message="MobileBizDetail1.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizList1.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizList1.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizList1.ascx" Message="MobileBizList1.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizSearch.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizSearch.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizSearch.ascx" Message="MobileBizSearch.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizSub1.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizSub1.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileBizSub1.ascx" Message="MobileBizSub1.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileNews1.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileNews1.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileNews1.ascx" Message="MobileNews1.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileNewsDetail1.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileNewsDetail1.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileNewsDetail1.ascx" Message="MobileNewsDetail1.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileNewsMain1.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileNewsMain1.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Common\MobileNewsMain1.ascx" Message="MobileNewsMain1.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Default.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Default.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\Default.aspx" Message="Default.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\News.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\News.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\News.aspx" Message="News.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\NewsDetail.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\NewsDetail.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Mobile\NewsDetail.aspx" Message="NewsDetail.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Error413.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Error413.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Error413.aspx" Message="Error413.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Progress.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Progress.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Progress.aspx" Message="Progress.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\SmoothProgress.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\SmoothProgress.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\SmoothProgress.aspx" Message="SmoothProgress.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Web.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Web.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Web.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Web.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Web.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\NeatUpload\Web.config" Message="Web.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\packages.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\packages.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\packages.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\packages.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\packages.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\packages.config" Message="packages.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\DataEntry.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\DataEntry.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\DataEntry.aspx" Message="DataEntry.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\delete.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\delete.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\delete.ascx" Message="delete.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\Page.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\Page.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\Page.aspx" Message="Page.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\UDFEntryPanel.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\UDFEntryPanel.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Page\UDFEntryPanel.ascx" Message="UDFEntryPanel.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Search\Search.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Search\Search.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Search\Search.aspx" Message="Search.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Search\SearchMenu.ascx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Search\SearchMenu.ascx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Search\SearchMenu.ascx" Message="SearchMenu.ascx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.config" Message="Web.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Debug.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Debug.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Debug.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Debug.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Debug.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Debug.config" Message="Web.Debug.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Release.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Release.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Release.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Release.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Release.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Web.Release.config" Message="Web.Release.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\WebForm1.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\WebForm1.aspx" Message="Assembly Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\WebForm1.aspx" Message="WebForm1.aspx" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\ePressMedia.csproj" Message="ePressMedia" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\EPM.Email.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\EPM.Email.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\EPM.Email.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\packages.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\packages.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\packages.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\packages.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\packages.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\packages.config" Message="packages.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\EPM.Email.csproj" Message="EPM.Email" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\EPM.Business.Model.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\EPM.Business.Model.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\EPM.Business.Model.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\packages.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\packages.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\packages.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\packages.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\packages.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\packages.config" Message="packages.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\EPM.Business.Model.csproj" Message="EPM.Business.Model" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Web.UI\EPM.Web.UI.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Web.UI\EPM.Web.UI.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Web.UI\EPM.Web.UI.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Web.UI\EPM.Web.UI.csproj" Message="EPM.Web.UI" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.UDF\EPM.UDF.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.UDF\EPM.UDF.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.UDF\EPM.UDF.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.UDF\EPM.UDF.csproj" Message="EPM.UDF" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Legacy\EPM.Legacy.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Legacy\EPM.Legacy.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Legacy\EPM.Legacy.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Legacy\EPM.Legacy.csproj" Message="EPM.Legacy" />
+    <Event EventType="Success" Action="Analyze" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia_3_5_1.sln" Message="ePressMedia_3_5_1" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\EPM.Data.Model.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\KNNModel\EPM.Data.Model.csproj" Message="EPM.Data.Model" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\EPM.Core.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\KNN.Core\EPM.Core.csproj" Message="EPM.Core" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\ePressMedia.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx" Message="Register Directives" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\Cp\Form\FormEmail.aspx" Message="FormEmail.aspx" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia\ePressMedia.csproj" Message="ePressMedia" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\EPM.Email.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Email\EPM.Email.csproj" Message="EPM.Email" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\EPM.Business.Model.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Business.Model\EPM.Business.Model.csproj" Message="EPM.Business.Model" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Web.UI\EPM.Web.UI.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Web.UI\EPM.Web.UI.csproj" Message="EPM.Web.UI" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Legacy\EPM.Legacy.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\EPM.Legacy\EPM.Legacy.csproj" Message="EPM.Legacy" />
+    <Event EventType="Success" Action="Upgrade" SourceItem="D:\EPM\ePressMedia 3_5_1\ePressMedia_3_5_1.sln" Message="ePressMedia_3_5_1" />
+  </Events>
+</UpgradeLog>

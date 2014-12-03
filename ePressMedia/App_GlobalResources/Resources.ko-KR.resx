@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Login.ChkRememberMe" xml:space="preserve">
+    <value>ID 저장</value>
+  </data>
+  <data name="Login.lbl_LostPassword" xml:space="preserve">
+    <value>비밀번호 찾기</value>
+  </data>
+  <data name="Login.lbl_LostUserName" xml:space="preserve">
+    <value>아이디 찾기</value>
+  </data>
+  <data name="Login.lbl_Password" xml:space="preserve">
+    <value>비밀번호</value>
+  </data>
+  <data name="Login.lbl_UserName" xml:space="preserve">
+    <value>아이디</value>
+  </data>
+  <data name="Login.lbl_signup" xml:space="preserve">
+    <value>회원가입</value>
+  </data>
+  <data name="Login.FailMassage" xml:space="preserve">
+    <value>아이디 또는 비밀번호가 틀립니다.</value>
+  </data>
+  <data name="Login.btn_login" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="Gen.lbl_Add" xml:space="preserve">
+    <value>새글</value>
+  </data>
+  <data name="Gen.lbl_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Gen.lbl_Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Gen.lbl_Edit" xml:space="preserve">
+    <value>수정</value>
+  </data>
+  <data name="Gen.lbl_List" xml:space="preserve">
+    <value>목록</value>
+  </data>
+  <data name="Gen.lbl_Submit" xml:space="preserve">
+    <value>등록</value>
+  </data>
+  <data name="Gen.lbl_Next" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="Gen.lbl_Ok" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Gen.lbl_Previous" xml:space="preserve">
+    <value>이전</value>
+  </data>
+  <data name="Gen.lbl_Search" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="Login.lbl_login" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="Login.lbl_logout" xml:space="preserve">
+    <value>로그아웃</value>
+  </data>
+  <data name="Account.btn_RegSubmit" xml:space="preserve">
+    <value>회원등록</value>
+  </data>
+  <data name="Account.lbl_Address1" xml:space="preserve">
+    <value>주소1</value>
+  </data>
+  <data name="Account.lbl_Address2" xml:space="preserve">
+    <value>주소2</value>
+  </data>
+  <data name="Account.lbl_City" xml:space="preserve">
+    <value>도시</value>
+  </data>
+  <data name="Account.lbl_Comment" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="Account.lbl_EmailAddress" xml:space="preserve">
+    <value>이메일</value>
+  </data>
+  <data name="Account.lbl_EmailConfirmFail" xml:space="preserve">
+    <value>등록되지 않은 이메일 입니다.</value>
+  </data>
+  <data name="Account.lbl_EmailConfirmSuccess" xml:space="preserve">
+    <value>회원등록시 설정하신 이메일 주소로 안내 메일이 발송되었습니다.</value>
+  </data>
+  <data name="Account.lbl_EmailMe" xml:space="preserve">
+    <value>이메일 전송</value>
+  </data>
+  <data name="Account.lbl_EnterEmailAddress" xml:space="preserve">
+    <value>이메일주소를 입력해주세요.</value>
+  </data>
+  <data name="Account.lbl_EnterEmailAgain" xml:space="preserve">
+    <value>이메일주소를 한번더 입력해 주세요.</value>
+  </data>
+  <data name="Account.lbl_EnterPasswordAgain" xml:space="preserve">
+    <value>위에서 설정한 비밀번호를 한번더 입력해 주세요</value>
+  </data>
+  <data name="Account.lbl_FaxNumber" xml:space="preserve">
+    <value>팩스</value>
+  </data>
+  <data name="Account.lbl_FindPassword" xml:space="preserve">
+    <value>비밀번호 찾기</value>
+  </data>
+  <data name="Account.lbl_FindUserName" xml:space="preserve">
+    <value>아이디 찾기</value>
+  </data>
+  <data name="Account.lbl_FindUserNameDescr" xml:space="preserve">
+    <value>회원등록시 설정한 이메일 주소를 입력해주세요. &lt;br / &gt;해당 이메일 주소로 등록된 사용자 아이디가 발송됩니다.</value>
+  </data>
+  <data name="Account.lbl_FirstName" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Account.lbl_LastName" xml:space="preserve">
+    <value>성</value>
+  </data>
+  <data name="Account.lbl_OptionalInfo" xml:space="preserve">
+    <value>선택 입력 항목</value>
+  </data>
+  <data name="Account.lbl_PhoneNumber" xml:space="preserve">
+    <value>전화번호</value>
+  </data>
+  <data name="Account.lbl_RequiredField" xml:space="preserve">
+    <value>*아래 항목은 반드시 입력하여야 합니다</value>
+  </data>
+  <data name="Account.lbl_RequiredInfo" xml:space="preserve">
+    <value>필수 입력 항목</value>
+  </data>
+  <data name="Account.lbl_State" xml:space="preserve">
+    <value>주</value>
+  </data>
+  <data name="Account.lbl_UserReg" xml:space="preserve">
+    <value>회원 등록</value>
+  </data>
+  <data name="Account.lbl_WrongEmailFormat" xml:space="preserve">
+    <value>&lt;br/&gt;잘못된 이메일 형식입니다</value>
+  </data>
+  <data name="Account.lbl_ZipCode" xml:space="preserve">
+    <value>우편번호</value>
+  </data>
+  <data name="Account.msg_Available" xml:space="preserve">
+    <value>사용 가능합니다</value>
+  </data>
+  <data name="Account.msg_EmailMatch" xml:space="preserve">
+    <value>이메일이 일치하지 않습니다</value>
+  </data>
+  <data name="Account.msg_EmailReq" xml:space="preserve">
+    <value>이메일을 입력하세요</value>
+  </data>
+  <data name="Account.msg_EmailValidation" xml:space="preserve">
+    <value>잘못된 이메일 형식입니다.</value>
+  </data>
+  <data name="Account.msg_FirstNameReq" xml:space="preserve">
+    <value>이름을 입력하세요</value>
+  </data>
+  <data name="Account.msg_LastNameReq" xml:space="preserve">
+    <value>성을 입력하세요</value>
+  </data>
+  <data name="Account.msg_NotAvailable" xml:space="preserve">
+    <value>이미 사용중인 아이디입니다.</value>
+  </data>
+  <data name="Account.msg_PasswordMatch" xml:space="preserve">
+    <value>비밀번호가 일치하지 않습니다.</value>
+  </data>
+  <data name="Account.msg_PasswordReq" xml:space="preserve">
+    <value>비밀번호를 입력하세요.</value>
+  </data>
+  <data name="Account.msg_PasswordValidation" xml:space="preserve">
+    <value>비밀번호는 최소 6자리 이상이어야 합니다.</value>
+  </data>
+  <data name="Account.msg_UserNameReq" xml:space="preserve">
+    <value>사용자명을 입력하세요.</value>
+  </data>
+  <data name="Account.msg_UserNameValidation" xml:space="preserve">
+    <value>네 글자 이상 열여섯 글자 이하여야 하며, 알파벳과 숫자 그리고 '_' 만 허용됩니다.</value>
+  </data>
+  <data name="Acount.lbl_UserNameAvail" xml:space="preserve">
+    <value>중복확인</value>
+  </data>
+  <data name="Gen.lbl_Example" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="Account.email_AccountRegEmailSubject" xml:space="preserve">
+    <value>회원 등록을 마무리 하세요.</value>
+  </data>
+  <data name="Account.email_PasswordReset" xml:space="preserve">
+    <value>비밀번호 안내 이메일입니다.</value>
+  </data>
+  <data name="Account.lbl_ConfirmPassword" xml:space="preserve">
+    <value>비밀번호 확인</value>
+  </data>
+  <data name="Account.lbl_CurrentPassword" xml:space="preserve">
+    <value>현재 비밀번호</value>
+  </data>
+  <data name="Account.lbl_FindPasswordDescr" xml:space="preserve">
+    <value>회원등록시 설정한 이메일 주소를 입력해주세요. &lt;br / &gt;해당 이메일 주소로 새로운 비밀번호가 발송됩니다.</value>
+  </data>
+  <data name="Account.lbl_FinishRegistration" xml:space="preserve">
+    <value>회원 등록 확인</value>
+  </data>
+  <data name="Account.lbl_GoToLoginPage" xml:space="preserve">
+    <value>로그인페이지로 이동</value>
+  </data>
+  <data name="Account.lbl_NewPassword" xml:space="preserve">
+    <value>새 비밀번호</value>
+  </data>
+  <data name="Account.lbl_ResetPassword" xml:space="preserve">
+    <value>비밀번호 초기화</value>
+  </data>
+  <data name="Account.lbl_UpdatePassword" xml:space="preserve">
+    <value>비밀번호 설정</value>
+  </data>
+  <data name="Account.lbl_UpdateProfile" xml:space="preserve">
+    <value>개인정보 변경</value>
+  </data>
+  <data name="Account.msg_AccountRegSuccess" xml:space="preserve">
+    <value>등록 신청이 완료되었습니다.\n\n신청시 입력하신 이메일 주소로 인증메일이 전송되었습니다. 메일 내용에 있는 등록 인증 링크를 클릭하시면 등록이 완료됩니다.</value>
+  </data>
+  <data name="Account.msg_AccountVerifyFail1" xml:space="preserve">
+    <value>회원 등록이 완료되지 않았습니다.</value>
+  </data>
+  <data name="Account.msg_AccountVerifyFail2" xml:space="preserve">
+    <value>다시한번 회원 등록 신청시에 입력하신 이메일을 확인해 주세요.&lt;br /&gt;
+회원 등록이 마무리 되려면, 등록 신청 후 발송된 회원 등록 안내 이메일을 확인 하셔야 합니다.</value>
+  </data>
+  <data name="Account.msg_AccountVerifySuccess1" xml:space="preserve">
+    <value>회원가입 신청을 해 주셔서 감사합니다.</value>
+  </data>
+  <data name="Account.msg_AccountVerifySuccess2" xml:space="preserve">
+    <value>회원 등록이 정상적으로 완료되었습니다.</value>
+  </data>
+  <data name="Account.msg_EmailExists" xml:space="preserve">
+    <value>이미 존재하는 이메일 주소입니다</value>
+  </data>
+  <data name="Account.msg_UserNameNotAllowed" xml:space="preserve">
+    <value>사용할수 없는 아이디입니다.</value>
+  </data>
+  <data name="Account.msg_VarifyPassword" xml:space="preserve">
+    <value>개인 정보 보호를 위해 비밀번호를 다시한번 입력해 주세요.</value>
+  </data>
+  <data name="Account.msg_WrongPassword" xml:space="preserve">
+    <value>비밀번호가 일치하지 않습니다.</value>
+  </data>
+  <data name="Login.lbl_MyProfile" xml:space="preserve">
+    <value>내정보</value>
+  </data>
+  <data name="Login.lbl_UserNamePostfix" xml:space="preserve">
+    <value>님</value>
+  </data>
+  <data name="Login.lbl_UserNamePrefix" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Login.lbl_Welcome" xml:space="preserve">
+    <value>환영합니다!</value>
+  </data>
+  <data name="Account.lbl_FindUserNamePassword" xml:space="preserve">
+    <value>아이디/비밀번호 찾기</value>
+  </data>
+  <data name="Admin.lbl_UpdatePassword" xml:space="preserve">
+    <value>비밀번호 변경</value>
+  </data>
+  <data name="Login.ChkKeepMeSignIn" xml:space="preserve">
+    <value>로그인유지</value>
+  </data>
+  <data name="Account.msg_PasswordSent" xml:space="preserve">
+    <value>입력하신 이메일 주소로 안내 메일이 발송되었습니다.</value>
+  </data>
+  <data name="Account.msg_ProblemOccured" xml:space="preserve">
+    <value>요청하신 이메일을 발송하는데 오류가 있습니다. 관리자에 문의해주시기 바랍니다.</value>
+  </data>
+  <data name="Account.msg_UserNotRegistered" xml:space="preserve">
+    <value>등록되지 않은 사용자 아이디 또는 이메일 입니다.</value>
+  </data>
+  <data name="Gen.lbl_count" xml:space="preserve">
+    <value>조회</value>
+  </data>
+  <data name="Captcha.ErrorMassage" xml:space="preserve">
+    <value>문자열이 맞지 않습니다.</value>
+  </data>
+  <data name="Captcha.TypeCode" xml:space="preserve">
+    <value>그림에 있는 문자를 써주세요</value>
+  </data>
+  <data name="Gen.lbl_Send" xml:space="preserve">
+    <value>보내기</value>
+  </data>
+  <data name="Forum.btn_Attachments" xml:space="preserve">
+    <value>첨부할 파일 선택...</value>
+  </data>
+  <data name="Forum.lbl_Announcement" xml:space="preserve">
+    <value>공지사항</value>
+  </data>
+  <data name="Forum.lbl_AnnouncementCheck" xml:space="preserve">
+    <value>공지사항인 경우에 체크하세요</value>
+  </data>
+  <data name="Forum.lbl_Attachments" xml:space="preserve">
+    <value>첨부파일</value>
+  </data>
+  <data name="Forum.lbl_Captcha" xml:space="preserve">
+    <value>자동등록방지</value>
+  </data>
+  <data name="Forum.lbl_CaptchaMsg" xml:space="preserve">
+    <value>오른쪽에 표시된 네자리 숫자를 입력해주세요</value>
+  </data>
+  <data name="Forum.lbl_Content" xml:space="preserve">
+    <value>내용</value>
+  </data>
+  <data name="Forum.lbl_Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Forum.lbl_Password" xml:space="preserve">
+    <value>비밀번호</value>
+  </data>
+  <data name="Forum.lbl_PasswordMsg" xml:space="preserve">
+    <value>글 수정, 삭제시 필요합니다 (최대 8자)</value>
+  </data>
+  <data name="Forum.lbl_Private" xml:space="preserve">
+    <value>비밀글</value>
+  </data>
+  <data name="Forum.lbl_PrivateCheck" xml:space="preserve">
+    <value>비밀글인 경우에 체크하세요</value>
+  </data>
+  <data name="Forum.lbl_RequiredField" xml:space="preserve">
+    <value>필수입력 항목입니다.</value>
+  </data>
+  <data name="Forum.lbl_Subject" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="Forum.msg_Attachments" xml:space="preserve">
+    <value>지원하지 않은 화일을 선택하셨습니다.</value>
+  </data>
+  <data name="Forum.lbl_AttachmentDelete" xml:space="preserve">
+    <value>이미 첨부된 화일을 지우시려면 체크하세요.</value>
+  </data>
+  <data name="Forum.lbl_Date" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="Forum.lbl_NewThread" xml:space="preserve">
+    <value>새글</value>
+  </data>
+  <data name="Forum.lbl_Number" xml:space="preserve">
+    <value>번호</value>
+  </data>
+  <data name="Forum.lbl_PasswordEnter" xml:space="preserve">
+    <value>비밀글입니다. 글 작성시 설정한 비밀번호를 입력하세요.</value>
+  </data>
+  <data name="Forum.lbl_Views" xml:space="preserve">
+    <value>조회수</value>
+  </data>
+  <data name="Forum.msg_PasswordEnter" xml:space="preserve">
+    <value>글작성시 만드신 비밀번호를 입력해주세요.</value>
+  </data>
+  <data name="Article.lbl_Post" xml:space="preserve">
+    <value>기사 등록</value>
+  </data>
+  <data name="Gen.lbl_Post" xml:space="preserve">
+    <value>새글등록</value>
+  </data>
+  <data name="Article.lbl_Views" xml:space="preserve">
+    <value>조회</value>
+  </data>
+  <data name="Gen.lbl_Move" xml:space="preserve">
+    <value>이동</value>
+  </data>
+  <data name="Search.lbl_SearchResult" xml:space="preserve">
+    <value>검색결과</value>
+  </data>
+  <data name="Classified.lbl_AdNumber" xml:space="preserve">
+    <value>번호</value>
+  </data>
+  <data name="Classified.lbl_Date" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="Classified.lbl_Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Classified.lbl_Notice" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="Classified.lbl_Search" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="Classified.lbl_Title" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="Classified.lbl_View" xml:space="preserve">
+    <value>조회수</value>
+  </data>
+  <data name="Article.lbl_SelectVirCat" xml:space="preserve">
+    <value>선택하세요</value>
+  </data>
+  <data name="Article.lbl_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Article.lbl_ContentEditor" xml:space="preserve">
+    <value>기사본문</value>
+  </data>
+  <data name="Article.lbl_ImageClick" xml:space="preserve">
+    <value>기사본문에 넣을 이미지를 클릭해주세요.</value>
+  </data>
+  <data name="Article.lbl_IssueDateTime" xml:space="preserve">
+    <value>발행 날짜/시간</value>
+  </data>
+  <data name="Article.lbl_MaxImageSize" xml:space="preserve">
+    <value>최대 이미지 사이즈: </value>
+  </data>
+  <data name="Article.lbl_NoVirCatAvail" xml:space="preserve">
+    <value>Not available</value>
+  </data>
+  <data name="Article.lbl_PostedBy" xml:space="preserve">
+    <value>작성자</value>
+  </data>
+  <data name="Article.lbl_RelatedArticles" xml:space="preserve">
+    <value>관련기사</value>
+  </data>
+  <data name="Article.lbl_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Article.lbl_Search" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="Article.lbl_SecondaryCategory" xml:space="preserve">
+    <value>가상 기사 분류</value>
+  </data>
+  <data name="Article.lbl_SubTitle" xml:space="preserve">
+    <value>부제목</value>
+  </data>
+  <data name="Article.lbl_Tags" xml:space="preserve">
+    <value>태그</value>
+  </data>
+  <data name="Article.lbl_Title" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="Article.lbl_UpdateThumbnail" xml:space="preserve">
+    <value>썸네일 수정</value>
+  </data>
+  <data name="Article.lbl_UpdateThumbnailDescr" xml:space="preserve">
+    <value>썸네일 선택 / 업데이트</value>
+  </data>
+  <data name="Article.lbl_UploadImages" xml:space="preserve">
+    <value>이미지 등록</value>
+  </data>
+  <data name="Article.msg_PostRequiredField" xml:space="preserve">
+    <value>필수 입력 항목입니다</value>
+  </data>
+  <data name="Article.msg_PostSuccess" xml:space="preserve">
+    <value>기사 작성이 완료되었습니다.</value>
+  </data>
+  <data name="Article.msg_UploadImage" xml:space="preserve">
+    <value>다음 이미지들은 잘못된 이미지 포멧이거나 제한된 사이즈입니다.</value>
+  </data>
+  <data name="Gen.ErrorOccurContactAdmin" xml:space="preserve">
+    <value>오류가 발생하였습니다. 시스템 관리자에 문의해주세요.</value>
+  </data>
+  <data name="Article.lbl_Category" xml:space="preserve">
+    <value>기사분류</value>
+  </data>
+  <data name="Forum.lbl_Writer" xml:space="preserve">
+    <value>작성자</value>
+  </data>
+  <data name="Gen.lbl_OptionSelect" xml:space="preserve">
+    <value>-- 선택하세요 --</value>
+  </data>
+  <data name="Login.lbl_Userinfo" xml:space="preserve">
+    <value>회원정보관리</value>
+  </data>
+</root>

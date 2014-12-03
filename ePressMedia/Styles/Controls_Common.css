@@ -1,0 +1,391 @@
+﻿/********************************MultiContentSummary***************************************/
+.MultiContentSummary_Container
+{
+   /* margin-bottom:15px;*/
+}
+
+.MultiContentSummary_Empty
+{
+    
+}
+  .MultiContentSummary_newsTabs a {
+text-decoration: none;
+text-transform: uppercase;
+color: #222;
+font-weight: bold;
+padding: 2px 4px 2px 4px;
+outline: none;
+font-size: 12px;
+margin-right:2px;
+line-height: 20px;
+display:inline-block;
+}
+
+.MultiContentSummary_newsTabs a.sel, .MultiContentSummary_newsTabs a:hover {
+background: #DEDBD1;
+color: #222;
+text-decoration: none;
+}
+
+.MultiContentSummary_tabPnl {
+
+background: white;
+border: 1px solid #DEDBD1;
+padding: 5px;
+
+}
+
+.MultiContentSummary_tabPnl a
+{
+    padding-left:10px;
+}
+
+.MultiContentSummary_tabPnl a:hover
+{
+    text-decoration:underline;
+}
+
+.MultiContentSummary_TabContents
+{
+padding: 10px;
+background: #F7f7f7;
+border: 1px solid #DEDBD1;
+margin-bottom: 5px;
+}
+
+.MultiContentSummary_Header span
+{
+    float: left;
+font-size: 15px;
+color: #9F9F9F;
+padding: 0;
+font-weight: bold;
+text-transform: uppercase;
+padding-bottom:5px;
+}
+
+.MultiContentSummary_ContentItem
+{
+    white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+
+.MultiContentSummary_Header
+{
+font-size: 15px;
+height: 30px;
+line-height: 30px;
+color: #344056;
+font-weight: bold;
+}
+
+
+.MultiContentSummary_More {
+text-align: right;
+font-size: 12px;
+}
+.MultiContentSummary_More a:hover
+    {
+        text-decoration: underline;
+        color: #000064;
+    }
+
+
+
+
+
+
+/*********************** .RecentMultiArticles **************************************/
+   .RecentMultiArticles_itemcontainer
+    {
+        /*background: #F7F7F7;*/
+        border: 1px solid #DEDBD1;
+        margin-bottom: 5px;
+    }
+    .RecentMultiArticles_Header
+    {
+        font-size: 15px;
+        
+height: 30px;
+line-height: 30px;
+color: #344056;
+font-weight: bold;
+word-spacing: -5px;
+        
+    }
+    
+    .RecentMultiArticles_Header span
+    {
+        display: block;
+        float: left;
+    }
+    
+    .RecentMultiArticles_Header img
+    {
+        padding-top: 10px;
+display: block;
+float: left;
+    }
+    
+
+    
+    .RecentMultiArticles_contents
+    {
+        
+        padding: 10px;
+    }
+    
+    
+    
+    .RecentMultiArticles_contents li
+    {
+        font-size: 9pt;
+        color: #606060;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 2px;
+    }
+    
+    
+    .RecentMultiArticles_contents li a:hover
+    {
+        text-decoration: underline;
+        color: #000064;
+    }
+
+/*********************** .RecentMultiArticles2 **************************************/
+
+.RecentMultiArticles2_container
+{
+    position: relative;
+    border: 1px solid #DEDBD1;
+    margin-bottom: 5px;
+}
+.RecentMultiArticles2_Header
+{
+    font-size: 12px;
+    border-bottom: 1px solid #9F9F9F;
+    margin: 0 10px 0 10px;
+    color: #344056;
+    font-weight: bold;
+    word-spacing: -5px;
+}
+
+.RecentMultiArticles2_Header span
+{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.RecentMultiArticles2_Header img
+{
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.RecentMultiArticles2_Header a
+{
+    margin: 0 0 0 5px;
+    position: absolute;
+    right: 9px;
+    top: 10px;
+}
+
+.RecentMultiArticles2_contents
+{
+    padding: 10px;
+}
+
+.RecentMultiArticles2_contents li
+{
+    font-size: 9pt;
+    color: #606060;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 4px 0 4px 0;
+}
+
+
+.RecentMultiArticles2_contents li:hover
+{
+    background-color: #F9F4F0;
+}
+
+.RecentMultiArticles2_contents li img
+{
+    border: 1px solid #EDEDED;
+    padding:2px;
+    width:80px;
+    height:50px;
+}
+
+
+
+/********************** .TrendRankBox ******************/
+
+    .TrendRankBox_title
+    {
+        margin:10px 0 0 10px
+    }
+    
+    .TrendRankBox_title span
+    {
+        font-size: 16px;
+        color: #9F9F9F;
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+    .TrendRankBox_content
+    {
+        background-color: #F7F7F7;
+        border: 1px solid #DBDBDB;
+        margin-bottom:10px;
+    }
+    
+    
+    /*************** KNNDefaultSideSubMenu ***************/
+    .KNNDefaultSideSubMenu_Container
+    {
+        margin-bottom: 5px;
+        }
+    
+    
+    
+    
+    /********************************WEather***************************************/
+    
+    .Weather_Container
+{
+    position: relative;
+    border: 1px solid #DEDBD1;
+    margin-bottom: 5px;
+}
+
+
+    .Weather_Header
+    {
+        font-size: 15px;
+        
+height: 30px;
+line-height: 30px;
+color: #344056;
+font-weight: bold;
+word-spacing: -5px;
+        
+    }
+    
+    .Weather_Contents
+    {
+        padding:10px;
+    }
+    
+    /**************** LatestImage ***************************/
+    
+ .LatestImage_Header
+ {
+     font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    color: #344056;
+    font-weight: bold;
+ }
+ 
+ 
+.LatestImage_container
+{
+    margin: 10px 0 5px 0;
+}
+
+.LatestImage_itemcontainer
+{
+    border: 1px solid #DEDBD1;
+    margin-bottom: 5px;
+    padding:5px;
+}
+
+.LatestImage_itemcontainer img
+{
+    width: 100%;
+}
+
+/********** KNNDefaultSideSubMenu **********/
+.KNNDefaultSideSubMenu_Header
+{
+    border-bottom: 5px solid #A0A0A0;
+    margin-bottom: 3px;
+}
+.KNNDefaultSideSubMenu_Header span
+{
+    font-size: 30px;
+font-weight: bold;
+    }
+    
+    
+    /************ Search ***************/
+    
+    .Search_srchMenu li { position:relative; background-color:#0155A7; width:100%; line-height:30pt; border:1px solid #fff; color:#fff; font-size:10pt; font-weight:bold; }
+.Search_srchMenu li.sel { background-color:#fff; color:#0155A7; }
+.Search_srchMenu li.sel a { color:#0155A7; } 
+.Search_srchMenu li.tsel { background-color:#ee0060; color:#fff; }
+.Search_srchMenu li a { color:#fff; margin-left:16px; font-size:10pt; }
+.Search_srchMenu li.tsel a { color:#fff; }
+.Search_srchMenu span { position:absolute; right:16px; }
+
+.Search_srchPnl { margin-left:16px; }
+a.Search_ttlLnk { font-size: 12pt;  color: #0155A7; display: block; text-decoration: underline;  } 
+.Search_srchRslt { margin: 6px; clear:both; height:1%; overflow:hidden; line-height:14pt;margin-bottom:15px; }
+.Search_srchRslt img { float:left; margin-right:6px; }
+.Search_srchDesc { line-height:16pt; }
+.Search_srchSec {  padding: 12px 0px 12px 0px; border-bottom: 1px dotted #0155A7; }
+.Search_srchSec h2 { font-size: 16pt; font-weight: bold; color: #0155A7; }
+.Search_ritePnl { text-align:right; }
+.Search_srchItem { padding-bottom:6px; border-bottom:1px dotted #dbdbdb; }
+
+
+/**************** menu - StdMenu2 *******************/
+    .StdKNNMenu2_Container
+    {
+        width:1002px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .StdMenu2
+    {
+        background: url(../img/menu2_bg.gif) repeat-x;
+        text-align: center;
+        width: 100%;
+        display:block;
+        float: none;
+    }
+    
+    .StdMenu2 ul.rmRootGroup
+    {
+        float:none;
+        background:transparent;
+        border: none;
+        width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 4px;
+        height:33px;
+    }
+    .StdMenu2 .rmItem > a.rmRootLink
+    {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    
+    .RadMenu_Default a.rmExpanded, .RadMenu_Default a.rmExpanded:hover 
+    {
+        background-color:transparent !important;
+        color: Black;
+    }

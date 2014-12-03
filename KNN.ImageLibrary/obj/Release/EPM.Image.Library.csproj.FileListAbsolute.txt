@@ -1,0 +1,42 @@
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\Knn.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\Telerik.Web.UI.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\Knn.pdb
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\Telerik.Web.UI.xml
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia\KNN.ImageLibrary\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia\KNN.ImageLibrary\obj\Release\EPM.Image.Library.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia\KNN.ImageLibrary\obj\Release\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia\KNN.ImageLibrary\obj\Release\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\obj\Release\EPM.Image.Library.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\obj\Release\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5\KNN.ImageLibrary\obj\Release\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\EPM.ImageLibrary.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\Brettle.Web.NeatUpload.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\EPM.Legacy.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\Telerik.Web.UI.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\EPM.Data.Model.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\EPM.Legacy.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\Telerik.Web.UI.xml
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\EPM.Data.Model.pdb
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\obj\Release\EPM.Image.Library.csprojResolveAssemblyReference.cache
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\obj\Release\EPM.ImageLibrary.dll
+D:\EPM\ePressMedia 3_5_1\KNN.ImageLibrary\obj\Release\EPM.ImageLibrary.pdb

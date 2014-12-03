@@ -1,0 +1,66 @@
+﻿
+  #VideoAdBoxSmall_carousel_container { text-align:center; } /*height:1%; overflow:hidden;  }*/
+  #VideoAdBoxSmall_carousel_inner { float:left;  overflow: hidden; background: #F8F8F8; border-top:1px solid #dbdbdb; position:relative; }
+  #VideoAdBoxSmall_carousel_ul { position:relative;  /**/ list-style-type: none; margin: 0px; padding: 0px; width:9999px; /**/ padding-bottom:10px; }
+  #VideoAdBoxSmall_carousel_ul li{ float: left; width:100px; padding:0px; height:94px; margin: 10px; }
+  /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+  #VideoAdBoxSmall_carousel_ul li img { margin-bottom:-4px; cursor:pointer; cursor: hand; border:0px; }
+  #VideoAdBoxSmall_navNext {float:right; position:relative;}
+   #VideoAdBoxSmall_navPrev {float:left; position:relative;}
+  #VideoAdBoxSmall_navPrev, #VideoAdBoxSmall_navNext{   width:15px;  }
+    
+                                    
+  #VideoAdBoxSmall_navPrev img, #VideoAdBoxSmall_navNext img{ cursor: pointer; cursor: hand; margin-top:14px; }
+  #VideoAdBoxSmall_navPrev { text-align:right; }
+/*#VideoAdBoxSmall_vidPnl {   float:left; }*/
+    
+    .VideoAdBoxSmall_bizLbl { text-align:center;  padding-top: 2px;}
+
+  #VideoAdBoxSmall_descPnl { display:none;}
+  /*#VideoAdBoxSmall_descPnl { width:228px; padding:8px; line-height:13pt; }
+  #VideoAdBoxSmall_descPnl h1, #descPnl h2 { line-height:14pt; margin:0; padding:0; font-size:10pt; }
+  #VideoAdBoxSmall_descPnl h1 { margin-top: 10px; color:#ff6600; }*/
+  
+  
+  .VideoAdBoxSmall_descSec { margin-bottom:10px; padding-bottom:10px; border-bottom:1px dotted #ff6000; }
+  .VideoAdBoxSmall_bizLnk { text-align:right; }
+  .VideoAdBoxSmall_bizLnk img { margin-right: 4px; vertical-align:middle; }
+  
+  
+  
+  .VideoAdBoxSmall_Header
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: Black;
+	
+	color: White;
+	font-size: 14px;
+	width: 100%;
+	font-weight: bold;
+}
+
+.VideoAdBoxSmall_Header img
+{
+	padding: 10px 10px 0px 10px;
+}
+
+.VideoAdBoxSmall_Contents
+{
+	background-color:Black;
+	width:100%;
+		border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.VideoAdBoxSmall_List
+{ 
+	border-style: solid; border-width: 0px 1px 1px 1px; border-top-color: #DBDBDB; border-right-color: #DBDBDB; border-bottom-color: #DBDBDB; border-left-color: #DBDBDB; 
+	float:left;
+	
+	width:100%;
+	}
+
+

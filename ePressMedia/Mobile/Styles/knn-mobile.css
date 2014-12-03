@@ -1,0 +1,438 @@
+
+#sign_table
+{
+	width:70%; margin-left:15%; margin-right:15%;
+	text-align:center;
+}
+.td
+{
+	background-color: Black;
+}
+
+
+
+
+table.m_news_tbl
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	display: block;
+	table-layout: auto;
+}
+
+/*header image*/
+img#logo
+{
+	display: block;
+	margin-top: 15px;
+	margin-left: 5px;
+	
+}
+
+
+img#maindoor_logo
+{
+	margin: 15px auto 30px auto;
+	display: block;
+	text-align: center;
+}
+
+
+
+.futureit_logo > p
+{
+	text-align: center;
+	font-family: Verdana;
+	font-size: 10px;
+	color: #B0B0B0;
+	margin-top: 3em;
+}
+.futureit_logo > img
+{
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+hr#logobreaker
+{
+	margin: 1px 0px 0px 0px;
+	color: #EF0C82;
+	background-color: #EF0C82;
+	height: 2px;
+	padding-bottom: 0px;
+}
+div#weatherdiv
+{
+	float:right;
+	width:50%;
+	text-align: right;
+
+	
+}
+div#weatherdiv > img
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	opacity: 0.8;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+div#weatherdiv > span
+{
+	display:inline-block; 
+	font-size: 16px;
+	color: Gray;
+	font-family: Verdana;
+	
+}
+
+div#logodiv
+{
+	float:left;
+	width:50%;
+	
+}
+.clear { clear: both;}
+
+
+div.ui-content
+{
+	padding-right:7px;
+	padding-left:7px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+.ui-collapsible-contain
+{
+	margin: 5px 15px 5px 15px !important;
+}	
+
+.ui-li-desc{font-size:12px;font-weight:normal;display:block;margin:-.5em 0 .6em;text-overflow:ellipsis;overflow:hidden;white-space:normal !important	}
+.ui-li-static.ui-li{padding:.7em 15px .7em 15px !important}
+
+
+/*MobileAdDetail*/
+li#AdDescription > p{font-size: 14px;
+font-weight: bold;
+display: block;
+margin: -.5em 0 .6em;
+overflow: hidden;
+white-space: normal;
+padding-top: 10px;
+}
+
+li#AdPostInfo
+{
+
+}
+
+#PostInfoTable
+{
+	width: 100%;
+	color: Gray;
+	font-size: 10px;
+	text-align: center;
+}
+
+#PostInfoTd
+{
+	width: 33%;
+	
+}
+
+.TypeSelector div
+{
+	width: 100%;
+	margin-right:100px;
+}
+
+div.AdImage
+{
+
+	margin: 0px auto;
+	width:100%;
+	text-align: center;
+}
+
+
+a.adlink
+{
+	text-decoration: none;
+	color: #2489CE;
+	font-weight: bold;
+	cursor: auto;
+	white-space: nowrap;
+	font-size: 14px;
+	text-align: left;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: normal;
+	margin-right: 0;
+	margin-bottom: .6em;
+	margin-left: 0;
+}
+
+p.adtype
+{
+	font-size: 12px;
+	color: Gray;
+	text-decoration: none ;
+
+}
+
+table#adlistTable
+{
+	margin: 0px 10px 0px -10px;
+	border-spacing: 0px;
+}
+
+td#adlistImgCol
+{
+	
+	padding: 4px;
+}
+
+td#adlistImgCol img
+{
+	padding: 1px;
+	border: 1px solid #C0C0C0 !important;
+}
+
+td#adlistContentCol
+{
+	padding-left: 6px;
+}
+
+.snsLnk {left:8px; top:0px;text-align: center; }
+.fbLnk { float:left; margin-right:10px; padding-top:1px; }
+.twLnk { float:left; margin-right:10px; }
+
+
+
+/*News Listing*/
+
+#newstitle 
+{
+	font-size: 14px;
+	font-weight:bold ;	
+	color: Black;
+	width: 100%;	
+	white-space:nowrap;	
+	text-overflow:ellipsis;	
+	text-decoration: none;
+	overflow:hidden;
+	display:block;
+	margin:-.5em 0 .6em !important
+}
+
+
+#NewsLinkDiv	
+{
+	
+	text-decoration:none;
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	}	
+	
+span#newslink > a
+{
+	text-decoration:none;
+}
+	
+div#NewsArticleDiv
+{
+		font-size: 12px;
+		font-weight:normal;
+		
+		
+}
+
+div#NewsImageDiv
+{
+	float: left;
+	margin-right: 10px;
+
+}
+.NewsThumb
+{
+	width: 80px;
+	height: 60px;
+
+
+}
+
+
+
+
+/* general */
+
+.ddl_other
+{
+		width:100% !important;
+}
+
+.ddl_other > div
+{
+	width:100% !important;
+}
+
+.ddl_other .ui-btn-inner
+{
+	padding:.3em 5px;
+}
+
+
+.ddl_other .ui-btn
+{
+	margin: .4em 5px
+}
+
+.knn_list
+{
+	margin: 0.5em 0 !important;
+}
+	
+
+
+
+/*Article*/
+
+
+.thrdVw { border-top:0px solid #ff6000; border-bottom:0px solid #ff6000; margin-bottom:8px; }
+.thrdVw .ttl { padding-left:14px; line-height:26pt; font-size:11pt; font-weight:bold; color:#ff6000; border-bottom:1px dotted #dbdbdb; }
+.thrdVw .ttl2 { padding-left:8px; font-size:10pt; font-weight:bold; color:#ff6000; }
+.thrdVw .inf { line-height:24pt; border-bottom:1px dotted #dbdbdb; }
+.thrdVw .inf .lbl { padding-left:14px; font-weight:bold; color:#ff6000; }
+.thrdVw .inf .lbl2 { display:inline-block; padding-right:8px; background-color:#f7f7f7; width:80px; text-align:right; }
+.thrdVw .inf .data { display:inline-block; padding-left:8px; width:180px; }
+.thrdVw .msg { padding:14px; line-height:16pt; height:1%; overflow:hidden; }
+.thrdVw .msg p { margin-bottom: 12pt; }
+.thrdVw .msg ul, .thrdVw .msg ol { margin-left:32px; margin-bottom:16px; }
+.thrdVw .exinf { margin-top:8px; border-top:2px solid #dbdbdb; background-color:#f7f7f7; padding:8px; height:1%; overflow:hidden; line-height:20pt; }
+.thrdVw .exinf .lbl { color:#333; font-weight:bold; display:inline-block; width:70px; text-align:right; }
+.thrdVw .exinf .data { display:inline-block; width:180px; }
+.thrdVw .exinf .slbl { color:#333; font-weight:bold; display:inline-block; width:60px; text-align:right; }
+.thrdVw .exinf .sdata { display:inline-block; width:70px; }
+
+.thrdVw .msg p strong span span
+{
+	margin-bottom: 5px;
+	line-height:normal;
+	
+}	
+
+
+
+/*Biz Main*/
+
+.biz_icon
+{
+	overflow: hidden;
+	margin-left: 2px;
+	-webkit-padding-start: 0px;
+	margin-top: -20px;
+		list-style-type: none;
+}
+
+.biz_icon_item
+{
+	float: left;
+margin: 0 2px 2px;
+}
+.biz_icon_link
+{
+	text-decoration: none;
+}
+
+.biz_icon_img
+{
+	display: block;
+width: 60px;
+height: 60px;
+margin: 8px 0 3px 9px;
+
+}
+
+.biz_icon_name
+{
+	display: block;
+	font-size: .86em;
+	line-height: 1.1em;
+	color: #222;
+	text-align: center;
+	margin: 8px 0 3px 9px;
+
+}
+
+form#biz_search_form > div
+{
+	padding:0.5em 0;
+	border-bottom-style: none;
+}
+
+/*Biz Detail*/
+span#bizTitle
+{
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+
+
+/*footer*/
+div#footerlinks
+{
+	text-align:center;
+}
+
+div#footerlinks > a
+{
+	font-size: 12px;
+	color: Gray !important;
+	margin-right: 7px;
+	margin-left: 7px;
+	text-decoration:none;
+}
+div#footsign
+{
+	text-align:center;
+	margin-top: 12px;
+	margin-bottom: 20px;
+
+}
+
+div#footsign >a
+{
+	font-size: 10px;
+	color: Gray;
+	text-decoration:none;
+}
+
+
+
+
+/* AD */
+
+.bottom_ad
+{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-image: url('../images/bottomad_bg.png');
+	background-repeat: repeat-x;
+}
